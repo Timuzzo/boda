@@ -1,0 +1,15 @@
+{
+  "home": {
+    "names": "Timofey & Natalia",
+    "welcome": "Welcome to our wedding",
+    "date": "January 31, 2026"
+  },
+  "menu": {
+    "home": "Home",
+    "ourStory": "Our Story",
+    "timeline": "Timeline",
+    "travel": "Travel Info",
+    "rsvp": "RSVP",
+    "contact": "Contact"
+  }
+}
