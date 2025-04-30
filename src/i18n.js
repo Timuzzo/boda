@@ -1,0 +1,751 @@
+import i18n from "i18next"
+import { initReactI18next } from "react-i18next"
+
+// English translations
+const enTranslations = {
+  common: {
+    names: "Timofey & Natalia",
+    date: "January 31, 2026",
+    location: "Medellin, Colombia",
+    rsvp: "RSVP",
+    ourStory: "Our Story",
+    details: "Details",
+    travel: "Travel",
+    registry: "Registry",
+    welcomeMessage: "We can't wait to celebrate our special day with you. Thank you for being part of our journey.",
+    copyright: "© {{year}} Timofey & Natalia Wedding",
+  },
+  home: {
+    welcome: "Welcome",
+    gettingMarried: "We're Getting Married",
+    welcomeText:
+      "We are so excited to celebrate our special day with our family and friends. We've created this website to help you navigate all the details of our wedding weekend. We can't wait to share this moment with you!",
+    joinUs: "Join Us",
+    weddingDetails: "Wedding Details",
+    ceremony: "Ceremony",
+    reception: "Reception",
+    accommodations: "Accommodations",
+    memories: "Memories",
+    ourJourney: "Our Journey Together",
+    willYouJoin: "Will You Be Joining Us?",
+    hopeJoin: "We hope you can join us on our special day. Please RSVP by December 31, 2024.",
+    countdown: {
+      days: "Days",
+      hours: "Hours",
+      minutes: "Minutes",
+      seconds: "Seconds",
+      untilWedding: "Until We Say I Do",
+    },
+    title: "Timo & Natalia",
+    date: "January 31, 2026",
+  },
+  ourStory: {
+    aboutUs: "About Us",
+    loveStory: "Our Love Story",
+    storyIntro: "The story of how we met, fell in love, and decided to spend our lives together.",
+    howWeMet: "How We Met",
+    chanceEncounter: "A Chance Encounter",
+    howWeMet1:
+      "We first met at a mutual friend's birthday party in the summer of 2020. Timofey was telling a story that had everyone laughing, and Natalia couldn't help but notice his infectious smile. We spent the entire evening talking and discovered we had so much in common.",
+    howWeMet2:
+      "After exchanging numbers, we went on our first date the following week to a small Italian restaurant in the city. The rest, as they say, is history.",
+    ourJourney: "Our Journey",
+    growingTogether: "Growing Together",
+    journey1:
+      "Over the next few years, our relationship blossomed as we navigated life's adventures together. From weekend getaways to our first international trip to Italy, each experience brought us closer together.",
+    journey2:
+      "We've supported each other through career changes, celebrated achievements, and created a home together. Our shared love of travel, cooking, and quiet evenings at home has built a foundation of friendship and love that grows stronger each day.",
+    theProposal: "The Proposal",
+    perfectSurprise: "A Perfect Surprise",
+    proposal1:
+      "On a crisp autumn evening in 2023, Timofey suggested a walk through our favorite park where we had our third date. As we reached the scenic overlook where we had shared so many meaningful conversations, Timofey got down on one knee.",
+    proposal2:
+      "Surrounded by the golden leaves of fall and with the city skyline as our backdrop, he asked Natalia to marry him. Through happy tears, she said yes! We celebrated with a surprise dinner where our closest friends and family were waiting.",
+    quote: "True love stories never have endings.",
+    quoteAuthor: "— Richard Bach",
+  },
+  details: {
+    joinUs: "Join Us",
+    weddingDetails: "Wedding Details",
+    detailsIntro: "Everything you need to know about our special day.",
+    schedule: "Schedule",
+    theBigDay: "The Big Day",
+    ceremony: "Ceremony",
+    reception: "Reception",
+    itinerary: "Itinerary",
+    weddingDaySchedule: "Wedding Day Schedule",
+    information: "Information",
+    whatToKnow: "What You Need to Know",
+    dressCode: "Dress Code",
+    dressCodeInfo:
+      "Formal attire is requested. Ladies in cocktail dresses or evening gowns, and gentlemen in suits or tuxedos.",
+    music: "Music",
+    musicInfo: "Have a song request? Let us know on your RSVP card or email us at music@timofeyandnatalia.com.",
+    gifts: "Gifts",
+    giftsInfo:
+      "Your presence is the greatest gift. If you wish to give something, we have created a registry for your convenience.",
+    location: "Location",
+    venueMap: "Venue Map",
+    readyToJoin: "Ready to Join Us?",
+    hopeJoin: "We hope you can celebrate with us on our special day. Please RSVP by December 31, 2024.",
+  },
+  travel: {
+    gettingHere: "Getting Here",
+    travelAccommodations: "Travel & Accommodations",
+    travelIntro: "Information to help you plan your trip to Medellin for our wedding.",
+    transportation: "Transportation",
+    gettingToMedellin: "Getting to Medellin",
+    byAir: "By Air",
+    byAirInfo1:
+      "José María Córdova International Airport (MDE) is the main international airport serving Medellin. It's located about 45 minutes from the city center.",
+    byAirInfo2:
+      "Direct flights are available from many major cities worldwide. We recommend booking your flights well in advance.",
+    airportTransfer: "Airport Transfer",
+    airportTransferInfo: "From the airport, you can reach the city center by:",
+    taxi: "Taxi (approximately 80,000 COP)",
+    bus: "Airport Bus (approximately 10,000 COP)",
+    uber: "Uber or Didi (ride-sharing apps)",
+    privateTransfer: "Private transfer (we can help arrange this)",
+    gettingAround: "Getting Around",
+    gettingAroundInfo1:
+      "Medellin has an excellent public transportation system including metro, buses, and cable cars. The metro is clean, safe, and efficient.",
+    gettingAroundInfo2:
+      "Taxis are readily available throughout the city, and ride-sharing services like Uber and Didi also operate in Medellin.",
+    whereToStay: "Where to Stay",
+    accommodations: "Accommodations",
+    mainHotel: "Main Hotel",
+    hotelInfo:
+      "We have arranged special rates at several hotels near the venue. To take advantage of these rates, please book by December 31, 2025, using the code TIMONATALIA2026.",
+    bookNow: "Book Now",
+    alternativeAccommodations: "Alternative Accommodations",
+    alternativeInfo:
+      "If you prefer to stay elsewhere, here are some other options at various price points, all within a reasonable distance from our venues:",
+    luxury: "Luxury",
+    midRange: "Mid-Range",
+    budgetFriendly: "Budget-Friendly",
+    explore: "Explore",
+    thingsToDoMedellin: "Things to Do in Medellin",
+    exploreInfo:
+      "We hope you'll extend your stay and explore this beautiful city. Here are some of our favorite places and activities in Medellin.",
+    bePrepared: "Be Prepared",
+    weatherJanuary: "Weather in January",
+    weatherInfo1:
+      "Medellin in January is typically warm and pleasant, with average temperatures between 17°C and 28°C (63°F to 82°F). Evenings can be slightly cooler but still comfortable.",
+    weatherInfo2:
+      "We recommend bringing light, breathable clothing for daytime activities, and perhaps a light jacket or wrap for evenings. Don't forget sunscreen, sunglasses, and comfortable walking shoes for exploring the city!",
+  },
+  registry: {
+    giftRegistry: "Gift Registry",
+    registryIntro:
+      "Your presence at our wedding is the greatest gift of all. However, if you wish to honor us with a gift, we've created registries to make it easier for you.",
+    traditionalRegistry: "Traditional Registry",
+    traditionalInfo: "We've registered at the following stores for traditional gifts for our home.",
+    viewRegistry: "View Registry",
+    honeymoonFund: "Honeymoon Fund",
+    honeymoonInfo:
+      "Help us create memories on our dream honeymoon to Bali and Japan. Your contribution will go toward experiences we'll cherish forever.",
+    contribute: "Contribute",
+    charitableDonations: "Charitable Donations",
+    charityInfo:
+      "In lieu of a traditional gift, consider making a donation to one of these organizations that are close to our hearts.",
+    donate: "Donate",
+    thankYou: "Thank You",
+    thankYouMessage:
+      "We are truly grateful for your love, support, and generosity. Thank you for being part of our special day and for helping us begin our married life together.",
+  },
+  rsvp: {
+    joinUs: "Join Us",
+    rsvpByDate: "Please respond by December 31, 2024 to let us know if you'll be joining us on our special day.",
+    fullName: "Full Name",
+    emailAddress: "Email Address",
+    willAttend: "Will you be attending?",
+    joyfullyAccept: "Joyfully Accept",
+    regretfullyDecline: "Regretfully Decline",
+    numberOfGuests: "Number of Guests",
+    justMe: "1 (Just me)",
+    meAndGuest: "2 (Me and a guest)",
+    dietaryRestrictions: "Dietary Restrictions",
+    dietaryPlaceholder: "Please list any dietary restrictions or allergies",
+    songRequest: "Song Request",
+    songPlaceholder: "A song that will get you on the dance floor",
+    messageCouple: "Message for the Couple (Optional)",
+    messagePlaceholder: "Share your well wishes or a special memory",
+    submitRSVP: "Submit RSVP",
+    thankYou: "Thank You!",
+    rsvpSuccess: "Your RSVP has been submitted successfully.",
+    excitedMessage: "We're excited to celebrate with you!",
+    sorryMessage: "We're sorry you won't be able to join us, but we appreciate your response.",
+    lookForward: "We look forward to seeing you on January 31, 2026!",
+    questions: "Questions?",
+    questionsInfo:
+      "If you have any questions about the wedding or need assistance with your RSVP, please don't hesitate to contact us.",
+    email: "Email:",
+  },
+}
+
+// Spanish translations
+const esTranslations = {
+  common: {
+    names: "Timofey & Natalia",
+    date: "31 de enero de 2026",
+    location: "Medellín, Colombia",
+    rsvp: "Confirmar Asistencia",
+    ourStory: "Nuestra Historia",
+    details: "Detalles",
+    travel: "Viaje",
+    registry: "Regalos",
+    welcomeMessage:
+      "Estamos ansiosos por celebrar nuestro día especial contigo. Gracias por ser parte de nuestro viaje.",
+    copyright: "© {{year}} Boda de Timofey & Natalia",
+  },
+  home: {
+    welcome: "Bienvenidos",
+    gettingMarried: "¡Nos Casamos!",
+    welcomeText:
+      "Estamos muy emocionados de celebrar nuestro día especial con nuestra familia y amigos. Hemos creado este sitio web para ayudarte a navegar por todos los detalles de nuestro fin de semana de boda. ¡Estamos ansiosos por compartir este momento contigo!",
+    joinUs: "Únete a Nosotros",
+    weddingDetails: "Detalles de la Boda",
+    ceremony: "Ceremonia",
+    reception: "Recepción",
+    accommodations: "Alojamiento",
+    memories: "Recuerdos",
+    ourJourney: "Nuestro Viaje Juntos",
+    willYouJoin: "¿Nos Acompañarás?",
+    hopeJoin:
+      "Esperamos que puedas acompañarnos en nuestro día especial. Por favor confirma tu asistencia antes del 31 de diciembre de 2024.",
+    countdown: {
+      days: "Días",
+      hours: "Horas",
+      minutes: "Minutos",
+      seconds: "Segundos",
+      untilWedding: "Hasta que Digamos Sí, Acepto",
+    },
+    title: "Timo & Natalia",
+    date: "31 de enero de 2026",
+  },
+  ourStory: {
+    aboutUs: "Sobre Nosotros",
+    loveStory: "Nuestra Historia de Amor",
+    storyIntro: "La historia de cómo nos conocimos, nos enamoramos y decidimos pasar nuestras vidas juntos.",
+    howWeMet: "Cómo Nos Conocimos",
+    chanceEncounter: "Un Encuentro Casual",
+    howWeMet1:
+      "Nos conocimos en la fiesta de cumpleaños de un amigo común en el verano de 2020. Timofey estaba contando una historia que hacía reír a todos, y Natalia no pudo evitar notar su sonrisa contagiosa. Pasamos toda la noche hablando y descubrimos que teníamos mucho en común.",
+    howWeMet2:
+      "Después de intercambiar números, tuvimos nuestra primera cita la semana siguiente en un pequeño restaurante italiano en la ciudad. El resto, como dicen, es historia.",
+    ourJourney: "Nuestro Viaje",
+    growingTogether: "Creciendo Juntos",
+    journey1:
+      "Durante los siguientes años, nuestra relación floreció mientras navegábamos por las aventuras de la vida juntos. Desde escapadas de fin de semana hasta nuestro primer viaje internacional a Italia, cada experiencia nos acercó más.",
+    journey2:
+      "Nos hemos apoyado mutuamente a través de cambios de carrera, celebrado logros y creado un hogar juntos. Nuestro amor compartido por viajar, cocinar y las tranquilas noches en casa ha construido una base de amistad y amor que se fortalece cada día.",
+    theProposal: "La Propuesta",
+    perfectSurprise: "Una Sorpresa Perfecta",
+    proposal1:
+      "En una fresca noche de otoño de 2023, Timofey sugirió dar un paseo por nuestro parque favorito donde tuvimos nuestra tercera cita. Cuando llegamos al mirador escénico donde habíamos compartido tantas conversaciones significativas, Timofey se arrodilló.",
+    proposal2:
+      "Rodeados por las hojas doradas del otoño y con el horizonte de la ciudad como telón de fondo, le pidió a Natalia que se casara con él. ¡Entre lágrimas de felicidad, ella dijo que sí! Celebramos con una cena sorpresa donde nos esperaban nuestros amigos y familiares más cercanos.",
+    quote: "Las verdaderas historias de amor nunca tienen fin.",
+    quoteAuthor: "— Richard Bach",
+  },
+  details: {
+    joinUs: "Únete a Nosotros",
+    weddingDetails: "Detalles de la Boda",
+    detailsIntro: "Todo lo que necesitas saber sobre nuestro día especial.",
+    schedule: "Horario",
+    theBigDay: "El Gran Día",
+    ceremony: "Ceremonia",
+    reception: "Recepción",
+    itinerary: "Itinerario",
+    weddingDaySchedule: "Programa del Día de la Boda",
+    information: "Información",
+    whatToKnow: "Lo Que Debes Saber",
+    dressCode: "Código de Vestimenta",
+    dressCodeInfo:
+      "Se solicita vestimenta formal. Damas en vestidos de cóctel o de noche, y caballeros en trajes o esmoquin.",
+    music: "Música",
+    musicInfo:
+      "¿Tienes una petición de canción? Háznoslo saber en tu tarjeta de RSVP o envíanos un correo electrónico a music@timofeyandnatalia.com.",
+    gifts: "Regalos",
+    giftsInfo: "Tu presencia es el mayor regalo. Si deseas dar algo, hemos creado un registro para tu conveniencia.",
+    location: "Ubicación",
+    venueMap: "Mapa del Lugar",
+    readyToJoin: "¿Listo para Unirte a Nosotros?",
+    hopeJoin:
+      "Esperamos que puedas celebrar con nosotros en nuestro día especial. Por favor confirma tu asistencia antes del 31 de diciembre de 2024.",
+  },
+  travel: {
+    gettingHere: "Cómo Llegar",
+    travelAccommodations: "Viaje y Alojamiento",
+    travelIntro: "Información para ayudarte a planificar tu viaje a Medellín para nuestra boda.",
+    transportation: "Transporte",
+    gettingToMedellin: "Cómo Llegar a Medellín",
+    byAir: "Por Aire",
+    byAirInfo1:
+      "El Aeropuerto Internacional José María Córdova (MDE) es el principal aeropuerto internacional que sirve a Medellín. Está ubicado a unos 45 minutos del centro de la ciudad.",
+    byAirInfo2:
+      "Hay vuelos directos disponibles desde muchas ciudades importantes del mundo. Recomendamos reservar tus vuelos con bastante antelación.",
+    airportTransfer: "Traslado desde el Aeropuerto",
+    airportTransferInfo: "Desde el aeropuerto, puedes llegar al centro de la ciudad por:",
+    taxi: "Taxi (aproximadamente 80.000 COP)",
+    bus: "Autobús del aeropuerto (aproximadamente 10.000 COP)",
+    uber: "Uber o Didi (aplicaciones de transporte compartido)",
+    privateTransfer: "Traslado privado (podemos ayudar a organizarlo)",
+    gettingAround: "Moverse por la Ciudad",
+    gettingAroundInfo1:
+      "Medellín tiene un excelente sistema de transporte público que incluye metro, autobuses y teleféricos. El metro es limpio, seguro y eficiente.",
+    gettingAroundInfo2:
+      "Los taxis están fácilmente disponibles en toda la ciudad, y los servicios de transporte compartido como Uber y Didi también operan en Medellín.",
+    whereToStay: "Dónde Alojarse",
+    accommodations: "Alojamiento",
+    mainHotel: "Hotel Principal",
+    hotelInfo:
+      "Hemos conseguido tarifas especiales en varios hoteles cerca del lugar. Para aprovechar estas tarifas, reserve antes del 31 de diciembre de 2025, utilizando el código TIMONATALIA2026.",
+    bookNow: "Reservar Ahora",
+    alternativeAccommodations: "Alojamientos Alternativos",
+    alternativeInfo:
+      "Si prefieres alojarte en otro lugar, aquí hay algunas otras opciones a varios precios, todas a una distancia razonable de nuestros lugares:",
+    luxury: "Lujo",
+    midRange: "Gama Media",
+    budgetFriendly: "Económico",
+    explore: "Explorar",
+    thingsToDoMedellin: "Cosas para Hacer en Medellín",
+    exploreInfo:
+      "Esperamos que extiendas tu estancia y explores esta hermosa ciudad. Aquí están algunos de nuestros lugares y actividades favoritas en Medellín.",
+    bePrepared: "Prepárate",
+    weatherJanuary: "Clima en Enero",
+    weatherInfo1:
+      "Medellín en enero es típicamente cálido y agradable, con temperaturas promedio entre 17°C y 28°C (63°F a 82°F). Las noches pueden ser un poco más frescas pero aún cómodas.",
+    weatherInfo2:
+      "Recomendamos traer ropa ligera y transpirable para actividades diurnas, y quizás una chaqueta ligera o un chal para las noches. ¡No olvides protector solar, gafas de sol y zapatos cómodos para caminar para explorar la ciudad!",
+  },
+  registry: {
+    giftRegistry: "Registro de Regalos",
+    registryIntro:
+      "Tu presencia en nuestra boda es el mayor regalo. Sin embargo, si deseas honrarnos con un regalo, hemos creado registros para facilitarte las cosas.",
+    traditionalRegistry: "Registro Tradicional",
+    traditionalInfo: "Nos hemos registrado en las siguientes tiendas para regalos tradicionales para nuestro hogar.",
+    viewRegistry: "Ver Registro",
+    honeymoonFund: "Fondo para Luna de Miel",
+    honeymoonInfo:
+      "Ayúdanos a crear recuerdos en nuestra luna de miel soñada a Bali y Japón. Tu contribución irá hacia experiencias que atesoraremos para siempre.",
+    contribute: "Contribuir",
+    charitableDonations: "Donaciones Caritativas",
+    charityInfo:
+      "En lugar de un regalo tradicional, considera hacer una donación a una de estas organizaciones que son cercanas a nuestros corazones.",
+    donate: "Donar",
+    thankYou: "Gracias",
+    thankYouMessage:
+      "Estamos verdaderamente agradecidos por tu amor, apoyo y generosidad. Gracias por ser parte de nuestro día especial y por ayudarnos a comenzar nuestra vida matrimonial juntos.",
+  },
+  rsvp: {
+    joinUs: "Únete a Nosotros",
+    rsvpByDate:
+      "Por favor responde antes del 31 de diciembre de 2024 para hacernos saber si te unirás a nosotros en nuestro día especial.",
+    fullName: "Nombre Completo",
+    emailAddress: "Correo Electrónico",
+    willAttend: "¿Asistirás?",
+    joyfullyAccept: "Acepto con Alegría",
+    regretfullyDecline: "Declino con Pesar",
+    numberOfGuests: "Número de Invitados",
+    justMe: "1 (Solo yo)",
+    meAndGuest: "2 (Yo y un acompañante)",
+    dietaryRestrictions: "Restricciones Dietéticas",
+    dietaryPlaceholder: "Por favor enumera cualquier restricción dietética o alergias",
+    songRequest: "Petición de Canción",
+    songPlaceholder: "Una canción que te hará bailar",
+    messageCouple: "Mensaje para la Pareja (Opcional)",
+    messagePlaceholder: "Comparte tus buenos deseos o un recuerdo especial",
+    submitRSVP: "Enviar RSVP",
+    thankYou: "¡Gracias!",
+    rsvpSuccess: "Tu RSVP ha sido enviado con éxito.",
+    excitedMessage: "¡Estamos emocionados de celebrar contigo!",
+    sorryMessage: "Lamentamos que no puedas acompañarnos, pero agradecemos tu respuesta.",
+    lookForward: "¡Esperamos verte el 31 de enero de 2026!",
+    questions: "¿Preguntas?",
+    questionsInfo: "Si tienes alguna pregunta sobre la boda o necesitas ayuda con tu RSVP, no dudes en contactarnos.",
+    email: "Correo electrónico:",
+  },
+}
+
+// Russian translations
+const ruTranslations = {
+  common: {
+    names: "Тимофей и Наталья",
+    date: "31 января 2026 года",
+    location: "Медельин, Колумбия",
+    rsvp: "Подтвердить участие",
+    ourStory: "Наша История",
+    details: "Детали",
+    travel: "Путешествие",
+    registry: "Реестр",
+    welcomeMessage: "Мы с нетерпением ждем возможности отпраздновать наш особенный день с вами. Спасибо, что вы часть нашего путешествия.",
+    copyright: "© {{year}} Свадьба Тимофея и Натальи",
+  },
+  home: {
+    welcome: "Добро пожаловать",
+    gettingMarried: "Мы Женимся!",
+    welcomeText:
+      "Мы очень рады отпраздновать наш особенный день с нашей семьей и друзьями. Мы создали этот сайт, чтобы помочь вам разобраться во всех деталях нашего свадебного уикенда. Мы с нетерпением ждем возможности разделить этот момент с вами!",
+    joinUs: "Присоединяйтесь к нам",
+    weddingDetails: "Детали Свадьбы",
+    ceremony: "Церемония",
+    reception: "Прием",
+    accommodations: "Проживание",
+    memories: "Воспоминания",
+    ourJourney: "Наше Путешествие Вместе",
+    willYouJoin: "Вы Присоединитесь к Нам?",
+    hopeJoin: "Мы надеемся, что вы сможете присоединиться к нам в наш особенный день. Пожалуйста, подтвердите свое участие до 31 декабря 2024 года.",
+    countdown: {
+      days: "Дней",
+      hours: "Часов",
+      minutes: "Минут",
+      seconds: "Секунд",
+      untilWedding: "До Нашей Свадьбы",
+    },
+    title: "Тимо и Наталья",
+    date: "31 января 2026 года",
+  },
+  ourStory: {
+    aboutUs: "О Нас",
+    loveStory: "Наша История Любви",
+    storyIntro: "История о том, как мы встретились, влюбились и решили провести нашу жизнь вместе.",
+    howWeMet: "Как Мы Встретились",
+    chanceEncounter: "Случайная Встреча",
+    howWeMet1:
+      "Мы впервые встретились на дне рождения общего друга летом 2020 года. Тимофей рассказывал историю, которая заставляла всех смеяться, и Наталья не могла не заметить его заразительную улыбку. Мы провели весь вечер в разговорах и обнаружили, что у нас так много общего.",
+    howWeMet2:
+      "После обмена номерами мы пошли на наше первое свидание на следующей неделе в маленький итальянский ресторан в городе. Остальное, как говорится, история.",
+    ourJourney: "Наше Путешествие",
+    growingTogether: "Растем Вместе",
+    journey1:
+      "В течение следующих нескольких лет наши отношения расцвели, пока мы вместе преодолевали жизненные приключения. От выходных до нашей первой международной поездки в Италию, каждый опыт сближал нас.",
+    journey2:
+      "Мы поддерживали друг друга через смены карьеры, праздновали достижения и создали дом вместе. Наша общая любовь к путешествиям, готовке и тихим вечерам дома создала основу дружбы и любви, которая становится крепче с каждым днем.",
+    theProposal: "Предложение",
+    perfectSurprise: "Идеальный Сюрприз",
+    proposal1:
+      "Прохладным осенним вечером 2023 года Тимофей предложил прогуляться по нашему любимому парку, где у нас было третье свидание. Когда мы достигли живописной смотровой площадки, где мы провели так много значимых разговоров, Тимофей встал на одно колено.",
+    proposal2:
+      "Окруженные золотыми осенними листьями и с городским горизонтом в качестве фона, он попросил Наталью выйти за него замуж. Сквозь счастливые слезы она сказала да! Мы отпраздновали с сюрпризным ужином, где ждали наши ближайшие друзья и семья.",
+    quote: "Настоящие истории любви никогда не заканчиваются.",
+    quoteAuthor: "— Ричард Бах",
+  },
+  details: {
+    joinUs: "Присоединяйтесь к Нам",
+    weddingDetails: "Детали Свадьбы",
+    detailsIntro: "Все, что вам нужно знать о нашем особенном дне.",
+    schedule: "Расписание",
+    theBigDay: "Большой День",
+    ceremony: "Церемония",
+    reception: "Прием",
+    itinerary: "Маршрут",
+    weddingDaySchedule: "Расписание Свадебного Дня",
+    information: "Информация",
+    whatToKnow: "Что Нужно Знать",
+    dressCode: "Дресс-код",
+    dressCodeInfo:
+      "Требуется формальная одежда. Дамы в коктейльных или вечерних платьях, а джентльмены в костюмах или смокингах.",
+    music: "Музыка",
+    musicInfo:
+      "Есть запрос на песню? Дайте нам знать на вашей карточке RSVP или отправьте нам электронное письмо на music@timofeyandnatalia.com.",
+    gifts: "Подарки",
+    giftsInfo:
+      "Ваше присутствие - самый большой подарок. Если вы хотите что-то подарить, мы создали реестр для вашего удобства.",
+    location: "Местоположение",
+    venueMap: "Карта Места Проведения",
+    readyToJoin: "Готовы Присоединиться к Нам?",
+    hopeJoin:
+      "Мы надеемся, что вы сможете отпраздновать с нами наш особенный день. Пожалуйста, подтвердите свое присутствие до 31 декабря 2024 года.",
+  },
+  travel: {
+    gettingHere: "Как Добраться",
+    travelAccommodations: "Путешествие и Проживание",
+    travelIntro: "Информация, которая поможет вам спланировать поездку в Медельин на нашу свадьбу.",
+    transportation: "Транспорт",
+    gettingToMedellin: "Как Добраться до Медельина",
+    byAir: "Самолетом",
+    byAirInfo1:
+      "Международный аэропорт Хосе Мария Кордова (MDE) - главный международный аэропорт, обслуживающий Медельин. Он расположен примерно в 45 минутах от центра города.",
+    byAirInfo2: "Прямые рейсы доступны из многих крупных городов мира. Мы рекомендуем бронировать билеты заранее.",
+    airportTransfer: "Трансфер из Аэропорта",
+    airportTransferInfo: "Из аэропорта вы можете добраться до центра города на:",
+    taxi: "Такси (примерно 80 000 COP)",
+    bus: "Автобус из аэропорта (примерно 10 000 COP)",
+    uber: "Uber или Didi (приложения для совместных поездок)",
+    privateTransfer: "Частный трансфер (мы можем помочь организовать это)",
+    gettingAround: "Передвижение по Городу",
+    gettingAroundInfo1:
+      "Медельин имеет отличную систему общественного транспорта, включая метро, автобусы и канатные дороги. Метро чистое, безопасное и эффективное.",
+    gettingAroundInfo2:
+      "Такси легко доступны по всему городу, а сервисы совместных поездок, такие как Uber и Didi, также работают в Медельине.",
+    whereToStay: "Где Остановиться",
+    accommodations: "Проживание",
+    mainHotel: "Основной Отель",
+    hotelInfo:
+      "Мы договорились о специальных тарифах в нескольких отелях рядом с местом проведения. Чтобы воспользоваться этими тарифами, бронируйте до 31 декабря 2025 года, используя код TIMONATALIA2026.",
+    bookNow: "Забронировать Сейчас",
+    alternativeAccommodations: "Альтернативное Проживание",
+    alternativeInfo:
+      "Если вы предпочитаете остановиться в другом месте, вот несколько других вариантов по разным ценам, все в разумном расстоянии от наших мест проведения:",
+    luxury: "Люкс",
+    midRange: "Средний Класс",
+    budgetFriendly: "Бюджетный",
+    explore: "Исследовать",
+    thingsToDoMedellin: "Чем Заняться в Медельине",
+    exploreInfo:
+      "Мы надеемся, что вы продлите свое пребывание и исследуете этот прекрасный город. Вот некоторые из наших любимых мест и занятий в Медельине.",
+    bePrepared: "Будьте Готовы",
+    weatherJanuary: "Погода в Январе",
+    weatherInfo1:
+      "Медельин в январе обычно теплый и приятный, со средними температурами от 17°C до 28°C (от 63°F до 82°F). Вечера могут быть немного прохладнее, но все равно комфортными.",
+    weatherInfo2:
+      "Мы рекомендуем взять легкую, дышащую одежду для дневных мероприятий и, возможно, легкую куртку или накидку для вечеров. Не забудьте солнцезащитный крем, солнцезащитные очки и удобную обувь для прогулок по городу!",
+  },
+  registry: {
+    giftRegistry: "Реестр Подарков",
+    registryIntro:
+      "Ваше присутствие на нашей свадьбе - самый большой подарок. Однако, если вы хотите почтить нас подарком, мы создали реестры, чтобы облегчить вам задачу.",
+    traditionalRegistry: "Традиционный Реестр",
+    traditionalInfo: "Мы зарегистрировались в следующих магазинах для традиционных подарков для нашего дома.",
+    viewRegistry: "Посмотреть Реестр",
+    honeymoonFund: "Фонд Медового Месяца",
+    honeymoonInfo:
+      "Помогите нам создать воспоминания в нашем медовом месяце мечты на Бали и в Японии. Ваш вклад пойдет на опыт, который мы будем ценить вечно.",
+    contribute: "Внести Вклад",
+    charitableDonations: "Благотворительные Пожертвования",
+    charityInfo:
+      "Anstelle eines traditionellen Geschenks können Sie auch an eine dieser Organisationen spenden, die uns am Herzen liegen.",
+    donate: "Пожертвовать",
+    thankYou: "Спасибо",
+    thankYouMessage:
+      "Мы искренне благодарны за вашу любовь, поддержку и щедрость. Спасибо, что стали частью нашего особенного дня и помогли нам начать нашу супружескую жизнь вместе.",
+  },
+  rsvp: {
+    joinUs: "Присоединяйтесь к Нам",
+    rsvpByDate:
+      "Пожалуйста, ответьте до 31 декабря 2024 года, чтобы сообщить нам, присоединитесь ли вы к нам в наш особенный день.",
+    fullName: "Полное Имя",
+    emailAddress: "Электронная Почта",
+    willAttend: "Вы будете присутствовать?",
+    joyfullyAccept: "С Радостью Принимаю",
+    regretfullyDecline: "С Сожалением Отказываюсь",
+    numberOfGuests: "Количество Гостей",
+    justMe: "1 (Только я)",
+    meAndGuest: "2 (Я и гость)",
+    dietaryRestrictions: "Диетические Ограничения",
+    dietaryPlaceholder: "Пожалуйста, перечислите любые диетические ограничения или аллергии",
+    songRequest: "Запрос Песни",
+    songPlaceholder: "Песня, которая заставит вас танцевать",
+    messageCouple: "Сообщение для Пары (Необязательно)",
+    messagePlaceholder: "Поделитесь своими пожеланиями или особым воспоминанием",
+    submitRSVP: "Отправить RSVP",
+    thankYou: "Спасибо!",
+    rsvpSuccess: "Ваш RSVP был успешно отправлен.",
+    excitedMessage: "Мы с нетерпением ждем празднования с вами!",
+    sorryMessage: "Нам жаль, что вы не сможете присоединиться к нам, но мы ценим ваш ответ.",
+    lookForward: "Мы с нетерпением ждем встречи с вами 31 января 2026 года!",
+    questions: "Вопросы?",
+    questionsInfo:
+      "Если у вас есть какие-либо вопросы о свадьбе или вам нужна помощь с вашим RSVP, пожалуйста, не стесняйтесь обращаться к нам.",
+    email: "Электронная почта:",
+  },
+}
+
+// German translations
+const deTranslations = {
+  common: {
+    names: "Timofey & Natalia",
+    date: "31. Januar 2026",
+    location: "Medellín, Kolumbien",
+    rsvp: "Zusagen",
+    ourStory: "Unsere Geschichte",
+    details: "Details",
+    travel: "Anreise",
+    registry: "Geschenke",
+    welcomeMessage: "Wir können es kaum erwarten, unseren besonderen Tag mit Ihnen zu feiern. Danke, dass Sie Teil unserer Reise sind.",
+    copyright: "© {{year}} Timofey & Natalia Hochzeit",
+  },
+  home: {
+    welcome: "Willkommen",
+    gettingMarried: "Wir heiraten",
+    welcomeText:
+      "Wir freuen uns sehr darauf, unseren besonderen Tag mit unserer Familie und Freunden zu feiern. Wir haben diese Website erstellt, um Ihnen bei der Navigation durch alle Details unseres Hochzeitswochenendes zu helfen. Wir können es kaum erwarten, diesen Moment mit Ihnen zu teilen!",
+    joinUs: "Seien Sie dabei",
+    weddingDetails: "Hochzeitsdetails",
+    ceremony: "Trauung",
+    reception: "Empfang",
+    accommodations: "Unterkünfte",
+    memories: "Erinnerungen",
+    ourJourney: "Unsere gemeinsame Reise",
+    willYouJoin: "Werden Sie dabei sein?",
+    hopeJoin: "Wir hoffen, Sie können an unserem besonderen Tag dabei sein. Bitte geben Sie bis zum 31. Dezember 2024 Bescheid.",
+    countdown: {
+      days: "Tage",
+      hours: "Stunden",
+      minutes: "Minuten",
+      seconds: "Sekunden",
+      untilWedding: "Bis zum Ja-Wort",
+    },
+    title: "Timo & Natalia",
+    date: "31. Januar 2026",
+  },
+  ourStory: {
+    aboutUs: "Über uns",
+    loveStory: "Unsere Liebesgeschichte",
+    storyIntro: "Die Geschichte, wie wir uns kennengelernt, verliebt und entschieden haben, unser Leben gemeinsam zu verbringen.",
+    howWeMet: "Wie wir uns kennengelernt haben",
+    chanceEncounter: "Eine zufällige Begegnung",
+    howWeMet1:
+      "Wir haben uns im Sommer 2020 auf der Geburtstagsfeier eines gemeinsamen Freundes kennengelernt. Timofey erzählte eine Geschichte, die alle zum Lachen brachte, und Natalia konnte nicht anders, als sein ansteckendes Lächeln zu bemerken. Wir verbrachten den ganzen Abend damit, uns zu unterhalten und entdeckten, dass wir so viel gemeinsam haben.",
+    howWeMet2:
+      "Nachdem wir Nummern ausgetauscht hatten, gingen wir in der folgenden Woche in ein kleines italienisches Restaurant zu unserem ersten Date. Der Rest ist, wie man so schön sagt, Geschichte.",
+    ourJourney: "Unsere Reise",
+    growingTogether: "Gemeinsam wachsen",
+    journey1:
+      "In den nächsten Jahren erblühte unsere Beziehung, während wir gemeinsam die Abenteuer des Lebens meisterten. Von Wochenendausflügen bis zu unserer ersten internationalen Reise nach Italien brachte uns jede Erfahrung näher zusammen.",
+    journey2:
+      "Wir haben uns bei Karrierewechseln unterstützt, Erfolge gefeiert und ein gemeinsames Zuhause geschaffen. Unsere gemeinsame Liebe zum Reisen, Kochen und ruhigen Abenden zu Hause hat ein Fundament aus Freundschaft und Liebe geschaffen, das jeden Tag stärker wird.",
+    theProposal: "Der Antrag",
+    perfectSurprise: "Eine perfekte Überraschung",
+    proposal1:
+      "An einem kühlen Herbstabend 2023 schlug Timofey einen Spaziergang durch unseren Lieblingspark vor, wo wir unser drittes Date hatten. Als wir den malerischen Aussichtspunkt erreichten, wo wir so viele bedeutungsvolle Gespräche geführt hatten, ging Timofey auf die Knie.",
+    proposal2:
+      "Umgeben von den goldenen Blättern des Herbstes und mit der Skyline der Stadt als Kulisse, machte er Natalia einen Antrag. Durch Freudentränen sagte sie ja! Wir feierten mit einem Überraschungsessen, bei dem unsere engsten Freunde und Familie warteten.",
+    quote: "Wahre Liebesgeschichten haben kein Ende.",
+    quoteAuthor: "— Richard Bach",
+  },
+  details: {
+    joinUs: "Seien Sie dabei",
+    weddingDetails: "Hochzeitsdetails",
+    detailsIntro: "Alles, was Sie über unseren besonderen Tag wissen müssen.",
+    schedule: "Zeitplan",
+    theBigDay: "Der große Tag",
+    ceremony: "Trauung",
+    reception: "Empfang",
+    itinerary: "Ablauf",
+    weddingDaySchedule: "Tagesablauf der Hochzeit",
+    information: "Informationen",
+    whatToKnow: "Was Sie wissen müssen",
+    dressCode: "Kleiderordnung",
+    dressCodeInfo:
+      "Formelle Kleidung wird erbeten. Damen in Cocktailkleidern oder Abendkleidern und Herren in Anzügen oder Smokings.",
+    music: "Musik",
+    musicInfo: "Haben Sie einen Musikwunsch? Lassen Sie es uns auf Ihrer RSVP-Karte wissen oder schreiben Sie uns an music@timofeyandnatalia.com.",
+    gifts: "Geschenke",
+    giftsInfo:
+      "Ihre Anwesenheit ist das größte Geschenk. Wenn Sie etwas schenken möchten, haben wir eine Geschenkeliste für Sie erstellt.",
+    location: "Ort",
+    venueMap: "Lageplan",
+    readyToJoin: "Bereit dabei zu sein?",
+    hopeJoin: "Wir hoffen, Sie können mit uns an unserem besonderen Tag feiern. Bitte geben Sie bis zum 31. Dezember 2024 Bescheid.",
+  },
+  travel: {
+    gettingHere: "Anreise",
+    travelAccommodations: "Anreise & Unterkünfte",
+    travelIntro: "Informationen, die Ihnen bei der Planung Ihrer Reise nach Medellín für unsere Hochzeit helfen.",
+    transportation: "Transport",
+    gettingToMedellin: "Nach Medellín kommen",
+    byAir: "Mit dem Flugzeug",
+    byAirInfo1:
+      "Der internationale Flughafen José María Córdova (MDE) ist der Hauptflughafen von Medellín. Er liegt etwa 45 Minuten vom Stadtzentrum entfernt.",
+    byAirInfo2:
+      "Direktflüge sind von vielen großen Städten weltweit verfügbar. Wir empfehlen, Ihre Flüge frühzeitig zu buchen.",
+    airportTransfer: "Flughafentransfer",
+    airportTransferInfo: "Vom Flughafen erreichen Sie das Stadtzentrum mit:",
+    taxi: "Taxi (ca. 80.000 COP)",
+    bus: "Flughafenbus (ca. 10.000 COP)",
+    uber: "Uber oder Didi (Fahrdienste)",
+    privateTransfer: "Privattransfer (wir können bei der Organisation helfen)",
+    gettingAround: "Fortbewegung",
+    gettingAroundInfo1:
+      "Medellín verfügt über ein ausgezeichnetes öffentliches Verkehrssystem mit Metro, Bussen und Seilbahnen. Die Metro ist sauber, sicher und effizient.",
+    gettingAroundInfo2:
+      "Taxis sind in der ganzen Stadt verfügbar, und Fahrdienste wie Uber und Didi sind ebenfalls in Medellín tätig.",
+    whereToStay: "Unterkunft",
+    accommodations: "Unterkünfte",
+    mainHotel: "Haupthotel",
+    hotelInfo:
+      "Wir haben Sonderpreise in mehreren Hotels in der Nähe des Veranstaltungsortes vereinbart. Um diese Preise zu nutzen, buchen Sie bitte bis zum 31. Dezember 2025 mit dem Code TIMONATALIA2026.",
+    bookNow: "Jetzt buchen",
+    alternativeAccommodations: "Alternative Unterkünfte",
+    alternativeInfo:
+      "Wenn Sie lieber woanders übernachten möchten, hier einige andere Optionen in verschiedenen Preisklassen, alle in angemessener Entfernung zu unseren Veranstaltungsorten:",
+    luxury: "Luxus",
+    midRange: "Mittlere Preisklasse",
+    budgetFriendly: "Preisgünstig",
+    explore: "Entdecken",
+    thingsToDoMedellin: "Aktivitäten in Medellín",
+    exploreInfo:
+      "Wir hoffen, Sie verlängern Ihren Aufenthalt und erkunden diese schöne Stadt. Aquí están algunos de nuestros lugares y actividades favoritas en Medellín.",
+    bePrepared: "Gut vorbereitet sein",
+    weatherJanuary: "Wetter im Januar",
+    weatherInfo1:
+      "Medellín ist im Januar typischerweise warm und angenehm, mit Durchschnittstemperaturen zwischen 17°C und 28°C. Die Abende können etwas kühler, aber immer noch angenehm sein.",
+    weatherInfo2:
+      "Wir empfehlen leichte, atmungsaktive Kleidung für Tagesaktivitäten und eventuell eine leichte Jacke oder einen Schal für die Abende. Vergessen Sie nicht Sonnencreme, Sonnenbrille und bequeme Wanderschuhe zum Erkunden der Stadt!",
+  },
+  registry: {
+    giftRegistry: "Geschenkeliste",
+    registryIntro:
+      "Ihre Anwesenheit bei unserer Hochzeit ist das größte Geschenk. Falls Sie uns jedoch mit einem Geschenk ehren möchten, haben wir Geschenkelisten erstellt, um es Ihnen leichter zu machen.",
+    traditionalRegistry: "Traditionelle Geschenkeliste",
+    traditionalInfo: "Müssen Sie sich bei folgenden Geschäften für traditionelle Geschenke für unser Zuhause registrieren.",
+    viewRegistry: "Liste ansehen",
+    honeymoonFund: "Hochzeitsreise-Fonds",
+    honeymoonInfo:
+      "Helfen Sie uns, Erinnerungen auf unserer Traumhochzeitsreise nach Bali und Japan zu schaffen. Ihr Beitrag wird für Erlebnisse verwendet, die wir für immer in Erinnerung behalten werden.",
+    contribute: "Beitragen",
+    charitableDonations: "Wohltätige Spenden",
+    charityInfo:
+      "Anstelle eines traditionellen Geschenks können Sie auch an eine dieser Organisationen spenden, die uns am Herzen liegen.",
+    donate: "Spenden",
+    thankYou: "Vielen Dank",
+    thankYouMessage:
+      "Wir sind wirklich dankbar für Ihre Liebe, Unterstützung und Großzügigkeit. Danke, dass Sie Teil unseres besonderen Tages sind und uns helfen, unser gemeinsames Leben zu beginnen.",
+  },
+  rsvp: {
+    joinUs: "Seien Sie dabei",
+    rsvpByDate: "Bitte antworten Sie bis zum 31. Dezember 2024, ob Sie an unserem besonderen Tag dabei sein werden.",
+    fullName: "Vollständiger Name",
+    emailAddress: "E-Mail-Adresse",
+    willAttend: "Werden Sie teilnehmen?",
+    joyfullyAccept: "Nehme gerne an",
+    regretfullyDecline: "Muss leider absagen",
+    numberOfGuests: "Anzahl der Gäste",
+    justMe: "1 (Nur ich)",
+    meAndGuest: "2 (Ich und eine Begleitung)",
+    dietaryRestrictions: "Ernährungseinschränkungen",
+    dietaryPlaceholder: "Bitte geben Sie Ernährungseinschränkungen oder Allergien an",
+    songRequest: "Musikwunsch",
+    songPlaceholder: "Ein Lied, das Sie auf die Tanzfläche bringt",
+    messageCouple: "Nachricht an das Brautpaar (Optional)",
+    messagePlaceholder: "Teilen Sie Ihre Glückwünsche oder eine besondere Erinnerung",
+    submitRSVP: "RSVP absenden",
+    thankYou: "Vielen Dank!",
+    rsvpSuccess: "Ihr RSVP wurde erfolgreich übermittelt.",
+    excitedMessage: "Wir freuen uns darauf, mit Ihnen zu feiern!",
+    sorryMessage: "Wir bedauern, dass Sie nicht dabei sein können, aber wir danken Ihnen für Ihre Antwort.",
+    lookForward: "Wir freuen uns darauf, Sie am 31. Januar 2026 zu sehen!",
+    questions: "Fragen?",
+    questionsInfo:
+      "Wenn Sie Fragen zur Hochzeit haben oder Hilfe mit Ihrem RSVP benötigen, zögern Sie bitte nicht, uns zu kontaktieren.",
+    email: "E-Mail:",
+  },
+}
+
+i18n.use(initReactI18next).init({
+  resources: {
+    en: { translation: enTranslations },
+    es: { translation: esTranslations },
+    ru: { translation: ruTranslations },
+    de: { translation: deTranslations },
+  },
+  lng: "en",
+  fallbackLng: "en",
+  interpolation: {
+    escapeValue: false,
+  },
+})
+
+export default i18n
