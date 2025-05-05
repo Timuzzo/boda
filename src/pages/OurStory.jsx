@@ -22,12 +22,17 @@ const OurStory = () => {
           <div className="max-w-4xl mx-auto">
             {/* How We Met */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-20">
-              <div className="relative aspect-square md:aspect-auto md:h-full overflow-hidden">
-                <img
-                  src="/images/story-1.jpg"
-                  alt="Timofey and Natalia when they first met"
-                  className="w-full h-full object-cover"
-                />
+              <div className="relative aspect-square md:aspect-auto md:h-full overflow-hidden bg-gray-100 flex items-center justify-center group rounded-lg transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+                <svg
+                  className="w-12 h-12 text-gray-300"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth={1.5}
+                  viewBox="0 0 24 24"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                  <path d="M8 15l3-3 4 4M8 11h.01" />
+                </svg>
               </div>
               <div className="flex flex-col justify-center">
                 <div className="flex items-center mb-4">
@@ -81,23 +86,33 @@ const OurStory = () => {
                 <p className="font-montserrat text-gray-600 leading-relaxed mb-4">{t("ourStory.journey1")}</p>
                 <p className="font-montserrat text-gray-600 leading-relaxed">{t("ourStory.journey2")}</p>
               </div>
-              <div className="relative aspect-square md:aspect-auto md:h-full overflow-hidden order-1 md:order-2">
-                <img
-                  src="/images/story-2.jpg"
-                  alt="Timofey and Natalia traveling together"
-                  className="w-full h-full object-cover"
-                />
+              <div className="relative aspect-square md:aspect-auto md:h-full overflow-hidden order-1 md:order-2 bg-gray-100 flex items-center justify-center group rounded-lg transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+                <svg
+                  className="w-12 h-12 text-gray-300"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth={1.5}
+                  viewBox="0 0 24 24"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                  <path d="M8 15l3-3 4 4M8 11h.01" />
+                </svg>
               </div>
             </div>
 
             {/* The Proposal */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
-              <div className="relative aspect-square md:aspect-auto md:h-full overflow-hidden">
-                <img
-                  src="/images/story-3.jpg"
-                  alt="Timofey proposing to Natalia"
-                  className="w-full h-full object-cover"
-                />
+              <div className="relative aspect-square md:aspect-auto md:h-full overflow-hidden bg-gray-100 flex items-center justify-center group rounded-lg transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+                <svg
+                  className="w-12 h-12 text-gray-300"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth={1.5}
+                  viewBox="0 0 24 24"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                  <path d="M8 15l3-3 4 4M8 11h.01" />
+                </svg>
               </div>
               <div className="flex flex-col justify-center">
                 <div className="flex items-center mb-4">

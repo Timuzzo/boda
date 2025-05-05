@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { useTranslation } from "react-i18next"
+import Map from "../components/Map"
 
 const Details = () => {
   const { t } = useTranslation()
@@ -188,6 +189,49 @@ const Details = () => {
         </div>
       </section>
 
+      {/* Venue Map */}
+      <section className="py-20 bg-hortensia-50">
+        <div className="container">
+          <div className="text-center mb-12">
+            <span className="section-subtitle">{t("details.location")}</span>
+            <h2 className="section-title">{t("details.venueMap")}</h2>
+          </div>
+          <div className="max-w-5xl mx-auto px-4">
+            <div className="mb-6 text-center">
+              <h3 className="font-cormorant text-2xl text-eucalyptus-700">Fábula Bodas & Eventos</h3>
+              <p className="font-montserrat text-sm text-gray-600 mt-2">Medellín, Colombia</p>
+            </div>
+            <Map />
+            <div className="mt-8 text-center">
+              <a
+                href="https://www.google.de/maps/place/F%C3%A1bula+Bodas+%26+Eventos/@6.1586035,-75.6344229,12z/data=!4m10!1m2!2m1!1sfabula+medellin!3m6!1s0x8e4683025af66275:0x8a86f02b69e6d0aa!8m2!3d6.1269428!4d-75.5491873!15sCg9mYWJ1bGEgbWVkZWxsaW6SAQtldmVudF92ZW51ZaoBQxABKgoiBmZhYnVsYSgFMh4QASIatMqV0kTiGzFjmCxD0DDSNobCyyCEt_f9fWYyExACIg9mYWJ1bGEgbWVkZWxsaW7gAQA!16s%2Fg%2F11w_dchm0m?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-eucalyptus-600 hover:text-eucalyptus-700 transition-colors"
+              >
+                <span className="font-montserrat text-sm uppercase tracking-wider mr-2">
+                  {t("details.openInMaps")}
+                </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Additional Information */}
       <section className="py-20">
         <div className="container">
@@ -261,22 +305,6 @@ const Details = () => {
               </div>
               <h3 className="font-cormorant text-2xl mb-2">{t("details.gifts")}</h3>
               <p className="font-montserrat text-sm text-gray-600">{t("details.giftsInfo")}</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Map Section */}
-      <section className="py-20 bg-hortensia-50">
-        <div className="container">
-          <div className="text-center mb-12">
-            <span className="section-subtitle">{t("details.location")}</span>
-            <h2 className="section-title">{t("details.venueMap")}</h2>
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            <div className="relative aspect-[16/9] overflow-hidden">
-              <img src="/images/map.jpg" alt="Map of wedding venues" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
