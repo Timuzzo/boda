@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import { Link } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 import LanguageSwitcher from "./LanguageSwitcher"
@@ -9,6 +9,8 @@ const Navbar = () => {
   const { t } = useTranslation()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const menuRef = useRef(null)
+  const languageMenuRef = useRef(null)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,8 +21,20 @@ const Navbar = () => {
       }
     }
 
+    const handleClickOutside = (event) => {
+      if (menuRef.current && !menuRef.current.contains(event.target) &&
+          languageMenuRef.current && !languageMenuRef.current.contains(event.target)) {
+        setIsMenuOpen(false)
+      }
+    }
+
     window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
+    document.addEventListener("mousedown", handleClickOutside)
+    
+    return () => {
+      window.removeEventListener("scroll", handleScroll)
+      document.removeEventListener("mousedown", handleClickOutside)
+    }
   }, [])
 
   const toggleMenu = () => {
@@ -32,6 +46,7 @@ const Navbar = () => {
     { name: t("common.details"), path: "/details" },
     { name: t("common.travel"), path: "/travel" },
     { name: t("common.registry"), path: "/registry" },
+    { name: t("common.faq"), path: "/faq" },
     { name: t("common.rsvp"), path: "/rsvp" },
   ]
 
@@ -45,11 +60,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div className="w-1/4">
-            <Link 
-              to="/" 
-              className="font-cormorant text-2xl md:text-3xl font-light tracking-wider text-eucalyptus-700 hover:text-eucalyptus-600 transition-colors"
-            >
-              {t("common.names")}
+            <Link to="/" className="flex items-center">
+              <span className="font-cormorant text-xl md:text-2xl text-eucalyptus-700">
+                <span className="md:hidden">T&N</span>
+                <span className="hidden md:inline">Timofey & Natalia</span>
+              </span>
             </Link>
           </div>
 
@@ -69,7 +84,9 @@ const Navbar = () => {
 
           {/* Language Switcher and Mobile Menu */}
           <div className="flex items-center justify-end w-1/4">
-            <LanguageSwitcher />
+            <div ref={languageMenuRef}>
+              <LanguageSwitcher onOpen={() => setIsMenuOpen(false)} />
+            </div>
             <button
               className="ml-4 text-hortensia-600 hover:text-eucalyptus-600 focus:outline-none md:hidden transition-colors"
               onClick={toggleMenu}
@@ -103,7 +120,7 @@ const Navbar = () => {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white/95 backdrop-blur-sm">
+        <div ref={menuRef} className="md:hidden bg-white/95 backdrop-blur-sm">
           <div className="container mx-auto px-4 py-4">
             <nav className="flex flex-col space-y-4">
               {navLinks.map((link) => (

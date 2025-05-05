@@ -9,6 +9,7 @@ import Details from "./pages/Details"
 import Travel from "./pages/Travel"
 import Registry from "./pages/Registry"
 import RSVP from "./pages/RSVP"
+import FAQ from "./pages/FAQ"
 import "./App.css"
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
               <Route path="/travel" element={<Travel />} />
               <Route path="/registry" element={<Registry />} />
               <Route path="/rsvp" element={<RSVP />} />
+              <Route path="/faq" element={<FAQ />} />
             </Routes>
           </main>
           <Footer />

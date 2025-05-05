@@ -15,7 +15,9 @@ const Home = () => {
         />
         <div className="hero-overlay" />
         <div className="hero-content">
-          <h1 className="font-cormorant text-5xl md:text-6xl lg:text-7xl font-light mb-4">{t("common.names")}</h1>
+          <h1 className="font-cormorant text-5xl md:text-6xl lg:text-7xl font-light mb-4">
+            {t("common.names")}
+          </h1>
           <p className="font-montserrat text-sm md:text-base uppercase tracking-widest mb-8">
             {t("common.date")} • {t("common.location")}
           </p>
@@ -168,12 +170,20 @@ const Home = () => {
 
           <div className="image-grid">
             {[1, 2, 3, 4, 5, 6].map((i) => (
-              <div key={i} className="relative aspect-square overflow-hidden">
-                <img
-                  src={`/images/gallery-${i}.jpg`}
-                  alt={`Timofey and Natalia photo ${i}`}
-                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                />
+              <div
+                key={i}
+                className="relative aspect-square overflow-hidden bg-gray-100 flex items-center justify-center group rounded-lg transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+              >
+                <svg
+                  className="w-12 h-12 text-gray-300"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth={1.5}
+                  viewBox="0 0 24 24"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                  <path d="M8 15l3-3 4 4M8 11h.01" />
+                </svg>
               </div>
             ))}
           </div>

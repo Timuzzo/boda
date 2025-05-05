@@ -20,7 +20,7 @@ const Registry = () => {
       <section className="py-20">
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
-            {/* Traditional Registry */}
+            {/* Amazon Wishlist */}
             <div className="flex flex-col items-center text-center">
               <div className="mb-6">
                 <svg
@@ -38,32 +38,21 @@ const Registry = () => {
                   />
                 </svg>
               </div>
-              <h2 className="font-cormorant text-2xl mb-4">{t("registry.traditionalRegistry")}</h2>
-              <p className="font-montserrat text-sm text-gray-600 mb-6">{t("registry.traditionalInfo")}</p>
-              <div className="grid grid-cols-2 gap-6 w-full max-w-xs mb-8">
-                <div className="aspect-square relative bg-white p-4 flex items-center justify-center shadow-sm">
-                  <img src="/images/registry-1.jpg" alt="Falabella Logo" className="w-full h-full object-contain" />
-                </div>
-                <div className="aspect-square relative bg-white p-4 flex items-center justify-center shadow-sm">
-                  <img src="/images/registry-2.jpg" alt="Exito Logo" className="w-full h-full object-contain" />
-                </div>
-                <div className="aspect-square relative bg-white p-4 flex items-center justify-center shadow-sm">
-                  <img src="/images/registry-3.jpg" alt="Home Center Logo" className="w-full h-full object-contain" />
-                </div>
-                <div className="aspect-square relative bg-white p-4 flex items-center justify-center shadow-sm">
-                  <img
-                    src="/images/registry-4.jpg"
-                    alt="Ambiente Gourmet Logo"
-                    className="w-full h-full object-contain"
-                  />
+              <h2 className="font-cormorant text-2xl mb-4">{t("registry.amazonWishlist")}</h2>
+              <p className="font-montserrat text-sm text-gray-600 mb-6">
+                {t("registry.amazonWishlistInfo")}
+              </p>
+              <div className="w-full max-w-xs mb-8">
+                <div className="aspect-[4/3] relative bg-white p-4 flex items-center justify-center shadow-sm">
+                  <img src="/images/amazon-logo.svg" alt="Amazon Logo" className="w-32 h-32 object-contain" />
                 </div>
               </div>
               <a href="#" target="_blank" rel="noopener noreferrer" className="btn-outline">
-                {t("registry.viewRegistry")}
+                {t("registry.viewWishlist")}
               </a>
             </div>
 
-            {/* Honeymoon Fund */}
+            {/* Bank Accounts */}
             <div className="flex flex-col items-center text-center">
               <div className="mb-6">
                 <svg
@@ -77,87 +66,26 @@ const Registry = () => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
+                    d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
                   />
                 </svg>
               </div>
-              <h2 className="font-cormorant text-2xl mb-4">{t("registry.honeymoonFund")}</h2>
-              <p className="font-montserrat text-sm text-gray-600 mb-6">{t("registry.honeymoonInfo")}</p>
-              <div className="relative aspect-[4/3] w-full max-w-xs mb-8 overflow-hidden">
-                <img src="/images/honeymoon.jpg" alt="Honeymoon destination" className="w-full h-full object-cover" />
-              </div>
-              <a href="#" target="_blank" rel="noopener noreferrer" className="btn-primary">
-                {t("registry.contribute")}
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Charity Section */}
-      <section className="py-20 bg-hortensia-50">
-        <div className="container">
-          <div className="max-w-3xl mx-auto text-center">
-            <div className="mb-6">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-12 w-12 text-eucalyptus-400 mx-auto"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
-                />
-              </svg>
-            </div>
-            <h2 className="section-title">{t("registry.charitableDonations")}</h2>
-            <p className="font-montserrat text-gray-600 mb-8">{t("registry.charityInfo")}</p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <div className="bg-white p-6 shadow-sm">
-                <h3 className="font-cormorant text-xl mb-3">Fundación Natura Colombia</h3>
-                <p className="font-montserrat text-sm text-gray-600 mb-4">
-                  Supporting conservation efforts to protect Colombia's biodiversity and natural resources.
-                </p>
-                <a
-                  href="https://www.natura.org.co"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-montserrat text-sm text-eucalyptus-600 underline"
-                >
-                  {t("registry.donate")}
-                </a>
-              </div>
-              <div className="bg-white p-6 shadow-sm">
-                <h3 className="font-cormorant text-xl mb-3">Fundación Salva Terra</h3>
-                <p className="font-montserrat text-sm text-gray-600 mb-4">
-                  Working to improve food security and sustainable agriculture in rural Colombian communities.
-                </p>
-                <a
-                  href="https://www.salvaterra.org"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-montserrat text-sm text-eucalyptus-600 underline"
-                >
-                  {t("registry.donate")}
-                </a>
-              </div>
-              <div className="bg-white p-6 shadow-sm">
-                <h3 className="font-cormorant text-xl mb-3">Fundación Batuta</h3>
-                <p className="font-montserrat text-sm text-gray-600 mb-4">
-                  Providing music education to children and youth in vulnerable situations across Colombia.
-                </p>
-                <a
-                  href="https://www.fundacionbatuta.org"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-montserrat text-sm text-eucalyptus-600 underline"
-                >
-                  {t("registry.donate")}
-                </a>
+              <h2 className="font-cormorant text-2xl mb-4">{t("registry.bankTransfers")}</h2>
+              <p className="font-montserrat text-sm text-gray-600 mb-6">
+                {t("registry.bankTransfersInfo")}
+              </p>
+              <div className="w-full max-w-xs mb-8">
+                <div className="bg-white p-6 shadow-sm text-left">
+                  <h3 className="font-cormorant text-xl mb-4">{t("registry.nataliaAccount")}</h3>
+                  <p className="font-montserrat text-sm text-gray-600 mb-2">{t("registry.bank")}: Bancolombia</p>
+                  <p className="font-montserrat text-sm text-gray-600 mb-2">{t("registry.accountNumber")}: [Account Number]</p>
+                  <p className="font-montserrat text-sm text-gray-600 mb-2">{t("registry.accountType")}: [Account Type]</p>
+                  
+                  <h3 className="font-cormorant text-xl mt-6 mb-4">{t("registry.timoAccount")}</h3>
+                  <p className="font-montserrat text-sm text-gray-600 mb-2">{t("registry.bank")}: Consorsbank</p>
+                  <p className="font-montserrat text-sm text-gray-600 mb-2">{t("registry.iban")}: [IBAN Number]</p>
+                  <p className="font-montserrat text-sm text-gray-600 mb-2">{t("registry.bicSwift")}: [BIC/SWIFT Code]</p>
+                </div>
               </div>
             </div>
           </div>
