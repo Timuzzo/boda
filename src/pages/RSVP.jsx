@@ -9,6 +9,7 @@ const RSVP = () => {
   const [guests, setGuests] = useState(1);
   const [allergies, setAllergies] = useState('');
   const [deadline] = useState('2026-07-15');
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -23,6 +24,8 @@ const RSVP = () => {
         alert(`RSVP deadline was ${deadline}.  Please contact the couple directly.`);
         return;
     }
+
+    setLoading(true);
 
     const templateParams = {
       name,
@@ -42,10 +45,12 @@ const RSVP = () => {
           setEmail('');
           setGuests(1);
           setAllergies('');
+          setLoading(false);
         },
         (err) => {
           console.error('Failed...', err);
           alert('Error sending RSVP. Please try again.');
+          setLoading(false);
         }
       );
   };
@@ -133,8 +138,9 @@ const RSVP = () => {
                 <button 
                   type="submit" 
                   className="btn-primary bg-eucalyptus-600 hover:bg-eucalyptus-700 text-white px-8 py-3 rounded-full transition-colors duration-300"
+                  disabled={loading}
                 >
-                  {t("rsvp.submitRSVP")}
+                  {loading ? t("rsvp.submitting") || "Submitting..." : t("rsvp.submitRSVP")}
                 </button>
               </div>
             </form>

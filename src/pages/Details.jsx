@@ -228,6 +228,25 @@ const Details = () => {
                 </svg>
               </a>
             </div>
+            {/* Instagram Link */}
+            <div className="mt-4 text-center">
+              <a
+                href="https://www.instagram.com/fabulacampestre"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-pink-600 hover:text-pink-700 font-montserrat text-sm transition-colors"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  className="h-5 w-5 mr-2"
+                >
+                  <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5zm4.25 2.25a6.25 6.25 0 1 1-6.25 6.25A6.25 6.25 0 0 1 12 5.75zm0 1.5a4.75 4.75 0 1 0 4.75 4.75A4.75 4.75 0 0 0 12 7.25zm6.5 1.25a1 1 0 1 1-1 1 1 1 0 0 1 1-1z" />
+                </svg>
+                @fabulacampestre
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -260,31 +279,28 @@ const Details = () => {
                 </svg>
               </div>
               <h3 className="font-cormorant text-2xl mb-2">{t("details.dressCode")}</h3>
-              <p className="font-montserrat text-sm text-gray-600">{t("details.dressCodeInfo")}</p>
-            </div>
-
-            {/* Music */}
-            <div className="text-center">
-              <div className="flex justify-center mb-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8 text-eucalyptus-400"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
+              <p className="font-montserrat text-sm text-gray-600 mb-2">{t("details.dressCodeWomen")}</p>
+              <p className="font-montserrat text-sm text-gray-600 mb-2">{t("details.dressCodeMen")}</p>
+              <p className="font-montserrat text-sm text-gray-600 mb-4">{t("details.dressCodeRecommendations")}</p>
+              <div className="mt-2">
+                <a
+                  href="https://pin.it/1mPYSjAoR"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-pink-600 hover:text-pink-700 font-montserrat text-sm transition-colors"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"
-                  />
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    className="h-5 w-5 mr-2"
+                  >
+                    <path d="M12 2C6.477 2 2 6.477 2 12c0 4.084 2.438 7.5 6.188 7.5 1.25 0 1.75-.875 1.75-1.75 0-.438-.031-1.563-.031-2.844 0 0-.438.875-1.063 1.094-.625.219-1.531-.188-1.531-.938 0-.75.531-1.344 1.188-1.344.656 0 1.031.5 1.031 1.094 0 .594-.375 1.469-.375 2.031 0 .563.438.75.938.75 1.25 0 2.188-1.344 2.188-3.281 0-1.719-1.219-2.969-2.969-2.969-2.031 0-3.188 1.531-3.188 3.125 0 .594.188 1.031.438 1.313.094.094.125.125.094.25-.031.094-.094.313-.125.406-.031.094-.125.125-.281.094-.781-.25-1.25-1.031-1.25-2.094 0-2.188 1.844-4.781 5.5-4.781 2.938 0 4.625 2.063 4.625 4.281 0 2.938-1.625 4.594-4.031 4.594-.813 0-1.594-.438-1.844-.938l-.5 1.938c-.156.594-.438 1.344-.656 1.813.5.156 1.031.25 1.594.25 5.523 0 10-4.477 10-10S17.523 2 12 2z" />
+                  </svg>
+                  {t("details.dressCodePinterest")}
+                </a>
               </div>
-              <h3 className="font-cormorant text-2xl mb-2">{t("details.music")}</h3>
-              <p className="font-montserrat text-sm text-gray-600">{t("details.musicInfo")}</p>
             </div>
-
             {/* Gifts */}
             <div className="text-center">
               <div className="flex justify-center mb-4">
@@ -305,6 +321,9 @@ const Details = () => {
               </div>
               <h3 className="font-cormorant text-2xl mb-2">{t("details.gifts")}</h3>
               <p className="font-montserrat text-sm text-gray-600">{t("details.giftsInfo")}</p>
+              <Link to="/registry" className="btn-primary inline-block mt-4">
+                {t('registry.giftRegistry')}
+              </Link>
             </div>
           </div>
         </div>

@@ -61,10 +61,12 @@ const Navbar = () => {
           {/* Logo */}
           <div className="w-1/4">
             <Link to="/" className="flex items-center">
-              <span className="font-cormorant text-xl md:text-2xl text-eucalyptus-700">
-                <span className="md:hidden">T&N</span>
-                <span className="hidden md:inline">Timofey & Natalia</span>
-              </span>
+              <img 
+                src="/images/Logo NT_Black.png" 
+                alt="Timofey & Natalia Logo" 
+                className="h-10 md:h-14 w-auto object-contain" 
+                style={{ maxHeight: '56px' }}
+              />
             </Link>
           </div>
 
