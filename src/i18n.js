@@ -47,23 +47,25 @@ const enTranslations = {
     howWeMet: "How We Met",
     chanceEncounter: "A Chance Encounter",
     howWeMet1:
-      "We first met at a mutual friend's birthday party in the summer of 2020. Timofey was telling a story that had everyone laughing, and Natalia couldn't help but notice his infectious smile. We spent the entire evening talking and discovered we had so much in common.",
+      "Nati, aventurera por naturaleza (y un poquito despistada), había decidido pasar un semestre en Hildesheim, una ciudad pequeña de Alemania. En su emoción por estar en Alemania, olvidó un pequeño detalle… avisar a su familia que había llegado bien. Un olvido tan característico en ella, que sus papás no se alarmaron de inmediato. Solo un poco. Lo suficiente como para activar una cadena de favores y llamadas.\n\nTimo estaba comiéndose un kebab, rodeado de sus amigos. Entre bocado y bocado, Sebas, uno de ellos, recibió una llamada del papá de Nati: \"Necesito su ayuda, encuentren a Nati\". Timo, como siempre dispuesto a ayudar, se puso a la tarea de encontrarla e ir a buscarla en la vivienda estudiantil donde ella estaba viviendo.\n\nNati lo vio primero por la ventana. Un grupo de chicos se acercaba. Hablaban español, miraban el celular y, con ojos entre confundidos y esperanzados, la señalaban.\n\"¿Es ella?\"\n\"Sí, es Natalia. ¡Mírala bien!\"\nHasta que Timo preguntó: \"¿Eres Natalia?\"\n\"Sí… ¿y tú quién eres?\", respondió ella.",
     howWeMet2:
       "After exchanging numbers, we went on our first date the following week to a small Italian restaurant in the city. The rest, as they say, is history.",
     ourJourney: "Our Journey",
     growingTogether: "Growing Together",
     journey1:
-      "Over the next few years, our relationship blossomed as we navigated life's adventures together. From weekend getaways to our first international trip to Italy, each experience brought us closer together.",
+      "From that day, a friendship began—one that felt both easy and deep, the kind that just flows. They shared party nights, cooked together, planned trips to concerts, and explored the city by bike. Timo even accompanied Nati to the doctor to get her medicine, secretly wishing she would stay longer in Hildesheim.\nThey could talk for hours about everything and nothing, and even though they came from different cultures, they understood each other in the essentials.",
     journey2:
-      "We've supported each other through career changes, celebrated achievements, and created a home together. Our shared love of travel, cooking, and quiet evenings at home has built a foundation of friendship and love that grows stronger each day.",
+      "Timo, it must be said, was already quite a Latin Russian since he met Nati: a reggaeton lover, funny, in love with Colombia, and as sociable as can be.\nNati was the first to feel something more, but she said nothing, afraid to break their friendship. Little did she know that, on the other side, Timo had also realized that theirs was not an ordinary story.",
     theProposal: "The Proposal",
     perfectSurprise: "A Perfect Surprise",
     proposal1:
-      "On a crisp autumn evening in 2023, Timofey suggested a walk through our favorite park where we had our third date. As we reached the scenic overlook where we had shared so many meaningful conversations, Timofey got down on one knee.",
+      "Eight years later, Timo decided the time had come. It was the last day of summer in Hamburg, and he suggested to Nati their favorite plan: a picnic by the river, surrounded by nature, no rush, just the two of them and good food.",
     proposal2:
-      "Surrounded by the golden leaves of fall and with the city skyline as our backdrop, he asked Natalia to marry him. Through happy tears, she said yes! We celebrated with a surprise dinner where our closest friends and family were waiting.",
-    quote: "True love stories never have endings.",
-    quoteAuthor: "— Richard Bach",
+      "In the middle of a card game, Timo told her he had a gift. He took out a small box with an origami heart on the lid that said: '100 reasons why I love you.' Making a paper heart requires patient hands and delicate folds. Like love, every crease, though uncertain, needs a persistent heart, able to wait until the final shape is revealed: 'Will you marry me?'",
+    newAdventure: "From Friendship to Love",
+    newChapter: "A Love That Needs No Questions",
+    newAdventure1: "Until one day, after months of glances, jokes, and endless approaches, something changed.\nFrom then on, they began to write their story. A love that knows how to wait, that supports, that grows in small gestures and endures the hard days. A love that, even in chaos, wants only one thing: to be together. Because together, they are stronger.",
+    newAdventure2: "Timo never officially asked Nati to be his girlfriend. And maybe that's why there is no exact date marking the start of their relationship. There are only days, moments, and instants lived with intensity and joy. They celebrated love in every detail, every knowing glance, every laugh, every challenge, and every moment they spent together.",
   },
   details: {
     joinUs: "Join Us",
@@ -78,10 +80,10 @@ const enTranslations = {
     information: "Information",
     whatToKnow: "What You Need to Know",
     dressCode: "Dress Code",
-    dressCodeInfo:
-      "Formal attire is requested. Ladies in cocktail dresses or evening gowns, and gentlemen in suits or tuxedos.",
-    music: "Music",
-    musicInfo: "Have a song request? Let us know on your RSVP card or email us at music@timofeyandnatalia.com.",
+    dressCodeWomen: "Women: Long, solid-color dress in cheerful and warm tones. Block heels are recommended due to the venue's terrain.",
+    dressCodeMen: "Men: Suit, tie or bow tie, and casual shoes.",
+    dressCodeRecommendations: "Recommendations: Bring a jacket as it can get chilly at night, and prepare comfortable shoes for the party—we want you to dance all night and show us your best moves! We've prepared some inspiration for you here:",
+    dressCodePinterest: "See Pinterest Inspiration",
     gifts: "Gifts",
     giftsInfo:
       "Your presence is the greatest gift. If you wish to give something, we have created a registry for your convenience.",
@@ -172,6 +174,7 @@ const enTranslations = {
     messageCouple: "Message for the Couple (Optional)",
     messagePlaceholder: "Share your well wishes or a special memory",
     submitRSVP: "Submit RSVP",
+    submitting: "Submitting...",
     thankYou: "Thank You!",
     rsvpSuccess: "Your RSVP has been submitted successfully.",
     excitedMessage: "We're excited to celebrate with you!",
@@ -206,12 +209,12 @@ const esTranslations = {
     names: "Timofey & Natalia",
     date: "31 de enero de 2026",
     location: "Medellín, Colombia",
-    rsvp: "Confirmar Asistencia",
+    rsvp: "Asistencia",
     ourStory: "Nuestra Historia",
     details: "Detalles",
     travel: "Viaje",
     registry: "Regalos",
-    faq: "Preguntas Frecuentes",
+    faq: "FAQ",
     welcomeMessage:
       "Estamos ansiosos por celebrar nuestro día especial contigo. Gracias por ser parte de nuestro viaje.",
     copyright: "© {{year}} Boda de Timofey & Natalia",
@@ -242,29 +245,31 @@ const esTranslations = {
     date: "31 de enero de 2026",
   },
   ourStory: {
-    aboutUs: "Sobre Nosotros",
-    loveStory: "Nuestra Historia de Amor",
-    storyIntro: "La historia de cómo nos conocimos, nos enamoramos y decidimos pasar nuestras vidas juntos.",
+    aboutUs: "Nuestra Historia de Amor",
+    loveStory: "Algunas historias se buscan y se encuentran!",
+    storyIntro: "Creer en el destino es un acto de fe, pero creer en las coincidencias es una forma de reconocer que hay algo más grande tejiendo los hilos. Y si algo define la historia de Nati y Timo, es justamente eso: una coincidencia —o tal vez una señal cómplice del universo— que puso a dos personas de mundos diferentes, bajo el mismo cielo alemán, en el mismo instante.",
     howWeMet: "Cómo Nos Conocimos",
-    chanceEncounter: "Un Encuentro Casual",
+    chanceEncounter: "Un Encuentro",
     howWeMet1:
-      "Nos conocimos en la fiesta de cumpleaños de un amigo común en el verano de 2020. Timofey estaba contando una historia que hacía reír a todos, y Natalia no pudo evitar notar su sonrisa contagiosa. Pasamos toda la noche hablando y descubrimos que teníamos mucho en común.",
+      "Nati, aventurera por naturaleza (y un poquito despistada), había decidido pasar un semestre en Hildesheim, una ciudad pequeña de Alemania. En su emoción por estar en Alemania, olvidó un pequeño detalle… avisar a su familia que había llegado bien. Un olvido tan característico en ella, que sus papás no se alarmaron de inmediato. Solo un poco. Lo suficiente como para activar una cadena de favores y llamadas.\n\nTimo estaba comiéndose un kebab, rodeado de sus amigos. Entre bocado y bocado, Sebas, uno de ellos, recibió una llamada del papá de Nati: \"Necesito su ayuda, encuentren a Nati\". Timo, como siempre dispuesto a ayudar, se puso a la tarea de encontrarla e ir a buscarla en la vivienda estudiantil donde ella estaba viviendo.\n\nNati lo vio primero por la ventana. Un grupo de chicos se acercaba. Hablaban español, miraban el celular y, con ojos entre confundidos y esperanzados, la señalaban.\n\"¿Es ella?\"\n\"Sí, es Natalia. ¡Mírala bien!\"\nHasta que Timo preguntó: \"¿Eres Natalia?\"\n\"Sí… ¿y tú quién eres?\", respondió ella.",
     howWeMet2:
-      "Después de intercambiar números, tuvimos nuestra primera cita la semana siguiente en un pequeño restaurante italiano en la ciudad. El resto, como dicen, es historia.",
+      "Timo le contó que sus padres estaban preocupados y la estaban buscando, en un español casi perfecto que a Nati le sorprendió. Ese mismo día Timo la invitó a una fiesta en la noche. Le pinto un mapa en un papel, explicándole a detalle el camino para que ella pudiera llegar sin perderse.",
     ourJourney: "Nuestro Viaje",
     growingTogether: "Creciendo Juntos",
     journey1:
-      "Durante los siguientes años, nuestra relación floreció mientras navegábamos por las aventuras de la vida juntos. Desde escapadas de fin de semana hasta nuestro primer viaje internacional a Italia, cada experiencia nos acercó más.",
+    "Desde ese día empezó una amistad de esas que se sienten fáciles y profundas. De esas que simplemente fluyen. Compartían noches de fiesta, cocinaban juntos, planeaban viajes para ir a conciertos, recorrían la ciudad en bicicleta. Timo incluso acompañaba a Nati al médico para conseguir su medicina, deseando, en secreto, que ella se quedara más tiempo en Hildesheim.\nPodían hablar durante horas, de todo y de nada, y aunque venían de culturas diferentes, se entendían en lo esencial.",
     journey2:
-      "Nos hemos apoyado mutuamente a través de cambios de carrera, celebrado logros y creado un hogar juntos. Nuestro amor compartido por viajar, cocinar y las tranquilas noches en casa ha construido una base de amistad y amor que se fortalece cada día.",
+      "Timo, hay que decirlo, ya era un ruso bastante latino desde que conoció a Nati: amante del reggaetón, gracioso, enamorado de Colombia y sociable a más no poder.\nNati fue la primera en sentir algo más. Pero no dijo nada, por miedo a romper su amistad. Sin saber que, del otro lado, Timo también ya había entendido que lo suyo no era una historia común.",
     theProposal: "La Propuesta",
     perfectSurprise: "Una Sorpresa Perfecta",
     proposal1:
-      "En una fresca noche de otoño de 2023, Timofey sugirió dar un paseo por nuestro parque favorito donde tuvimos nuestra tercera cita. Cuando llegamos al mirador escénico donde habíamos compartido tantas conversaciones significativas, Timofey se arrodilló.",
+      "Ocho años después, Timo decidió que había llegado el momento. Era el último día de verano en Hamburgo y le propuso a Nati hacer su plan favorito: un picnic al lado del río, rodeados de naturaleza, sin prisa, solo ellos dos y una buena comida.",
     proposal2:
-      "Rodeados por las hojas doradas del otoño y con el horizonte de la ciudad como telón de fondo, le pidió a Natalia que se casara con él. ¡Entre lágrimas de felicidad, ella dijo que sí! Celebramos con una cena sorpresa donde nos esperaban nuestros amigos y familiares más cercanos.",
-    quote: "Las verdaderas historias de amor nunca tienen fin.",
-    quoteAuthor: "— Richard Bach",
+      "En medio de un juego de cartas, Timo le dijo que tenía un regalo. Sacó una pequeña caja con un corazon de origami en su tapa que decáa: \"100 razones por las que te amo\".Hacer una corazón de papel requiere manos pacientes, dobleces delicados. Como en el amor, cada pliegue, aunque parezca incierto, necesita de un corazón persistente, capaz de esperar hasta que se revela la figura final: \"Te quieres casar conmigo\".",
+    newAdventure: "De Amistad a Amor",
+    newChapter: "Un Amor Que No Necesita Preguntas",
+    newAdventure1: "Hasta que, un día, después de meses de un juego de miradas, bromas y acercamientos que parecían eternos, algo cambió.\nDesde entonces, empezaron a escribir su historia. Un amor que sabe esperar, que se acompaña, que crece en los pequeños gestos y resiste los días difíciles. Un amor que, incluso en medio del caos, solo quiere una cosa: estar juntos. Porque juntos, son más fuertes.",
+    newAdventure2: "Timo nunca le preguntó oficialmente a Nati si quería ser su novia. Y quizás por eso, no hay una fecha exacta que marque el inicio de su relación. Solo hay días, momentos, instantes vividos con intensidad y alegría. Celebraban el amor en cada detalle, en cada mirada cómplice, cada risa, cada reto y cada instante que pasan juntos.",
   },
   details: {
     joinUs: "Únete a Nosotros",
@@ -279,11 +284,10 @@ const esTranslations = {
     information: "Información",
     whatToKnow: "Lo Que Debes Saber",
     dressCode: "Código de Vestimenta",
-    dressCodeInfo:
-      "Se solicita vestimenta formal. Damas en vestidos de cóctel o de noche, y caballeros en trajes o esmoquin.",
-    music: "Música",
-    musicInfo:
-      "¿Tienes una petición de canción? Háznoslo saber en tu tarjeta de RSVP o envíanos un correo electrónico a music@timofeyandnatalia.com.",
+    dressCodeWomen: "Mujeres: Vestido largo fondo entero en colores alegres y cálidos. Tacón grueso debido a la topografía del lugar.",
+    dressCodeMen: "Hombres: Traje, corbata o pajarita y zapato casual.",
+    dressCodeRecommendations: "Recomendaciones: Lleva chaqueta porque en la noche puede hacer frío y para la rumba prepara tus zapatos cómodos; queremos que la des toda hasta el final y nos muestres tus pasos de baile!! Acá hemos preparado algunos referentes como inspiración para ti:",
+    dressCodePinterest: "Ver inspiración en Pinterest",
     gifts: "Regalos",
     giftsInfo: "Tu presencia es el mayor regalo. Si deseas dar algo, hemos creado un registro para tu conveniencia.",
     location: "Ubicación",
@@ -340,7 +344,7 @@ const esTranslations = {
   },
   registry: {
     giftRegistry: "Lista de Regalos",
-    registryIntro: "Tu presencia en nuestra boda es el mejor regalo. Sin embargo, si deseas honrarnos con un regalo, hemos creado registros para facilitarte la elección.",
+    registryIntro: "Tu presencia en nuestra boda es el mejor regalo. Sin embargo, si deseas honrarnos con un regalo, hemos creado listas, que te facilitarán la elección.",
     amazonWishlist: "Lista de Deseos de Amazon",
     amazonWishlistInfo: "Explora y selecciona de nuestra lista curada de artículos en Amazon.",
     viewWishlist: "Ver Lista de Deseos",
@@ -375,6 +379,7 @@ const esTranslations = {
     messageCouple: "Mensaje para la Pareja (Opcional)",
     messagePlaceholder: "Comparte tus buenos deseos o un recuerdo especial",
     submitRSVP: "Enviar RSVP",
+    submitting: "Enviando...",
     thankYou: "¡Gracias!",
     rsvpSuccess: "Tu RSVP ha sido enviado con éxito.",
     excitedMessage: "¡Estamos emocionados de celebrar contigo!",
@@ -390,15 +395,15 @@ const esTranslations = {
     rsvpDeadline: "¿Cuál es la fecha límite para confirmar asistencia?",
     rsvpDeadlineAnswer: "Por favor confirma tu asistencia antes del 31 de julio de 2025. Esto nos ayudará con la planificación y asegurará que podamos acomodar a todos nuestros invitados.",
     weather: "¿Cómo será el clima en Medellín en enero?",
-    weatherAnswer: "Medellín en enero es típicamente cálido y agradable, con temperaturas promedio entre 17°C y 28°C (63°F a 82°F). Las noches pueden ser un poco más frescas pero aún cómodas. Recomendamos traer ropa ligera y transpirable para actividades diurnas, y quizás una chaqueta ligera o un chal para las noches.",
+    weatherAnswer: "Medellín en enero es típicamente cálido y agradable, con temperaturas promedio entre 17°C y 28°C. Las noches pueden ser un poco más frescas pero aún cómodas. Recomendamos traer ropa ligera y transpirable para actividades diurnas, y quizás una chaqueta ligera o un chal para las noches.",
     transportation: "¿Cuáles son las opciones de transporte en Medellín?",
     transportationAnswer: "Medellín tiene un excelente sistema de transporte público que incluye metro, autobuses y teleféricos. El metro es limpio, seguro y eficiente. Los taxis están fácilmente disponibles en toda la ciudad, y los servicios de transporte compartido como Uber y Didi también operan en Medellín. Desde el aeropuerto, puedes llegar al centro de la ciudad en taxi (aproximadamente 80.000 COP), autobús del aeropuerto (aproximadamente 10.000 COP) o traslado privado.",
     indoorsOutdoors: "¿La boda será en interiores o exteriores?",
     indoorsOutdoorsAnswer: "La ceremonia se llevará a cabo al aire libre en el hermoso jardín de Fábula Bodas & Eventos, mientras que la recepción, cena y fiesta se realizarán en interiores en el elegante salón de baile. Ambos espacios tienen control de temperatura para tu comodidad.",
-    parking: "¿Hay estacionamiento disponible en el lugar?",
+    parking: "Есть ли парковка на месте проведения?",
     parkingAnswer: "Sí, hay amplio estacionamiento disponible en Fábula Bodas & Eventos. El lugar tiene un área de estacionamiento segura para los invitados.",
-    vaccination: "¿Hay requisitos de vacunación para viajar a Colombia?",
-    vaccinationAnswer: "Si bien no hay requisitos específicos de vacunación para ingresar a Colombia, recomendamos consultar con tu proveedor de atención médica sobre las vacunas recomendadas. También es aconsejable estar al día con las vacunas de rutina como sarampión-paperas-rubéola (MMR), difteria-tétanos-tos ferina, varicela, polio y tu vacuna anual contra la gripe.",
+    vaccination: "Есть ли требования по вакцинации для поездки в Колумбию?",
+    vaccinationAnswer: "Хотя нет конкретных требований по вакцинации для въезда в Колумбию, мы рекомендуем проконсультироваться с вашим врачом о рекомендуемых прививках. Также рекомендуется быть в курсе плановых прививок, таких как корь-паротит-краснуха (КПК), дифтерия-столбняк-коклюш, ветряная оспа, полиомиелит и ваша ежегодная прививка от гриппа.",
   },
 }
 
@@ -408,12 +413,12 @@ const ruTranslations = {
     names: "Тимофей и Наталья",
     date: "31 января 2026 года",
     location: "Медельин, Колумбия",
-    rsvp: "Подтвердить участие",
+    rsvp: "Участие",
     ourStory: "Наша История",
     details: "Детали",
     travel: "Путешествие",
-    registry: "Реестр",
-    faq: "Часто задаваемые вопросы",
+    registry: "Подарки",
+    faq: "FAQ",
     welcomeMessage: "Мы с нетерпением ждем возможности отпраздновать наш особенный день с вами. Спасибо, что вы часть нашего путешествия.",
     copyright: "© {{year}} Свадьба Тимофея и Натальи",
   },
@@ -454,17 +459,19 @@ const ruTranslations = {
     ourJourney: "Наше Путешествие",
     growingTogether: "Растем Вместе",
     journey1:
-      "В течение следующих нескольких лет наши отношения расцвели, пока мы вместе преодолевали жизненные приключения. От выходных до нашей первой международной поездки в Италию, каждый опыт сближал нас.",
+      "С того дня началась дружба — такая, что кажется легкой и глубокой одновременно. Такая, что просто течет сама собой. Они вместе гуляли по вечерам, готовили, планировали поездки на концерты, катались по городу на велосипедах. Тимо даже сопровождал Нати к врачу за лекарствами, тайно надеясь, что она останется в Хильдесхайме подольше.\nОни могли говорить часами обо всем и ни о чем, и хотя были из разных культур, понимали друг друга в самом главном.",
     journey2:
-      "Мы поддерживали друг друга через смены карьеры, праздновали достижения и создали дом вместе. Наша общая любовь к путешествиям, готовке и тихим вечерам дома создала основу дружбы и любви, которая становится крепче с каждым днем.",
+      "Тимо, надо сказать, стал довольно латиноамериканским русским с тех пор, как встретил Нати: любитель реггетона, веселый, влюбленный в Колумбию и невероятно общительный.\nПервой почувствовала нечто большее Нати. Но она молчала, боясь разрушить дружбу. Не зная, что и Тимо уже понял: их история — не обычная.",
     theProposal: "Предложение",
     perfectSurprise: "Идеальный Сюрприз",
     proposal1:
-      "Прохладным осенним вечером 2023 года Тимофей предложил прогуляться по нашему любимому парку, где у нас было третье свидание. Когда мы достигли живописной смотровой площадки, где мы провели так много значимых разговоров, Тимофей встал на одно колено.",
+      "Восемь лет спустя Тимо решил, что пришло время. Это был последний день лета в Гамбурге, и он предложил Нати их любимый план: пикник у реки, на природе, без спешки, только вдвоем и с вкусной едой.",
     proposal2:
-      "Окруженные золотыми осенними листьями и с городским горизонтом в качестве фона, он попросил Наталью выйти за него замуж. Сквозь счастливые слезы она сказала да! Мы отпраздновали с сюрпризным ужином, где ждали наши ближайшие друзья и семья.",
-    quote: "Настоящие истории любви никогда не заканчиваются.",
-    quoteAuthor: "— Ричард Бах",
+      "Во время карточной игры Тимо сказал, что у него есть подарок. Он достал маленькую коробочку с оригами-сердцем на крышке, где было написано: '100 причин, почему я тебя люблю'. Сделать бумажное сердце — дело терпеливых рук и аккуратных сгибов. Как и в любви, каждый изгиб, даже если он кажется неуверенным, требует настойчивого сердца, способного ждать, пока не откроется финальная фигура: 'Ты выйдешь за меня?'",
+    newAdventure: "Из дружбы в любовь",
+    newChapter: "Любовь, которой не нужны вопросы",
+    newAdventure1: "Пока однажды, после месяцев взглядов, шуток и бесконечных сближений, что-то изменилось.\nС тех пор они начали писать свою историю. Любовь, которая умеет ждать, поддерживать, расти в мелочах и выдерживать трудные дни. Любовь, которая даже в хаосе хочет только одного: быть вместе. Потому что вместе они сильнее.",
+    newAdventure2: "Тимо так и не спросил официально, будет ли Нати его девушкой. Возможно, поэтому у них нет точной даты начала отношений. Есть только дни, моменты, мгновения, прожитые с радостью и страстью. Они отмечали любовь в каждой детали, каждом взгляде, каждой улыбке, каждом испытании и каждом мгновении, проведенном вместе.",
   },
   details: {
     joinUs: "Присоединяйтесь к Нам",
@@ -479,11 +486,10 @@ const ruTranslations = {
     information: "Информация",
     whatToKnow: "Что Нужно Знать",
     dressCode: "Дресс-код",
-    dressCodeInfo:
-      "Требуется формальная одежда. Дамы в коктейльных или вечерних платьях, а джентльмены в костюмах или смокингах.",
-    music: "Музыка",
-    musicInfo:
-      "Есть запрос на песню? Дайте нам знать на вашей карточке RSVP или отправьте нам электронное письмо на music@timofeyandnatalia.com.",
+    dressCodeWomen: "Женщины: Длинное однотонное платье в ярких и теплых тонах. Рекомендуется обувь на устойчивом каблуке из-за особенностей местности.",
+    dressCodeMen: "Мужчины: Костюм, галстук или бабочка и повседневная обувь.",
+    dressCodeRecommendations: "Рекомендации: Возьмите с собой куртку — ночью может быть прохладно, а для вечеринки подготовьте удобную обувь: мы хотим, чтобы вы танцевали до самого конца и показали нам свои лучшие движения! Вот немного вдохновения для вас:",
+    dressCodePinterest: "Смотреть вдохновение на Pinterest",
     gifts: "Подарки",
     giftsInfo:
       "Ваше присутствие - самый большой подарок. Если вы хотите что-то подарить, мы создали реестр для вашего удобства.",
@@ -534,7 +540,7 @@ const ruTranslations = {
     bePrepared: "Будьте Готовы",
     weatherJanuary: "Погода в Январе",
     weatherInfo1:
-      "Медельин в январе обычно теплый и приятный, со средними температурами от 17°C до 28°C (от 63°F до 82°F). Вечера могут быть немного прохладнее, но все равно комфортными.",
+      "Медельин в январе обычно теплый и приятный, со средними температурами от 17°C до 28°C (63°F to 82°F). Вечера могут быть немного прохладнее, но все равно комфортными.",
     weatherInfo2:
       "Мы рекомендуем взять легкую, дышащую одежду для дневных мероприятий и, возможно, легкую куртку или накидку для вечеров. Не забудьте солнцезащитный крем, солнцезащитные очки и удобную обувь для прогулок по городу!",
   },
@@ -575,6 +581,7 @@ const ruTranslations = {
     messageCouple: "Сообщение для Пары (Необязательно)",
     messagePlaceholder: "Поделитесь своими пожеланиями или особым воспоминанием",
     submitRSVP: "Отправить RSVP",
+    submitting: "Отправка...",
     thankYou: "Спасибо!",
     rsvpSuccess: "Ваш RSVP был успешно отправлен.",
     excitedMessage: "Мы с нетерпением ждем празднования с вами!",
@@ -649,23 +656,25 @@ const deTranslations = {
     howWeMet: "Wie wir uns kennengelernt haben",
     chanceEncounter: "Eine zufällige Begegnung",
     howWeMet1:
-      "Wir haben uns im Sommer 2020 auf der Geburtstagsfeier eines gemeinsamen Freundes kennengelernt. Timofey erzählte eine Geschichte, die alle zum Lachen brachte, und Natalia konnte nicht anders, als sein ansteckendes Lächeln zu bemerken. Wir verbrachten den ganzen Abend damit, uns zu unterhalten und entdeckten, dass wir so viel gemeinsam haben.",
+      "Nati, aventurera por naturaleza (y un poquito despistada), había decidido pasar un semestre en Hildesheim, una ciudad pequeña de Alemania. En su emoción por estar en Alemania, olvidó un pequeño detalle… avisar a su familia que había llegado bien. Un olvido tan característico en ella, que sus papás no se alarmaron de inmediato. Solo un poco. Lo suficiente como para activar una cadena de favores y llamadas.\nTimo estaba comiéndose un kebab, rodeado de sus amigos. Entre bocado y bocado, Sebas uno de ellos recibió una llamada del papá de Nati: \"Necesito su ayuda, encuentren a Nati\". Timo como siempre dispuesto a ayudar se puso a la tarea de encontrarla e ir a buscarla en la vivienda estudiantil donde ella estaba viviendo.",
     howWeMet2:
       "Nachdem wir Nummern ausgetauscht hatten, gingen wir in der folgenden Woche in ein kleines italienisches Restaurant zu unserem ersten Date. Der Rest ist, wie man so schön sagt, Geschichte.",
     ourJourney: "Unsere Reise",
     growingTogether: "Gemeinsam wachsen",
     journey1:
-      "In den nächsten Jahren erblühte unsere Beziehung, während wir gemeinsam die Abenteuer des Lebens meisterten. Von Wochenendausflügen bis zu unserer ersten internationalen Reise nach Italien brachte uns jede Erfahrung näher zusammen.",
+      "Von diesem Tag an begann eine Freundschaft, die sich leicht und tief zugleich anfühlte. Eine, die einfach floss. Sie verbrachten Partynächte zusammen, kochten gemeinsam, planten Konzertreisen und erkundeten die Stadt mit dem Fahrrad. Timo begleitete Nati sogar zum Arzt, um ihre Medizin zu holen, und wünschte sich insgeheim, dass sie länger in Hildesheim bleiben würde.\nSie konnten stundenlang über alles und nichts reden, und obwohl sie aus verschiedenen Kulturen kamen, verstanden sie sich im Wesentlichen.",
     journey2:
-      "Wir haben uns bei Karrierewechseln unterstützt, Erfolge gefeiert und ein gemeinsames Zuhause geschaffen. Unsere gemeinsame Liebe zum Reisen, Kochen und ruhigen Abenden zu Hause hat ein Fundament aus Freundschaft und Liebe geschaffen, das jeden Tag stärker wird.",
+      "Timo, das muss man sagen, war schon ein ziemlich lateinamerikanischer Russe, seit er Nati kannte: Reggaeton-Liebhaber, witzig, verliebt in Kolumbien und unglaublich gesellig.\nNati war die erste, die mehr empfand. Aber sie sagte nichts, aus Angst, die Freundschaft zu zerstören. Ohne zu wissen, dass auch Timo längst verstanden hatte, dass ihre Geschichte keine gewöhnliche war.",
     theProposal: "Der Antrag",
     perfectSurprise: "Eine perfekte Überraschung",
     proposal1:
-      "An einem kühlen Herbstabend 2023 schlug Timofey einen Spaziergang durch unseren Lieblingspark vor, wo wir unser drittes Date hatten. Als wir den malerischen Aussichtspunkt erreichten, wo wir so viele bedeutungsvolle Gespräche geführt hatten, ging Timofey auf die Knie.",
+      "Acht Jahre später beschloss Timo, dass es soweit war. Es war der letzte Sommertag in Hamburg, und er schlug Nati ihren Lieblingsplan vor: ein Picknick am Fluss, umgeben von Natur, ohne Eile, nur sie beide und gutes Essen.",
     proposal2:
-      "Umgeben von den goldenen Blättern des Herbstes und mit der Skyline der Stadt als Kulisse, machte er Natalia einen Antrag. Durch Freudentränen sagte sie ja! Wir feierten mit einem Überraschungsessen, bei dem unsere engsten Freunde und Familie warteten.",
-    quote: "Wahre Liebesgeschichten haben kein Ende.",
-    quoteAuthor: "— Richard Bach",
+      "Mitten in einem Kartenspiel sagte Timo, er habe ein Geschenk. Er holte eine kleine Schachtel mit einem Origami-Herz auf dem Deckel hervor, auf dem stand: '100 Gründe, warum ich dich liebe.' Ein Papierherz zu falten, erfordert geduldige Hände und sorgfältige Falten. Wie in der Liebe braucht jeder Knick, auch wenn er unsicher erscheint, ein geduldiges Herz, das warten kann, bis die endgültige Form sichtbar wird: 'Willst du mich heiraten?'",
+    newAdventure: "Von Freundschaft zu Liebe",
+    newChapter: "Eine Liebe, die keine Fragen braucht",
+    newAdventure1: "Bis eines Tages, nach Monaten voller Blicke, Scherze und Annäherungen, die ewig schienen, sich etwas veränderte.\nVon da an begannen sie, ihre Geschichte zu schreiben. Eine Liebe, die warten kann, die begleitet, die in kleinen Gesten wächst und schwierige Tage übersteht. Eine Liebe, die selbst im Chaos nur eines will: zusammen sein. Denn zusammen sind sie stärker.",
+    newAdventure2: "Timo hat Nati nie offiziell gefragt, ob sie seine Freundin sein will. Und vielleicht gibt es deshalb kein genaues Datum, das den Beginn ihrer Beziehung markiert. Es gibt nur Tage, Momente, Augenblicke, die mit Intensität und Freude gelebt wurden. Sie feierten die Liebe in jedem Detail, jedem Blick, jedem Lachen, jeder Herausforderung und jedem Moment, den sie zusammen verbrachten.",
   },
   details: {
     joinUs: "Seien Sie dabei",
@@ -680,10 +689,10 @@ const deTranslations = {
     information: "Informationen",
     whatToKnow: "Was Sie wissen müssen",
     dressCode: "Kleiderordnung",
-    dressCodeInfo:
-      "Formelle Kleidung wird erbeten. Damen in Cocktailkleidern oder Abendkleidern und Herren in Anzügen oder Smokings.",
-    music: "Musik",
-    musicInfo: "Haben Sie einen Musikwunsch? Lassen Sie es uns auf Ihrer RSVP-Karte wissen oder schreiben Sie uns an music@timofeyandnatalia.com.",
+    dressCodeWomen: "Damen: Langes, einfarbiges Kleid in fröhlichen und warmen Farben. Blockabsätze werden wegen des Geländes empfohlen.",
+    dressCodeMen: "Herren: Anzug, Krawatte oder Fliege und legere Schuhe.",
+    dressCodeRecommendations: "Empfehlungen: Bringen Sie eine Jacke mit, da es abends kühl werden kann, und bequeme Schuhe für die Party – wir möchten, dass Sie bis zum Ende durchtanzen und uns Ihre besten Moves zeigen! Hier haben wir einige Inspirationen für Sie vorbereitet:",
+    dressCodePinterest: "Pinterest-Inspiration ansehen",
     gifts: "Geschenke",
     giftsInfo:
       "Ihre Anwesenheit ist das größte Geschenk. Wenn Sie etwas schenken möchten, haben wir eine Geschenkeliste für Sie erstellt.",
@@ -774,6 +783,7 @@ const deTranslations = {
     messageCouple: "Nachricht an das Brautpaar (Optional)",
     messagePlaceholder: "Teilen Sie Ihre Glückwünsche oder eine besondere Erinnerung",
     submitRSVP: "RSVP absenden",
+    submitting: "Wird gesendet...",
     thankYou: "Vielen Dank!",
     rsvpSuccess: "Ihr RSVP wurde erfolgreich übermittelt.",
     excitedMessage: "Mögen Sie es, mit Ihnen zu feiern!",
@@ -802,6 +812,9 @@ const deTranslations = {
   },
 }
 
+// Get saved language from localStorage, or fallback to default
+const savedLanguage = localStorage.getItem('i18nextLng') || 'en';
+
 i18n.use(initReactI18next).init({
   resources: {
     en: { translation: enTranslations },
@@ -809,11 +822,16 @@ i18n.use(initReactI18next).init({
     ru: { translation: ruTranslations },
     de: { translation: deTranslations },
   },
-  lng: "en",
-  fallbackLng: "en",
+  lng: savedLanguage,
+  fallbackLng: 'en',
   interpolation: {
     escapeValue: false,
   },
 })
+
+// Save language to localStorage on change
+i18n.on('languageChanged', (lng) => {
+  localStorage.setItem('i18nextLng', lng);
+});
 
 export default i18n
