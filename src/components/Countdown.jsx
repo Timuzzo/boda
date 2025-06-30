@@ -41,35 +41,43 @@ const Countdown = () => {
   }, [])
 
   return (
-    <div className="bg-hortensia-50 py-16 md:py-20">
+    <div className="bg-gradient-to-b from-hortensia-50 to-hortensia-100 py-12 md:py-16">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-8">
-          <h2 className="font-cormorant text-3xl md:text-4xl font-light text-eucalyptus-700">
+          <h2 className="font-cormorant text-3xl md:text-4xl font-light text-eucalyptus-700 drop-shadow-sm">
             {t("home.countdown.untilWedding")}
           </h2>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">
-          <div className="bg-white p-4 md:p-6 shadow-sm text-center">
-            <div className="font-cormorant text-4xl md:text-5xl text-eucalyptus-600 mb-2">{timeLeft.days}</div>
-            <div className="font-montserrat text-xs uppercase tracking-wider text-hortensia-600">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
+          <div className="bg-white rounded-2xl p-6 shadow-lg text-center border-2 border-[var(--eucalyptus-600)]">
+            <div className="font-cormorant text-5xl md:text-6xl text-eucalyptus-600 mb-2 drop-shadow-md">
+              {timeLeft.days}
+            </div>
+            <div className="font-montserrat text-xs uppercase tracking-wider text-hortensia-600 font-semibold">
               {t("home.countdown.days")}
             </div>
           </div>
-          <div className="bg-white p-4 md:p-6 shadow-sm text-center">
-            <div className="font-cormorant text-4xl md:text-5xl text-eucalyptus-600 mb-2">{timeLeft.hours}</div>
-            <div className="font-montserrat text-xs uppercase tracking-wider text-hortensia-600">
+          <div className="bg-white rounded-2xl p-6 shadow-lg text-center border-2 border-[var(--eucalyptus-600)]">
+            <div className="font-cormorant text-5xl md:text-6xl text-eucalyptus-600 mb-2 drop-shadow-md">
+              {timeLeft.hours}
+            </div>
+            <div className="font-montserrat text-xs uppercase tracking-wider text-hortensia-600 font-semibold">
               {t("home.countdown.hours")}
             </div>
           </div>
-          <div className="bg-white p-4 md:p-6 shadow-sm text-center">
-            <div className="font-cormorant text-4xl md:text-5xl text-eucalyptus-600 mb-2">{timeLeft.minutes}</div>
-            <div className="font-montserrat text-xs uppercase tracking-wider text-hortensia-600">
+          <div className="bg-white rounded-2xl p-6 shadow-lg text-center border-2 border-[var(--eucalyptus-600)]">
+            <div className="font-cormorant text-5xl md:text-6xl text-eucalyptus-600 mb-2 drop-shadow-md">
+              {timeLeft.minutes}
+            </div>
+            <div className="font-montserrat text-xs uppercase tracking-wider text-hortensia-600 font-semibold">
               {t("home.countdown.minutes")}
             </div>
           </div>
-          <div className="bg-white p-4 md:p-6 shadow-sm text-center">
-            <div className="font-cormorant text-4xl md:text-5xl text-eucalyptus-600 mb-2">{timeLeft.seconds}</div>
-            <div className="font-montserrat text-xs uppercase tracking-wider text-hortensia-600">
+          <div className="bg-white rounded-2xl p-6 shadow-lg text-center border-2 border-[var(--eucalyptus-600)]">
+            <div className="font-cormorant text-5xl md:text-6xl text-eucalyptus-600 mb-2 drop-shadow-md">
+              {timeLeft.seconds}
+            </div>
+            <div className="font-montserrat text-xs uppercase tracking-wider text-hortensia-600 font-semibold">
               {t("home.countdown.seconds")}
             </div>
           </div>

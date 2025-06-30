@@ -5,10 +5,10 @@ const Footer = () => {
   const { t } = useTranslation()
 
   return (
-    <footer className="bg-hortensia-50 py-12 mt-16">
+    <footer className="bg-hortensia-50 py-12 md:py-16 mt-8">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center">
-          <h2 className="font-cormorant text-3xl md:text-4xl font-light text-eucalyptus-700 mb-6">{t("common.names")}</h2>
+          <h2 className="font-cormorant text-3xl md:text-4xl font-light text-eucalyptus-700 mb-8">{t("common.names")}</h2>
           <p className="font-montserrat text-sm text-hortensia-600 mb-8 max-w-md mx-auto">{t("common.welcomeMessage")}</p>
           <div className="flex justify-center space-x-6 mb-8">
             <Link

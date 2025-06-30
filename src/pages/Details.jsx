@@ -8,7 +8,7 @@ const Details = () => {
   return (
     <div className="pt-16 md:pt-20">
       {/* Hero Section */}
-      <section className="py-20 md:py-28 bg-hortensia-50">
+      <section className="py-12 md:py-16 bg-hortensia-50">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
             <span className="section-subtitle">{t("details.joinUs")}</span>
@@ -18,181 +18,24 @@ const Details = () => {
         </div>
       </section>
 
-      {/* Main Events */}
-      <section className="py-20">
+      {/* Schedule Timeline Placeholder */}
+      <section className="py-12 md:py-16 bg-hortensia-50">
         <div className="container">
-          <div className="text-center mb-12">
-            <span className="section-subtitle">{t("details.schedule")}</span>
-            <h2 className="section-title">{t("details.theBigDay")}</h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
-            {/* Ceremony */}
-            <div className="flex flex-col">
-              <div className="relative aspect-[4/3] overflow-hidden mb-6">
-                <img src="/images/ceremony.jpg" alt="Iglesia de la Veracruz" className="w-full h-full object-cover" />
-              </div>
-              <div className="flex items-center mb-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 text-eucalyptus-400 mr-2"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                  />
-                </svg>
-                <span className="font-montserrat text-sm uppercase tracking-wider text-gray-500">
-                  {t("details.ceremony")}
-                </span>
-              </div>
-              <h3 className="font-cormorant text-2xl mb-2">Iglesia de la Veracruz</h3>
-              <p className="font-montserrat text-sm text-gray-600 mb-4">{t("common.date")} at 4:00 PM</p>
-              <p className="font-montserrat text-sm text-gray-600 mb-4">
-                Calle 51 #52-58
-                <br />
-                Medellín, Colombia
-              </p>
-              <p className="font-montserrat text-sm text-gray-600">
-                The ceremony will last approximately one hour. Please arrive 30 minutes early to be seated. The dress
-                code is formal attire.
-              </p>
-            </div>
-
-            {/* Reception */}
-            <div className="flex flex-col">
-              <div className="relative aspect-[4/3] overflow-hidden mb-6">
-                <img
-                  src="/images/reception.jpg"
-                  alt="Hotel Dann Carlton Medellín"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="flex items-center mb-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 text-eucalyptus-400 mr-2"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-                <span className="font-montserrat text-sm uppercase tracking-wider text-gray-500">
-                  {t("details.reception")}
-                </span>
-              </div>
-              <h3 className="font-cormorant text-2xl mb-2">Hotel Dann Carlton Medellín</h3>
-              <p className="font-montserrat text-sm text-gray-600 mb-4">{t("common.date")} at 6:00 PM</p>
-              <p className="font-montserrat text-sm text-gray-600 mb-4">
-                Calle 5A #43B-25
-                <br />
-                Medellín, Colombia
-              </p>
-              <p className="font-montserrat text-sm text-gray-600">
-                Join us for cocktails, dinner, and dancing as we celebrate our marriage. The evening will include a
-                seated dinner, toasts, and plenty of dancing.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Schedule Timeline */}
-      <section className="py-20 bg-hortensia-50">
-        <div className="container">
-          <div className="text-center mb-12">
+          <div className="text-center mb-8">
             <span className="section-subtitle">{t("details.itinerary")}</span>
             <h2 className="section-title">{t("details.weddingDaySchedule")}</h2>
           </div>
-
-          <div className="max-w-2xl mx-auto">
-            <div className="space-y-0">
-              <div className="timeline-item">
-                <div className="timeline-dot bg-eucalyptus-200"></div>
-                <div className="timeline-content">
-                  <h3 className="font-cormorant text-xl mb-1">3:30 PM</h3>
-                  <p className="font-montserrat text-sm font-medium mb-1">Guest Arrival</p>
-                  <p className="font-montserrat text-sm text-gray-600">
-                    Please arrive at Iglesia de la Veracruz to be seated
-                  </p>
-                </div>
-              </div>
-
-              <div className="timeline-item">
-                <div className="timeline-dot bg-eucalyptus-200"></div>
-                <div className="timeline-content">
-                  <h3 className="font-cormorant text-xl mb-1">4:00 PM</h3>
-                  <p className="font-montserrat text-sm font-medium mb-1">Ceremony Begins</p>
-                  <p className="font-montserrat text-sm text-gray-600">Exchange of vows and rings</p>
-                </div>
-              </div>
-
-              <div className="timeline-item">
-                <div className="timeline-dot bg-eucalyptus-200"></div>
-                <div className="timeline-content">
-                  <h3 className="font-cormorant text-xl mb-1">5:00 PM</h3>
-                  <p className="font-montserrat text-sm font-medium mb-1">Post-Ceremony</p>
-                  <p className="font-montserrat text-sm text-gray-600">Group photos and travel to reception venue</p>
-                </div>
-              </div>
-
-              <div className="timeline-item">
-                <div className="timeline-dot bg-eucalyptus-200"></div>
-                <div className="timeline-content">
-                  <h3 className="font-cormorant text-xl mb-1">6:00 PM</h3>
-                  <p className="font-montserrat text-sm font-medium mb-1">Cocktail Hour</p>
-                  <p className="font-montserrat text-sm text-gray-600">
-                    Drinks and hors d'oeuvres at Hotel Dann Carlton Medellín
-                  </p>
-                </div>
-              </div>
-
-              <div className="timeline-item">
-                <div className="timeline-dot bg-eucalyptus-200"></div>
-                <div className="timeline-content">
-                  <h3 className="font-cormorant text-xl mb-1">7:00 PM</h3>
-                  <p className="font-montserrat text-sm font-medium mb-1">Dinner Service</p>
-                  <p className="font-montserrat text-sm text-gray-600">Seated dinner and toasts</p>
-                </div>
-              </div>
-
-              <div className="timeline-item">
-                <div className="timeline-dot bg-eucalyptus-200"></div>
-                <div className="timeline-content">
-                  <h3 className="font-cormorant text-xl mb-1">9:00 PM</h3>
-                  <p className="font-montserrat text-sm font-medium mb-1">First Dance</p>
-                  <p className="font-montserrat text-sm text-gray-600">Followed by dancing and celebration</p>
-                </div>
-              </div>
-
-              <div className="timeline-item">
-                <div className="timeline-dot bg-eucalyptus-200"></div>
-                <div className="timeline-content">
-                  <h3 className="font-cormorant text-xl mb-1">12:00 AM</h3>
-                  <p className="font-montserrat text-sm font-medium mb-1">Farewell</p>
-                  <p className="font-montserrat text-sm text-gray-600">End of celebration</p>
-                </div>
-              </div>
-            </div>
+          <div className="flex flex-col items-center justify-center min-h-[200px]">
+            <h3 className="font-cormorant text-4xl md:text-5xl mb-4 text-gray-700">To be continued...</h3>
+            <p className="font-montserrat text-gray-500 text-lg text-center max-w-xl">{t("details.comingSoon", "We are working on this section. Please check back soon for the full schedule of our special day!")}</p>
           </div>
         </div>
       </section>
 
       {/* Venue Map */}
-      <section className="py-20 bg-hortensia-50">
+      <section className="py-12 md:py-16 bg-hortensia-50">
         <div className="container">
-          <div className="text-center mb-12">
+          <div className="text-center mb-8">
             <span className="section-subtitle">{t("details.location")}</span>
             <h2 className="section-title">{t("details.venueMap")}</h2>
           </div>
@@ -252,14 +95,40 @@ const Details = () => {
       </section>
 
       {/* Additional Information */}
-      <section className="py-20">
+      <section className="py-12 md:py-16">
         <div className="container">
-          <div className="text-center mb-12">
+          <div className="text-center mb-8">
             <span className="section-subtitle">{t("details.information")}</span>
             <h2 className="section-title">{t("details.whatToKnow")}</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            {/* Gifts */}
+            <div className="text-center">
+              <div className="flex justify-center mb-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-8 w-8 text-eucalyptus-400"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"
+                  />
+                </svg>
+              </div>
+              <h3 className="font-cormorant text-2xl mb-2">{t("details.gifts")}</h3>
+              <p className="font-montserrat text-sm text-gray-600">{t("details.giftsInfo")}</p>
+              <div className="mt-6 flex justify-center">
+                <Link to="/registry" className="btn-primary inline-block">
+                  {t('registry.giftRegistry')}
+                </Link>
+              </div>
+            </div>
             {/* Dress Code */}
             <div className="text-center">
               <div className="flex justify-center mb-4">
@@ -282,26 +151,18 @@ const Details = () => {
               <p className="font-montserrat text-sm text-gray-600 mb-2">{t("details.dressCodeWomen")}</p>
               <p className="font-montserrat text-sm text-gray-600 mb-2">{t("details.dressCodeMen")}</p>
               <p className="font-montserrat text-sm text-gray-600 mb-4">{t("details.dressCodeRecommendations")}</p>
-              <div className="mt-2">
+              <div className="mt-6 flex justify-center">
                 <a
                   href="https://pin.it/1mPYSjAoR"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center text-pink-600 hover:text-pink-700 font-montserrat text-sm transition-colors"
+                  className="btn-primary inline-flex items-center"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                    className="h-5 w-5 mr-2"
-                  >
-                    <path d="M12 2C6.477 2 2 6.477 2 12c0 4.084 2.438 7.5 6.188 7.5 1.25 0 1.75-.875 1.75-1.75 0-.438-.031-1.563-.031-2.844 0 0-.438.875-1.063 1.094-.625.219-1.531-.188-1.531-.938 0-.75.531-1.344 1.188-1.344.656 0 1.031.5 1.031 1.094 0 .594-.375 1.469-.375 2.031 0 .563.438.75.938.75 1.25 0 2.188-1.344 2.188-3.281 0-1.719-1.219-2.969-2.969-2.969-2.031 0-3.188 1.531-3.188 3.125 0 .594.188 1.031.438 1.313.094.094.125.125.094.25-.031.094-.094.313-.125.406-.031.094-.125.125-.281.094-.781-.25-1.25-1.031-1.25-2.094 0-2.188 1.844-4.781 5.5-4.781 2.938 0 4.625 2.063 4.625 4.281 0 2.938-1.625 4.594-4.031 4.594-.813 0-1.594-.438-1.844-.938l-.5 1.938c-.156.594-.438 1.344-.656 1.813.5.156 1.031.25 1.594.25 5.523 0 10-4.477 10-10S17.523 2 12 2z" />
-                  </svg>
                   {t("details.dressCodePinterest")}
                 </a>
               </div>
             </div>
-            {/* Gifts */}
+            {/* FAQ */}
             <div className="text-center">
               <div className="flex justify-center mb-4">
                 <svg
@@ -315,22 +176,24 @@ const Details = () => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"
+                    d="M7 8h10M7 12h6m-6 4h8a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v7a2 2 0 002 2h2l3 3 3-3z"
                   />
                 </svg>
               </div>
-              <h3 className="font-cormorant text-2xl mb-2">{t("details.gifts")}</h3>
-              <p className="font-montserrat text-sm text-gray-600">{t("details.giftsInfo")}</p>
-              <Link to="/registry" className="btn-primary inline-block mt-4">
-                {t('registry.giftRegistry')}
-              </Link>
+              <h3 className="font-cormorant text-2xl mb-2">{t("faq.frequentlyAsked")}</h3>
+              <p className="font-montserrat text-sm text-gray-600 mb-4">{t("faq.faqIntro")}</p>
+              <div className="mt-6 flex justify-center">
+                <Link to="/faq" className="btn-primary inline-block">
+                  {t('details.faqButton', 'Go to FAQ')}
+                </Link>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Call to Action */}
-      <section className="py-20">
+      <section className="py-12 md:py-16">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="section-title">{t("details.readyToJoin")}</h2>

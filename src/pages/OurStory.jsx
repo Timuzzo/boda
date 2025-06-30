@@ -6,7 +6,7 @@ const OurStory = () => {
   return (
     <div className="pt-16 md:pt-20">
       {/* Hero Section */}
-      <section className="py-20 md:py-28 bg-hortensia-50">
+      <section className="py-12 md:py-16 bg-hortensia-50">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
             <span className="section-subtitle">{t("ourStory.aboutUs")}</span>
@@ -17,22 +17,13 @@ const OurStory = () => {
       </section>
 
       {/* Story Timeline */}
-      <section className="py-20">
+      <section className="py-12 md:py-16">
         <div className="container">
           <div className="max-w-4xl mx-auto">
-            {/* How We Met */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-20">
+            {/* How We Met - Beginning */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-8 mb-8">
               <div className="relative aspect-square md:aspect-auto md:h-full overflow-hidden order-1 md:order-1 bg-gray-100 flex items-center justify-center group rounded-lg transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-                <svg
-                  className="w-12 h-12 text-gray-300"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth={1.5}
-                  viewBox="0 0 24 24"
-                >
-                  <rect x="3" y="3" width="18" height="18" rx="2" />
-                  <path d="M8 15l3-3 4 4M8 11h.01" />
-                </svg>
+                <img src="/images/History-Beginning.png" alt="Our Beginning" className="object-cover w-full h-full" />
               </div>
               <div className="flex flex-col justify-center order-2 md:order-2">
                 <div className="flex items-center mb-4">
@@ -60,8 +51,8 @@ const OurStory = () => {
               </div>
             </div>
 
-            {/* Our Journey */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-20">
+            {/* Our Journey - Amistad */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-8 mb-8">
               <div className="flex flex-col justify-center order-2 md:order-1">
                 <div className="flex items-center mb-4">
                   <svg
@@ -87,32 +78,14 @@ const OurStory = () => {
                 <p className="font-montserrat text-gray-600 leading-relaxed">{t("ourStory.journey2")}</p>
               </div>
               <div className="relative aspect-square md:aspect-auto md:h-full overflow-hidden order-1 md:order-2 bg-gray-100 flex items-center justify-center group rounded-lg transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-                <svg
-                  className="w-12 h-12 text-gray-300"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth={1.5}
-                  viewBox="0 0 24 24"
-                >
-                  <rect x="3" y="3" width="18" height="18" rx="2" />
-                  <path d="M8 15l3-3 4 4M8 11h.01" />
-                </svg>
+                <img src="/images/History-Amistad.jpg" alt="Amistad" className="object-cover w-full h-full" />
               </div>
             </div>
 
-            {/* New Adventure */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-20">
+            {/* New Adventure - Love */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-8 mb-8">
               <div className="relative aspect-square md:aspect-auto md:h-full overflow-hidden order-1 md:order-1 bg-gray-100 flex items-center justify-center group rounded-lg transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-                <svg
-                  className="w-12 h-12 text-gray-300"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth={1.5}
-                  viewBox="0 0 24 24"
-                >
-                  <rect x="3" y="3" width="18" height="18" rx="2" />
-                  <path d="M8 15l3-3 4 4M8 11h.01" />
-                </svg>
+                <img src="/images/History-Love.JPG" alt="Love" className="object-cover w-full h-full" />
               </div>
               <div className="flex flex-col justify-center order-2 md:order-2">
                 <div className="flex items-center mb-4">
@@ -140,8 +113,8 @@ const OurStory = () => {
               </div>
             </div>
 
-            {/* The Proposal */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+            {/* The Proposal - Engagement */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-8">
               <div className="flex flex-col justify-center order-2 md:order-1">
                 <div className="flex items-center mb-4">
                   <svg
@@ -167,16 +140,7 @@ const OurStory = () => {
                 <p className="font-montserrat text-gray-600 leading-relaxed">{t("ourStory.proposal2")}</p>
               </div>
               <div className="relative aspect-square md:aspect-auto md:h-full overflow-hidden order-1 md:order-2 bg-gray-100 flex items-center justify-center group rounded-lg transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-                <svg
-                  className="w-12 h-12 text-gray-300"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth={1.5}
-                  viewBox="0 0 24 24"
-                >
-                  <rect x="3" y="3" width="18" height="18" rx="2" />
-                  <path d="M8 15l3-3 4 4M8 11h.01" />
-                </svg>
+                <img src="/images/History-Engagement.png" alt="Engagement" className="object-cover w-full h-full" />
               </div>
             </div>
           </div>
