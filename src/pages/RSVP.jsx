@@ -58,12 +58,12 @@ const RSVP = () => {
   return (
     <div className="pt-16 md:pt-20">
       {/* Hero Section */}
-      <section className="py-10">
+      <section className="py-12 md:py-16">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
             <span className="section-subtitle mb-3 text-hortensia-600">{t("rsvp.joinUs")}</span>
             <h1 className="section-title mb-8 text-eucalyptus-600">RSVP</h1>
-            <p className="font-montserrat text-gray-600 leading-relaxed text-lg mb-16">
+            <p className="font-montserrat text-gray-600 leading-relaxed text-lg mb-8">
               {t("rsvp.rsvpByDate", { date: deadline })}
             </p>
           </div>

@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next"
+import Display, { DisplayAccountNumber } from "../components/Display"
 
 const Registry = () => {
   const { t } = useTranslation()
@@ -6,7 +7,7 @@ const Registry = () => {
   return (
     <div className="pt-16 md:pt-20">
       {/* Hero Section */}
-      <section className="py-20 md:py-28 bg-hortensia-50">
+      <section className="py-12 md:py-16 bg-hortensia-50">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
             <span className="section-subtitle">{t("registry.giftRegistry")}</span>
@@ -17,12 +18,12 @@ const Registry = () => {
       </section>
 
       {/* Registry Options */}
-      <section className="py-20">
+      <section className="py-12 md:py-16">
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
             {/* Amazon Wishlist */}
             <div className="flex flex-col items-center text-center">
-              <div className="mb-6">
+              <div className="mb-8">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-12 w-12 text-eucalyptus-400"
@@ -39,7 +40,7 @@ const Registry = () => {
                 </svg>
               </div>
               <h2 className="font-cormorant text-2xl mb-4">{t("registry.amazonWishlist")}</h2>
-              <p className="font-montserrat text-sm text-gray-600 mb-6">
+              <p className="font-montserrat text-sm text-gray-600 mb-8">
                 {t("registry.amazonWishlistInfo")}
               </p>
               <div className="w-full max-w-xs mb-8">
@@ -47,14 +48,14 @@ const Registry = () => {
                   <img src="/images/amazon-logo.svg" alt="Amazon Logo" className="w-32 h-32 object-contain" />
                 </div>
               </div>
-              <a href="#" target="_blank" rel="noopener noreferrer" className="btn-outline">
-                {t("registry.viewWishlist")}
+              <a href="#" target="_blank" rel="noopener noreferrer" className="btn-outline pointer-events-none opacity-50 cursor-not-allowed">
+                To be continued
               </a>
             </div>
 
             {/* Bank Accounts */}
             <div className="flex flex-col items-center text-center">
-              <div className="mb-6">
+              <div className="mb-8">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-12 w-12 text-eucalyptus-400"
@@ -71,20 +72,19 @@ const Registry = () => {
                 </svg>
               </div>
               <h2 className="font-cormorant text-2xl mb-4">{t("registry.bankTransfers")}</h2>
-              <p className="font-montserrat text-sm text-gray-600 mb-6">
+              <p className="font-montserrat text-sm text-gray-600 mb-8">
                 {t("registry.bankTransfersInfo")}
               </p>
               <div className="w-full max-w-xs mb-8">
                 <div className="bg-white p-6 shadow-sm text-left">
                   <h3 className="font-cormorant text-xl mb-4">{t("registry.nataliaAccount")}</h3>
                   <p className="font-montserrat text-sm text-gray-600 mb-2">{t("registry.bank")}: Bancolombia</p>
-                  <p className="font-montserrat text-sm text-gray-600 mb-2">{t("registry.accountNumber")}: [Account Number]</p>
-                  <p className="font-montserrat text-sm text-gray-600 mb-2">{t("registry.accountType")}: [Account Type]</p>
-                  
-                  <h3 className="font-cormorant text-xl mt-6 mb-4">{t("registry.timoAccount")}</h3>
+                  <DisplayAccountNumber />
+                  <p className="font-montserrat text-sm text-gray-600 mb-2">{t("registry.accountType")}: Ahorros</p>
+                  <h3 className="font-cormorant text-xl mt-4 mb-4">{t("registry.timoAccount")}</h3>
                   <p className="font-montserrat text-sm text-gray-600 mb-2">{t("registry.bank")}: Consorsbank</p>
-                  <p className="font-montserrat text-sm text-gray-600 mb-2">{t("registry.iban")}: [IBAN Number]</p>
-                  <p className="font-montserrat text-sm text-gray-600 mb-2">{t("registry.bicSwift")}: [BIC/SWIFT Code]</p>
+                  <Display />
+                  <p className="font-montserrat text-sm text-gray-600 mb-2">{t("registry.bicSwift")}: CSDBDE71XXX</p>
                 </div>
               </div>
             </div>
@@ -93,10 +93,10 @@ const Registry = () => {
       </section>
 
       {/* Thank You Section */}
-      <section className="py-20">
+      <section className="py-12 md:py-16">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
-            <div className="mb-6">
+            <div className="mb-8">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-12 w-12 text-eucalyptus-400 mx-auto"

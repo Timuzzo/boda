@@ -6,7 +6,7 @@ const Travel = () => {
   return (
     <div className="pt-16 md:pt-20">
       {/* Hero Section */}
-      <section className="py-20 md:py-28 bg-hortensia-50">
+      <section className="py-12 md:py-16 bg-hortensia-50">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
             <span className="section-subtitle">{t("travel.gettingHere")}</span>
@@ -17,9 +17,9 @@ const Travel = () => {
       </section>
 
       {/* Travel Information */}
-      <section className="py-20">
+      <section className="py-12 md:py-16">
         <div className="container">
-          <div className="text-center mb-12">
+          <div className="text-center mb-8">
             <span className="section-subtitle">{t("travel.transportation")}</span>
             <h2 className="section-title">{t("travel.gettingToMedellin")}</h2>
           </div>
@@ -109,16 +109,16 @@ const Travel = () => {
       </section>
 
       {/* Accommodations */}
-      <section className="py-20 bg-hortensia-50">
+      <section className="py-12 md:py-16 bg-hortensia-50">
         <div className="container">
-          <div className="text-center mb-12">
+          <div className="text-center mb-8">
             <span className="section-subtitle">{t("travel.whereToStay")}</span>
             <h2 className="section-title">{t("travel.accommodations")}</h2>
           </div>
 
           <div className="max-w-4xl mx-auto">
             {/* Main Hotel */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
               <div className="relative aspect-square md:aspect-auto md:h-full overflow-hidden">
                 <img src="/images/hotel.jpg" alt="Hotel Dann Carlton Medellín" className="w-full h-full object-cover" />
               </div>
@@ -234,9 +234,9 @@ const Travel = () => {
       </section>
 
       {/* Things to Do */}
-      <section className="py-20">
+      <section className="py-12 md:py-16">
         <div className="container">
-          <div className="text-center mb-12">
+          <div className="text-center mb-8">
             <span className="section-subtitle">{t("travel.explore")}</span>
             <h2 className="section-title">{t("travel.thingsToDoMedellin")}</h2>
             <p className="font-montserrat text-gray-600 max-w-2xl mx-auto">{t("travel.exploreInfo")}</p>
@@ -381,7 +381,7 @@ const Travel = () => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.701 2.701 0 01-1.5.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z"
+                    d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.701 2.701 0 01-1.5.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z"
                   />
                 </svg>
               </div>
@@ -426,7 +426,7 @@ const Travel = () => {
       </section>
 
       {/* Weather Information */}
-      <section className="py-20 bg-hortensia-50">
+      <section className="py-12 md:py-16 bg-hortensia-50">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
             <span className="section-subtitle">{t("travel.bePrepared")}</span>

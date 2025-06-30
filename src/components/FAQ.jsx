@@ -35,7 +35,7 @@ const FAQ = () => {
   return (
     <div className="pt-16 md:pt-20">
       {/* Hero Section */}
-      <section className="py-20 md:py-28 bg-hortensia-50">
+      <section className="py-12 md:py-16 bg-hortensia-50">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
             <span className="section-subtitle">{t("faq.frequentlyAsked")}</span>
@@ -46,7 +46,7 @@ const FAQ = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20">
+      <section className="py-12 md:py-16">
         <div className="container">
           <div className="max-w-3xl mx-auto">
             <div className="space-y-6">

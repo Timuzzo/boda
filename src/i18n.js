@@ -29,7 +29,7 @@ const enTranslations = {
     memories: "Memories",
     ourJourney: "Our Journey Together",
     willYouJoin: "Will You Be Joining Us?",
-    hopeJoin: "We hope you can join us on our special day. Please RSVP by December 31, 2024.",
+    hopeJoin: "We hope you can join us on our special day. Please RSVP by November 31, 2025.",
     countdown: {
       days: "Days",
       hours: "Hours",
@@ -42,14 +42,14 @@ const enTranslations = {
   },
   ourStory: {
     aboutUs: "About Us",
-    loveStory: "Our Love Story",
-    storyIntro: "The story of how we met, fell in love, and decided to spend our lives together.",
+    loveStory: "100 Reasons and a Window",
+    storyIntro: "Believing in destiny is an act of faith, but believing in coincidences is a way of recognizing that there is something greater weaving the threads. And if anything defines the story of Nati and Timo, it is precisely that: a coincidence—or perhaps a secret sign from the universe—that brought two people from different worlds under the same German sky at the same moment.",
     howWeMet: "How We Met",
     chanceEncounter: "A Chance Encounter",
     howWeMet1:
-      "Nati, aventurera por naturaleza (y un poquito despistada), había decidido pasar un semestre en Hildesheim, una ciudad pequeña de Alemania. En su emoción por estar en Alemania, olvidó un pequeño detalle… avisar a su familia que había llegado bien. Un olvido tan característico en ella, que sus papás no se alarmaron de inmediato. Solo un poco. Lo suficiente como para activar una cadena de favores y llamadas.\n\nTimo estaba comiéndose un kebab, rodeado de sus amigos. Entre bocado y bocado, Sebas, uno de ellos, recibió una llamada del papá de Nati: \"Necesito su ayuda, encuentren a Nati\". Timo, como siempre dispuesto a ayudar, se puso a la tarea de encontrarla e ir a buscarla en la vivienda estudiantil donde ella estaba viviendo.\n\nNati lo vio primero por la ventana. Un grupo de chicos se acercaba. Hablaban español, miraban el celular y, con ojos entre confundidos y esperanzados, la señalaban.\n\"¿Es ella?\"\n\"Sí, es Natalia. ¡Mírala bien!\"\nHasta que Timo preguntó: \"¿Eres Natalia?\"\n\"Sí… ¿y tú quién eres?\", respondió ella.",
+      "Nati, adventurous by nature (and a little absent-minded), had decided to spend a semester in Hildesheim, a small city in Germany. In her excitement to be in Germany, she forgot one small detail... letting her family know she had arrived safely. Such a typical oversight for her that her parents weren't immediately alarmed. Just a little. Enough to set off a chain of favors and phone calls.\n\nTimo was eating a kebab, surrounded by friends. Between bites, Sebas, one of them, received a call from Nati's father: 'I need your help, find Nati.' Timo, always willing to help, set out to find her and went to the student housing where she was staying.\n\nNati saw them first from the window. A group of guys was approaching. They spoke Spanish, looked at their phones, and, with confused and hopeful eyes, pointed at her.\n'Is that her?'\n'Yes, that's Natalia. Look closely!'\nUntil Timo asked: 'Are you Natalia?'\n'Yes... and who are you?' she replied.",
     howWeMet2:
-      "After exchanging numbers, we went on our first date the following week to a small Italian restaurant in the city. The rest, as they say, is history.",
+      "Timo told her that her parents were worried and looking for her, in almost perfect Spanish that surprised Nati. That same day, Timo invited her to a party that night. He drew her a map on a piece of paper, explaining in detail how to get there so she wouldn't get lost.",
     ourJourney: "Our Journey",
     growingTogether: "Growing Together",
     journey1:
@@ -83,7 +83,7 @@ const enTranslations = {
     dressCodeWomen: "Women: Long, solid-color dress in cheerful and warm tones. Block heels are recommended due to the venue's terrain.",
     dressCodeMen: "Men: Suit, tie or bow tie, and casual shoes.",
     dressCodeRecommendations: "Recommendations: Bring a jacket as it can get chilly at night, and prepare comfortable shoes for the party—we want you to dance all night and show us your best moves! We've prepared some inspiration for you here:",
-    dressCodePinterest: "See Pinterest Inspiration",
+    dressCodePinterest: "See Pinterest",
     gifts: "Gifts",
     giftsInfo:
       "Your presence is the greatest gift. If you wish to give something, we have created a registry for your convenience.",
@@ -91,7 +91,9 @@ const enTranslations = {
     venueMap: "Venue Map",
     openInMaps: "Open in Google Maps",
     readyToJoin: "Ready to Join Us?",
-    hopeJoin: "We hope you can celebrate with us on our special day. Please RSVP by December 31, 2024.",
+    hopeJoin: "We hope you can celebrate with us on our special day. Please RSVP by November 30, 2025.",
+    scheduleTimelinePlaceholder: "To be continued...",
+    comingSoon: "We are working on this section. Please check back soon for the full schedule of our special day!",
   },
   travel: {
     gettingHere: "Getting Here",
@@ -155,6 +157,8 @@ const enTranslations = {
     bicSwift: "BIC/SWIFT",
     thankYou: "Thank You",
     thankYouMessage: "We are truly grateful for your love, support, and generosity. Thank you for being part of our special day and for helping us begin our married life together.",
+    revealIban: "Click to Reveal IBAN",
+    revealAccountNumber: "Click to Reveal Account Number",
   },
   rsvp: {
     joinUs: "Join Us",
@@ -189,7 +193,7 @@ const enTranslations = {
     frequentlyAsked: "Frequently Asked Questions",
     faqIntro: "Here are some common questions about our wedding. If you have any other questions, please don't hesitate to contact us.",
     rsvpDeadline: "What is the RSVP deadline?",
-    rsvpDeadlineAnswer: "Please RSVP by July 31, 2025. This will help us with our planning and ensure we can accommodate all our guests.",
+    rsvpDeadlineAnswer: "Please RSVP by November 30, 2025. This will help us with our planning and ensure we can accommodate all our guests.",
     weather: "What will the weather be like in Medellin in January?",
     weatherAnswer: "Medellin in January is typically warm and pleasant, with average temperatures between 17°C and 28°C (63°F to 82°F). Evenings can be slightly cooler but still comfortable. We recommend bringing light, breathable clothing for daytime activities, and perhaps a light jacket or wrap for evenings.",
     transportation: "What are the transportation options in Medellin?",
@@ -233,7 +237,7 @@ const esTranslations = {
     ourJourney: "Nuestro Viaje Juntos",
     willYouJoin: "¿Nos Acompañarás?",
     hopeJoin:
-      "Esperamos que puedas acompañarnos en nuestro día especial. Por favor confirma tu asistencia antes del 31 de diciembre de 2024.",
+      "Esperamos que puedas acompañarnos en nuestro día especial. Por favor confirma tu asistencia antes del 31 de noviembre de 2025.",
     countdown: {
       days: "Días",
       hours: "Horas",
@@ -246,7 +250,7 @@ const esTranslations = {
   },
   ourStory: {
     aboutUs: "Nuestra Historia de Amor",
-    loveStory: "Algunas historias se buscan y se encuentran!",
+    loveStory: "100 razones y una ventana",
     storyIntro: "Creer en el destino es un acto de fe, pero creer en las coincidencias es una forma de reconocer que hay algo más grande tejiendo los hilos. Y si algo define la historia de Nati y Timo, es justamente eso: una coincidencia —o tal vez una señal cómplice del universo— que puso a dos personas de mundos diferentes, bajo el mismo cielo alemán, en el mismo instante.",
     howWeMet: "Cómo Nos Conocimos",
     chanceEncounter: "Un Encuentro",
@@ -287,7 +291,7 @@ const esTranslations = {
     dressCodeWomen: "Mujeres: Vestido largo fondo entero en colores alegres y cálidos. Tacón grueso debido a la topografía del lugar.",
     dressCodeMen: "Hombres: Traje, corbata o pajarita y zapato casual.",
     dressCodeRecommendations: "Recomendaciones: Lleva chaqueta porque en la noche puede hacer frío y para la rumba prepara tus zapatos cómodos; queremos que la des toda hasta el final y nos muestres tus pasos de baile!! Acá hemos preparado algunos referentes como inspiración para ti:",
-    dressCodePinterest: "Ver inspiración en Pinterest",
+    dressCodePinterest: "Ver Pinterest",
     gifts: "Regalos",
     giftsInfo: "Tu presencia es el mayor regalo. Si deseas dar algo, hemos creado un registro para tu conveniencia.",
     location: "Ubicación",
@@ -295,7 +299,9 @@ const esTranslations = {
     openInMaps: "Abrir en Google Maps",
     readyToJoin: "¿Listo para Unirte a Nosotros?",
     hopeJoin:
-      "Esperamos que puedas celebrar con nosotros en nuestro día especial. Por favor confirma tu asistencia antes del 31 de diciembre de 2024.",
+      "Esperamos que puedas celebrar con nosotros en nuestro día especial. Por favor confirma tu asistencia antes del 30 de noviembre de 2025.",
+    scheduleTimelinePlaceholder: "Próximamente...",
+    comingSoon: "Estamos trabajando en esta sección. ¡Vuelve pronto para ver el programa completo de nuestro gran día!",
   },
   travel: {
     gettingHere: "Cómo Llegar",
@@ -305,7 +311,7 @@ const esTranslations = {
     gettingToMedellin: "Cómo Llegar a Medellín",
     byAir: "Por Aire",
     byAirInfo1:
-      "El Aeropuerto Internacional José María Córdova (MDE) es el principal aeropuerto internacional que sirve a Medellín. Está ubicado a unos 45 minutos del centro de la ciudad.",
+      "El Aeropuerto Internacional José María Córdova (MDE) es el principal aeropuerto internacional que sirve a Medellin. Está ubicado a unos 45 minutos del centro de la ciudad.",
     byAirInfo2:
       "Hay vuelos directos disponibles desde muchas ciudades importantes del mundo. Recomendamos reservar tus vuelos con bastante antelación.",
     airportTransfer: "Traslado desde el Aeropuerto",
@@ -359,6 +365,8 @@ const esTranslations = {
     bicSwift: "BIC/SWIFT",
     thankYou: "Gracias",
     thankYouMessage: "Estamos verdaderamente agradecidos por tu amor, apoyo y generosidad. Gracias por ser parte de nuestro día especial y por ayudarnos a comenzar nuestra vida juntos.",
+    revealIban: "Haz clic para ver el IBAN",
+    revealAccountNumber: "Haz clic para ver el número de cuenta",
   },
   rsvp: {
     joinUs: "Únete a Nosotros",
@@ -393,7 +401,7 @@ const esTranslations = {
     frequentlyAsked: "Preguntas Frecuentes",
     faqIntro: "Aquí hay algunas preguntas comunes sobre nuestra boda. Si tienes otras preguntas, no dudes en contactarnos.",
     rsvpDeadline: "¿Cuál es la fecha límite para confirmar asistencia?",
-    rsvpDeadlineAnswer: "Por favor confirma tu asistencia antes del 31 de julio de 2025. Esto nos ayudará con la planificación y asegurará que podamos acomodar a todos nuestros invitados.",
+    rsvpDeadlineAnswer: "Por favor confirma tu asistencia antes del 30 de noviembre de 2025. Esto nos ayudará con la planificación y asegurará que podamos acomodar a todos nuestros invitados.",
     weather: "¿Cómo será el clima en Medellín en enero?",
     weatherAnswer: "Medellín en enero es típicamente cálido y agradable, con temperaturas promedio entre 17°C y 28°C. Las noches pueden ser un poco más frescas pero aún cómodas. Recomendamos traer ropa ligera y transpirable para actividades diurnas, y quizás una chaqueta ligera o un chal para las noches.",
     transportation: "¿Cuáles son las opciones de transporte en Medellín?",
@@ -435,7 +443,7 @@ const ruTranslations = {
     memories: "Воспоминания",
     ourJourney: "Наше Путешествие Вместе",
     willYouJoin: "Вы Присоединитесь к Нам?",
-    hopeJoin: "Мы надеемся, что вы сможете присоединиться к нам в наш особенный день. Пожалуйста, подтвердите свое участие до 31 декабря 2024 года.",
+    hopeJoin: "Мы надеемся, что вы сможете присоединиться к нам в наш особенный день. Пожалуйста, подтвердите свое участие до 30 ноября 2025 года.",
     countdown: {
       days: "Дней",
       hours: "Часов",
@@ -448,22 +456,22 @@ const ruTranslations = {
   },
   ourStory: {
     aboutUs: "О Нас",
-    loveStory: "Наша История Любви",
-    storyIntro: "История о том, как мы встретились, влюбились и решили провести нашу жизнь вместе.",
-    howWeMet: "Как Мы Встретились",
-    chanceEncounter: "Случайная Встреча",
+    loveStory: "100 причин — окно в сердце",
+    storyIntro: "Вера в судьбу — это акт веры, но вера в совпадения — это способ признать, что есть нечто большее, что переплетает наши нити. И если что-то и определяет историю Нати и Тимо, так это именно это: совпадение — или, возможно, тайный знак вселенной — который свел двух людей из разных миров под одним немецким небом в один и тот же момент.",
+    howWeMet: "Как мы познакомились",
+    chanceEncounter: "Встреча",
     howWeMet1:
-      "Мы впервые встретились на дне рождения общего друга летом 2020 года. Тимофей рассказывал историю, которая заставляла всех смеяться, и Наталья не могла не заметить его заразительную улыбку. Мы провели весь вечер в разговорах и обнаружили, что у нас так много общего.",
+      "Нати, по натуре авантюристка (и немного рассеянная), решила провести семестр в Хильдесхайме, небольшом городе в Германии. В своем волнении по поводу пребывания в Германии она забыла одну маленькую деталь... сообщить семье, что благополучно добралась. Такое типичное для нее упущение, что родители не сразу забеспокоились. Только немного. Достаточно, чтобы запустить цепочку просьб и звонков.\n\nТимо ел кебаб в компании друзей. Между укусами Себас, один из них, получил звонок от отца Нати: 'Мне нужна ваша помощь, найдите Нати.' Тимо, всегда готовый помочь, отправился искать ее и пошел в студенческое общежитие, где она жила.\n\nНати первой увидела их из окна. Группа парней приближалась. Они говорили по-испански, смотрели в телефоны и с растерянными и надеющимися глазами указывали на нее.\n'Это она?'\n'Да, это Наталия. Смотри внимательно!'\nПока Тимо не спросил: 'Ты Наталия?'\n'Да... а ты кто?', — ответила она.",
     howWeMet2:
-      "После обмена номерами мы пошли на наше первое свидание на следующей неделе в маленький итальянский ресторан в городе. Остальное, как говорится, история.",
-    ourJourney: "Наше Путешествие",
-    growingTogether: "Растем Вместе",
+      "Тимо рассказал ей, что ее родители переживали и искали ее, на почти идеальном испанском, что удивило Нати. В тот же день Тимо пригласил ее на вечеринку вечером. Он нарисовал ей карту на листе бумаги, подробно объяснив, как туда добраться, чтобы она не заблудилась.",
+    ourJourney: "Наше путешествие",
+    growingTogether: "Растем вместе",
     journey1:
       "С того дня началась дружба — такая, что кажется легкой и глубокой одновременно. Такая, что просто течет сама собой. Они вместе гуляли по вечерам, готовили, планировали поездки на концерты, катались по городу на велосипедах. Тимо даже сопровождал Нати к врачу за лекарствами, тайно надеясь, что она останется в Хильдесхайме подольше.\nОни могли говорить часами обо всем и ни о чем, и хотя были из разных культур, понимали друг друга в самом главном.",
     journey2:
       "Тимо, надо сказать, стал довольно латиноамериканским русским с тех пор, как встретил Нати: любитель реггетона, веселый, влюбленный в Колумбию и невероятно общительный.\nПервой почувствовала нечто большее Нати. Но она молчала, боясь разрушить дружбу. Не зная, что и Тимо уже понял: их история — не обычная.",
     theProposal: "Предложение",
-    perfectSurprise: "Идеальный Сюрприз",
+    perfectSurprise: "Идеальный сюрприз",
     proposal1:
       "Восемь лет спустя Тимо решил, что пришло время. Это был последний день лета в Гамбурге, и он предложил Нати их любимый план: пикник у реки, на природе, без спешки, только вдвоем и с вкусной едой.",
     proposal2:
@@ -489,7 +497,7 @@ const ruTranslations = {
     dressCodeWomen: "Женщины: Длинное однотонное платье в ярких и теплых тонах. Рекомендуется обувь на устойчивом каблуке из-за особенностей местности.",
     dressCodeMen: "Мужчины: Костюм, галстук или бабочка и повседневная обувь.",
     dressCodeRecommendations: "Рекомендации: Возьмите с собой куртку — ночью может быть прохладно, а для вечеринки подготовьте удобную обувь: мы хотим, чтобы вы танцевали до самого конца и показали нам свои лучшие движения! Вот немного вдохновения для вас:",
-    dressCodePinterest: "Смотреть вдохновение на Pinterest",
+    dressCodePinterest: "Смотреть Pinterest",
     gifts: "Подарки",
     giftsInfo:
       "Ваше присутствие - самый большой подарок. Если вы хотите что-то подарить, мы создали реестр для вашего удобства.",
@@ -498,7 +506,9 @@ const ruTranslations = {
     openInMaps: "Открыть в Google Maps",
     readyToJoin: "Готовы Присоединиться к Нам?",
     hopeJoin:
-      "Мы надеемся, что вы сможете отпраздновать с нами наш особенный день. Пожалуйста, подтвердите свое присутствие до 31 декабря 2024 года.",
+      "Мы надеемся, что вы сможете отпраздновать с нами наш особенный день. Пожалуйста, подтвердите свое присутствие до 30 ноября 2025 года.",
+    scheduleTimelinePlaceholder: "Продолжение следует...",
+    comingSoon: "Мы работаем над этим разделом. Пожалуйста, загляните позже, чтобы увидеть полное расписание нашего особенного дня!",
   },
   travel: {
     gettingHere: "Как Добраться",
@@ -561,6 +571,8 @@ const ruTranslations = {
     bicSwift: "BIC/SWIFT",
     thankYou: "Спасибо",
     thankYouMessage: "Мы искренне благодарны за вашу любовь, поддержку и щедрость. Спасибо, что вы часть нашего особенного дня и помогаете нам начать нашу совместную жизнь.",
+    revealIban: "Показать IBAN",
+    revealAccountNumber: "Показать номер счета",
   },
   rsvp: {
     joinUs: "Присоединяйтесь к Нам",
@@ -596,7 +608,7 @@ const ruTranslations = {
     frequentlyAsked: "Часто задаваемые вопросы",
     faqIntro: "Вот некоторые часто задаваемые вопросы о нашей свадьбе. Если у вас есть другие вопросы, пожалуйста, не стесняйтесь связаться с нами.",
     rsvpDeadline: "Каков срок подтверждения участия?",
-    rsvpDeadlineAnswer: "Пожалуйста, подтвердите свое участие до 31 июля 2025 года. Это поможет нам в планировании и обеспечит, что мы сможем разместить всех наших гостей.",
+    rsvpDeadlineAnswer: "Пожалуйста, подтвердите свое участие до 30 ноября 2025 года. Это поможет нам в планировании и обеспечит, что мы сможем разместить всех наших гостей.",
     weather: "Какая будет погода в Медельине в январе?",
     weatherAnswer: "Медельин в январе обычно теплый и приятный, со средними температурами от 17°C до 28°C. Вечера могут быть немного прохладнее, но все равно комфортными. Мы рекомендуем взять легкую, дышащую одежду для дневных мероприятий и, возможно, легкую куртку или накидку для вечеров.",
     transportation: "Какие есть варианты транспорта в Медельине?",
@@ -638,7 +650,7 @@ const deTranslations = {
     memories: "Erinnerungen",
     ourJourney: "Unsere gemeinsame Reise",
     willYouJoin: "Werden Sie dabei sein?",
-    hopeJoin: "Wir hoffen, Sie können an unserem besonderen Tag dabei sein. Bitte geben Sie bis zum 31. Dezember 2024 Bescheid.",
+    hopeJoin: "Wir hoffen, Sie können an unserem besonderen Tag dabei sein. Bitte geben Sie bis zum 30. November 2025 Bescheid.",
     countdown: {
       days: "Tage",
       hours: "Stunden",
@@ -651,14 +663,14 @@ const deTranslations = {
   },
   ourStory: {
     aboutUs: "Über uns",
-    loveStory: "Unsere Liebesgeschichte",
-    storyIntro: "Die Geschichte, wie wir uns kennengelernt, verliebt und entschieden haben, unser Leben gemeinsam zu verbringen.",
+    loveStory: "100 Gründe und ein Fenster",
+    storyIntro: "An Schicksal zu glauben, ist ein Akt des Glaubens, aber an Zufälle zu glauben, ist eine Art anzuerkennen, dass etwas Größeres die Fäden zieht. Und wenn etwas die Geschichte von Nati und Timo ausmacht, dann ist es genau das: ein Zufall – oder vielleicht ein geheimes Zeichen des Universums –, das zwei Menschen aus verschiedenen Welten unter demselben deutschen Himmel im selben Moment zusammenbrachte.",
     howWeMet: "Wie wir uns kennengelernt haben",
-    chanceEncounter: "Eine zufällige Begegnung",
+    chanceEncounter: "Eine Begegnung",
     howWeMet1:
-      "Nati, aventurera por naturaleza (y un poquito despistada), había decidido pasar un semestre en Hildesheim, una ciudad pequeña de Alemania. En su emoción por estar en Alemania, olvidó un pequeño detalle… avisar a su familia que había llegado bien. Un olvido tan característico en ella, que sus papás no se alarmaron de inmediato. Solo un poco. Lo suficiente como para activar una cadena de favores y llamadas.\nTimo estaba comiéndose un kebab, rodeado de sus amigos. Entre bocado y bocado, Sebas uno de ellos recibió una llamada del papá de Nati: \"Necesito su ayuda, encuentren a Nati\". Timo como siempre dispuesto a ayudar se puso a la tarea de encontrarla e ir a buscarla en la vivienda estudiantil donde ella estaba viviendo.",
+      "Nati, von Natur aus abenteuerlustig (und ein bisschen zerstreut), hatte beschlossen, ein Semester in Hildesheim, einer kleinen Stadt in Deutschland, zu verbringen. In ihrer Aufregung, in Deutschland zu sein, vergaß sie ein kleines Detail... ihrer Familie Bescheid zu geben, dass sie gut angekommen war. Ein so typisches Versehen von ihr, dass ihre Eltern nicht sofort beunruhigt waren. Nur ein bisschen. Genug, um eine Kette von Gefallen und Anrufen auszulösen.\n\nTimo aß gerade einen Döner, umgeben von Freunden. Zwischen den Bissen erhielt Sebas, einer von ihnen, einen Anruf von Natis Vater: 'Ich brauche eure Hilfe, findet Nati.' Timo, immer hilfsbereit, machte sich auf die Suche nach ihr und ging zum Studentenwohnheim, in dem sie wohnte.\n\nNati sah sie zuerst aus dem Fenster. Eine Gruppe Jungs näherte sich. Sie sprachen Spanisch, schauten auf ihre Handys und zeigten mit verwirrten und hoffnungsvollen Blicken auf sie.\n'Ist sie das?'\n'Ja, das ist Natalia. Schau genau!'\nBis Timo fragte: 'Bist du Natalia?'\n'Ja... und wer bist du?', antwortete sie.",
     howWeMet2:
-      "Nachdem wir Nummern ausgetauscht hatten, gingen wir in der folgenden Woche in ein kleines italienisches Restaurant zu unserem ersten Date. Der Rest ist, wie man so schön sagt, Geschichte.",
+      "Timo erzählte ihr, dass ihre Eltern sich Sorgen machten und nach ihr suchten, in fast perfektem Spanisch, was Nati überraschte. Am selben Tag lud Timo sie zu einer Party am Abend ein. Er zeichnete ihr eine Karte auf ein Blatt Papier und erklärte ihr genau den Weg, damit sie sich nicht verirrte.",
     ourJourney: "Unsere Reise",
     growingTogether: "Gemeinsam wachsen",
     journey1:
@@ -692,7 +704,7 @@ const deTranslations = {
     dressCodeWomen: "Damen: Langes, einfarbiges Kleid in fröhlichen und warmen Farben. Blockabsätze werden wegen des Geländes empfohlen.",
     dressCodeMen: "Herren: Anzug, Krawatte oder Fliege und legere Schuhe.",
     dressCodeRecommendations: "Empfehlungen: Bringen Sie eine Jacke mit, da es abends kühl werden kann, und bequeme Schuhe für die Party – wir möchten, dass Sie bis zum Ende durchtanzen und uns Ihre besten Moves zeigen! Hier haben wir einige Inspirationen für Sie vorbereitet:",
-    dressCodePinterest: "Pinterest-Inspiration ansehen",
+    dressCodePinterest: "Pinterest ansehen",
     gifts: "Geschenke",
     giftsInfo:
       "Ihre Anwesenheit ist das größte Geschenk. Wenn Sie etwas schenken möchten, haben wir eine Geschenkeliste für Sie erstellt.",
@@ -700,7 +712,9 @@ const deTranslations = {
     venueMap: "Veranstaltungsort Karte",
     openInMaps: "In Google Maps öffnen",
     readyToJoin: "Bereit dabei zu sein?",
-    hopeJoin: "Wir hoffen, Sie können mit uns an unserem besonderen Tag feiern. Bitte geben Sie bis zum 31. Dezember 2024 Bescheid.",
+    hopeJoin: "Wir hoffen, Sie können mit uns an unserem besonderen Tag feiern. Bitte geben Sie bis zum 30. November 2025 Bescheid.",
+    scheduleTimelinePlaceholder: "Fortsetzung folgt...",
+    comingSoon: "Wir arbeiten an diesem Abschnitt. Schauen Sie bald wieder vorbei, um den vollständigen Zeitplan für unseren besonderen Tag zu sehen!",
   },
   travel: {
     gettingHere: "Anreise",
@@ -764,6 +778,8 @@ const deTranslations = {
     bicSwift: "BIC/SWIFT",
     thankYou: "Danke",
     thankYouMessage: "Wir sind wirklich dankbar für eure Liebe, Unterstützung und Großzügigkeit. Danke, dass ihr Teil unseres besonderen Tages seid und uns helft, unser gemeinsames Leben zu beginnen.",
+    revealIban: "IBAN anzeigen",
+    revealAccountNumber: "Kontonummer anzeigen",
   },
   rsvp: {
     joinUs: "Seien Sie dabei",
@@ -798,7 +814,7 @@ const deTranslations = {
     frequentlyAsked: "Häufig gestellte Fragen",
     faqIntro: "Hier sind einige häufig gestellte Fragen zu unserer Hochzeit. Wenn Sie weitere Fragen haben, zögern Sie bitte nicht, uns zu kontaktieren.",
     rsvpDeadline: "Bis wann muss ich mich anmelden?",
-    rsvpDeadlineAnswer: "Bitte melden Sie sich bis zum 31. Juli 2025 an. Dies hilft uns bei der Planung und stellt sicher, dass wir alle unsere Gäste unterbringen können.",
+    rsvpDeadlineAnswer: "Bitte melden Sie sich bis zum 30. November 2025 an. Dies hilft uns bei der Planung und stellt sicher, dass wir alle unsere Gäste unterbringen können.",
     weather: "Wie wird das Wetter in Medellín im Januar sein?",
     weatherAnswer: "Medellín ist im Januar typischerweise warm und angenehm, mit Durchschnittstemperaturen zwischen 17°C und 28°C. Die Abende können etwas kühler, aber immer noch angenehm sein. Wir empfehlen leichte, atmungsaktive Kleidung für Tagesaktivitäten und eventuell eine leichte Jacke oder einen Schal für die Abende.",
     transportation: "Welche Transportmöglichkeiten gibt es in Medellín?",
