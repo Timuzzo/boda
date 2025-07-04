@@ -71,7 +71,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center justify-center space-x-6 md:space-x-8 lg:space-x-12">
+          <nav className="hidden lg:flex items-center justify-center space-x-6 lg:space-x-8 xl:space-x-12">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
@@ -90,7 +90,7 @@ const Navbar = () => {
               <LanguageSwitcher onOpen={() => setIsMenuOpen(false)} />
             </div>
             <button
-              className="ml-4 text-hortensia-600 hover:text-eucalyptus-600 focus:outline-none md:hidden transition-colors"
+              className="ml-4 text-hortensia-600 hover:text-eucalyptus-600 focus:outline-none lg:hidden transition-colors"
               onClick={toggleMenu}
               aria-label="Toggle menu"
             >
@@ -122,7 +122,7 @@ const Navbar = () => {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div ref={menuRef} className="md:hidden bg-white/95 backdrop-blur-sm">
+        <div ref={menuRef} className="lg:hidden bg-white/95 backdrop-blur-sm">
           <div className="container mx-auto px-4 py-4">
             <nav className="flex flex-col space-y-4">
               {navLinks.map((link) => (
