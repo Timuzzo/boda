@@ -10,12 +10,14 @@ import Travel from "./pages/Travel"
 import Registry from "./pages/Registry"
 import RSVP from "./pages/RSVP"
 import FAQ from "./pages/FAQ"
+import ScrollToTop from "./ScrollToTop"
 import "./App.css"
 
 function App() {
   return (
     <I18nextProvider i18n={i18n}>
       <Router>
+        <ScrollToTop />
         <div className="app">
           <Navbar />
           <main>
