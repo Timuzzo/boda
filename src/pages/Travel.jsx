@@ -295,9 +295,9 @@ const Travel = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="font-cormorant text-xl mb-1">Parque Arví</h3>
+                <h3 className="font-cormorant text-xl mb-1">{t("travel.parqueArvi")}</h3>
                 <p className="font-montserrat text-sm text-gray-600 mb-2">
-                  A beautiful ecological nature preserve accessible by cable car with stunning views of the city.
+                  {t("travel.parqueArviDesc")}
                 </p>
               </div>
             </div>
@@ -326,9 +326,9 @@ const Travel = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="font-cormorant text-xl mb-1">Plaza Botero</h3>
+                <h3 className="font-cormorant text-xl mb-1">{t("travel.plazaBotero")}</h3>
                 <p className="font-montserrat text-sm text-gray-600 mb-2">
-                  An open-air museum featuring 23 sculptures by renowned Colombian artist Fernando Botero.
+                  {t("travel.plazaBoteroDesc")}
                 </p>
               </div>
             </div>
@@ -357,10 +357,9 @@ const Travel = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="font-cormorant text-xl mb-1">Comuna 13</h3>
+                <h3 className="font-cormorant text-xl mb-1">{t("travel.comuna13")}</h3>
                 <p className="font-montserrat text-sm text-gray-600 mb-2">
-                  Once one of the most dangerous neighborhoods, now transformed with colorful street art and outdoor
-                  escalators.
+                  {t("travel.comuna13Desc")}
                 </p>
               </div>
             </div>
@@ -389,9 +388,9 @@ const Travel = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="font-cormorant text-xl mb-1">Jardín Botánico</h3>
+                <h3 className="font-cormorant text-xl mb-1">{t("travel.jardinBotanico")}</h3>
                 <p className="font-montserrat text-sm text-gray-600 mb-2">
-                  A peaceful botanical garden with a butterfly house and various plant species from Colombia.
+                  {t("travel.jardinBotanicoDesc")}
                 </p>
               </div>
             </div>
@@ -414,11 +413,11 @@ const Travel = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="font-cormorant text-xl mb-1">Our Favorite Restaurants</h3>
+                <h3 className="font-cormorant text-xl mb-1">{t("travel.favoriteRestaurants")}</h3>
                 <ul className="font-montserrat text-sm text-gray-600 space-y-1">
-                  <li>• El Cielo - Modern Colombian cuisine</li>
-                  <li>• Carmen - Elegant fusion restaurant</li>
-                  <li>• Mondongos - Traditional Colombian food</li>
+                  <li>{t("travel.restaurantElCielo")}</li>
+                  <li>{t("travel.restaurantCarmen")}</li>
+                  <li>{t("travel.restaurantMondongos")}</li>
                 </ul>
               </div>
             </div>
@@ -441,11 +440,11 @@ const Travel = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="font-cormorant text-xl mb-1">Shopping</h3>
+                <h3 className="font-cormorant text-xl mb-1">{t("travel.shopping")}</h3>
                 <ul className="font-montserrat text-sm text-gray-600 space-y-1">
-                  <li>• El Tesoro Shopping Park</li>
-                  <li>• Santa Fe Mall</li>
-                  <li>• Mercado del Rio - Food market</li>
+                  <li>{t("travel.shoppingTesoro")}</li>
+                  <li>{t("travel.shoppingSantaFe")}</li>
+                  <li>{t("travel.shoppingMercado")}</li>
                 </ul>
               </div>
             </div>
