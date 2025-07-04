@@ -53,7 +53,7 @@ const Countdown = () => {
             <div className="font-cormorant text-5xl md:text-6xl text-eucalyptus-600 mb-2 drop-shadow-md">
               {timeLeft.days}
             </div>
-            <div className="font-montserrat text-xs uppercase tracking-wider text-hortensia-600 font-semibold">
+            <div className="font-montserrat text-sm uppercase tracking-wider text-hortensia-600">
               {t("home.countdown.days")}
             </div>
           </div>
@@ -61,7 +61,7 @@ const Countdown = () => {
             <div className="font-cormorant text-5xl md:text-6xl text-eucalyptus-600 mb-2 drop-shadow-md">
               {timeLeft.hours}
             </div>
-            <div className="font-montserrat text-xs uppercase tracking-wider text-hortensia-600 font-semibold">
+            <div className="font-montserrat text-sm uppercase tracking-wider text-hortensia-600">
               {t("home.countdown.hours")}
             </div>
           </div>
@@ -69,7 +69,7 @@ const Countdown = () => {
             <div className="font-cormorant text-5xl md:text-6xl text-eucalyptus-600 mb-2 drop-shadow-md">
               {timeLeft.minutes}
             </div>
-            <div className="font-montserrat text-xs uppercase tracking-wider text-hortensia-600 font-semibold">
+            <div className="font-montserrat text-sm uppercase tracking-wider text-hortensia-600">
               {t("home.countdown.minutes")}
             </div>
           </div>
@@ -77,7 +77,7 @@ const Countdown = () => {
             <div className="font-cormorant text-5xl md:text-6xl text-eucalyptus-600 mb-2 drop-shadow-md">
               {timeLeft.seconds}
             </div>
-            <div className="font-montserrat text-xs uppercase tracking-wider text-hortensia-600 font-semibold">
+            <div className="font-montserrat text-sm uppercase tracking-wider text-hortensia-600">
               {t("home.countdown.seconds")}
             </div>
           </div>

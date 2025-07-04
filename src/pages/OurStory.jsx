@@ -23,7 +23,7 @@ const OurStory = () => {
             {/* How We Met - Beginning */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-8 mb-8">
               <div className="relative aspect-square md:aspect-auto md:h-full overflow-hidden order-1 md:order-1 bg-gray-100 flex items-center justify-center group rounded-lg transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-                <img src="/images/History-Beginning.png" alt="Our Beginning" className="object-cover w-full h-full" />
+                <img src="/images/History-Beginning.webp" alt="Our Beginning" className="object-cover w-full h-full" />
               </div>
               <div className="flex flex-col justify-center order-2 md:order-2">
                 <div className="flex items-center mb-4">

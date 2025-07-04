@@ -99,6 +99,7 @@ const enTranslations = {
     gettingHere: "Getting Here",
     travelAccommodations: "Travel & Accommodations",
     travelIntro: "Information to help you plan your trip to Medellin for our wedding.",
+    travelIntro2: "Important: We will be staying in Medellín until February 12, 2026.",
     transportation: "Transportation",
     gettingToMedellin: "Getting to Medellin",
     byAir: "By Air",
@@ -106,6 +107,10 @@ const enTranslations = {
       "José María Córdova International Airport (MDE) is the main international airport serving Medellin. It's located about 45 minutes from the city center.",
     byAirInfo2:
       "Direct flights are available from many major cities worldwide. We recommend booking your flights well in advance.",
+    europeRoutes:
+      `Main routes from Europe to Medellín (MDE):\n\nMadrid (MAD) – Direct with Avianca or Iberia, ~10 hrs.\n\nBarcelona (BCN) – 1 stop (BOG or MAD) with Avianca, ~14–16 hrs.\n\nParis (CDG) – 1 stop (BOG or MAD) with Air France or Avianca, ~14–16 hrs.\n\nFrankfurt (FRA) – 1 stop (MAD, BOG, or PTY) with Lufthansa/Iberia, ~14–16 hrs.\n\nAmsterdam (AMS) – 1 stop (PTY or BOG) with KLM, Copa, or Avianca, ~15–17 hrs.\n\nLondon (LHR) – 1 stop (MAD, BOG, or MIA) with British Airways/Avianca, ~14–17 hrs.`,
+    europePriceInfo:
+      "The price for a round trip for one person can vary from 700 € to 1200 € depending on the dates and current demand. From our experience the cheapest flights are mid of the week.",
     airportTransfer: "Airport Transfer",
     airportTransferInfo: "From the airport, you can reach the city center by:",
     taxi: "Taxi (approximately 80,000 COP)",
@@ -139,10 +144,24 @@ const enTranslations = {
       "Medellin in January is typically warm and pleasant, with average temperatures between 17°C and 28°C (63°F to 82°F). Evenings can be slightly cooler but still comfortable.",
     weatherInfo2:
       "We recommend bringing light, breathable clothing for daytime activities, and perhaps a light jacket or wrap for evenings. Don't forget sunscreen, sunglasses, and comfortable walking shoes for exploring the city!",
+    taxi120: "Taxi (approximately 120,000 COP)",
+    busSanDiego: "Airport bus to San Diego (approximately 15,000 COP)",
+    gettingAroundFull: `Medellín has an efficient public transportation system including metro, buses, and cable cars. To use the metro, you will need a Cívica card, which you can top up with any amount (we recommend starting with 15,000 COP per person).
+For quick and comfortable travel, Uber is an excellent option. If you prefer taxis, we recommend using the Flota Bernal app, which is safe and easy to use. For peace of mind, avoid hailing taxis directly on the street.`,
+    albergueDescription: "This is Natalia's grandparents' house, free for guests except for food and cleaning. Breakfast and meals can be arranged. It is close to the airport (15 min) and outside of the city (30 min). Booked for wedding guests from 26.01.2026 till 08.02.2026.",
+    viewOnAirbnb: "View on Airbnb",
+    albergueDescriptionList: [
+      "This was Natalia's grandparents' house.",
+      "7 bedrooms, max. 25–30 persons.",
+      "Booked for wedding guests from 26.01.2026 till 08.02.2026.",
+      "Free for guests except for food and cleaning.",
+      "Breakfast and meals can be arranged.",
+      "Close to the airport (15 min), Outside of the city (30 min)."
+    ],
   },
   registry: {
     giftRegistry: "Gift Registry",
-    registryIntro: "Your presence at our wedding is the greatest gift of all. However, if you wish to honor us with a gift, we've created registries to make it easier for you.",
+    registryIntro: "Your presence at our wedding is the greatest gift of all. However, if you wish to honor us with a gift, we've created a list of items to make it easier for you.",
     amazonWishlist: "Amazon Wishlist",
     amazonWishlistInfo: "Browse and select from our curated list of items on Amazon.",
     viewWishlist: "View Wishlist",
@@ -162,7 +181,7 @@ const enTranslations = {
   },
   rsvp: {
     joinUs: "Join Us",
-    rsvpByDate: "Please respond by December 31, 2024 to let us know if you'll be joining us on our special day.",
+    rsvpByDate: "Please respond by November 30, 2025 to let us know if you'll be joining us on our special day.",
     fullName: "Full Name",
     emailAddress: "Email Address",
     willAttend: "Will you be attending?",
@@ -195,15 +214,15 @@ const enTranslations = {
     rsvpDeadline: "What is the RSVP deadline?",
     rsvpDeadlineAnswer: "Please RSVP by November 30, 2025. This will help us with our planning and ensure we can accommodate all our guests.",
     weather: "What will the weather be like in Medellin in January?",
-    weatherAnswer: "Medellin in January is typically warm and pleasant, with average temperatures between 17°C and 28°C (63°F to 82°F). Evenings can be slightly cooler but still comfortable. We recommend bringing light, breathable clothing for daytime activities, and perhaps a light jacket or wrap for evenings.",
+    weatherAnswer: "Medellin in January is typically warm and pleasant, with average temperatures between 17°C and 28°C. Evenings can be slightly cooler but still comfortable. We recommend bringing light, breathable clothing for daytime activities, and perhaps a light jacket or wrap for evenings.",
     transportation: "What are the transportation options in Medellin?",
-    transportationAnswer: "Medellin has an excellent public transportation system including metro, buses, and cable cars. The metro is clean, safe, and efficient. Taxis are readily available throughout the city, and ride-sharing services like Uber and Didi also operate in Medellin. From the airport, you can reach the city center by taxi (approximately 80,000 COP), airport bus (approximately 10,000 COP), or private transfer.",
+    transportationAnswer: "See Travel section for more information.",
     indoorsOutdoors: "Will the wedding be indoors or outdoors?",
-    indoorsOutdoorsAnswer: "The ceremony will take place outdoors in the beautiful garden of Fábula Bodas & Eventos, while the reception, dinner, and party will be held indoors in the elegant ballroom. Both spaces are temperature-controlled for your comfort.",
+    indoorsOutdoorsAnswer: "The ceremony and reception will take place outdoors in the beautiful garden of Fábula Bodas & Eventos, while the dinner and party will be held indoors in the elegant ballroom with an amazing view of the mountains.",
     parking: "Is parking available at the venue?",
     parkingAnswer: "Yes, there is ample parking available on site at Fábula Bodas & Eventos. The venue has a secure parking area for guests.",
     vaccination: "Are there any vaccination requirements for traveling to Colombia?",
-    vaccinationAnswer: "While there are no specific vaccination requirements for entering Colombia, we recommend checking with your healthcare provider for recommended vaccinations. It's also advisable to be up to date with routine vaccines such as measles-mumps-rubella (MMR), diphtheria-tetanus-pertussis, varicella (chickenpox), polio, and your yearly flu shot.",
+    vaccinationAnswer: "While there are no specific vaccination requirements for entering Colombia, we recommend checking with your healthcare provider for recommended vaccinations. It's also advisable to be up to date with routine vaccines such as measles-mumps-rubella (MMR), diphtheria-tetanus-pertussis, polio. Besides this ellow fewer and Hepatitis A are also recommended. According to Centre of Tropical Medicine Yellow fever shot is recommended for all travellers aged ≥ 9 months, except when travelling to parts of the country above 2,300 m, such as Bogotá; or when travelling to the departments of San Andrès and Providencia, to Barranquilla, Cali, Cartagena or Medellín.",
   },
 }
 
@@ -261,7 +280,7 @@ const esTranslations = {
     ourJourney: "Nuestro Viaje",
     growingTogether: "Creciendo Juntos",
     journey1:
-    "Desde ese día empezó una amistad de esas que se sienten fáciles y profundas. De esas que simplemente fluyen. Compartían noches de fiesta, cocinaban juntos, planeaban viajes para ir a conciertos, recorrían la ciudad en bicicleta. Timo incluso acompañaba a Nati al médico para conseguir su medicina, deseando, en secreto, que ella se quedara más tiempo en Hildesheim.\nPodían hablar durante horas, de todo y de nada, y aunque venían de culturas diferentes, se entendían en lo esencial.",
+      "Desde ese día empezó una amistad de esas que se sienten fáciles y profundas. De esas que simplemente fluyen. Compartían noches de fiesta, cocinaban juntos, planeaban viajes para ir a conciertos, recorrían la ciudad en bicicleta. Timo incluso acompañaba a Nati al médico para conseguir su medicina, deseando, en secreto, que ella se quedara más tiempo en Hildesheim.\nPodían hablar durante horas, de todo y de nada, y aunque venían de culturas diferentes, se entendían en lo esencial.",
     journey2:
       "Timo, hay que decirlo, ya era un ruso bastante latino desde que conoció a Nati: amante del reggaetón, gracioso, enamorado de Colombia y sociable a más no poder.\nNati fue la primera en sentir algo más. Pero no dijo nada, por miedo a romper su amistad. Sin saber que, del otro lado, Timo también ya había entendido que lo suyo no era una historia común.",
     theProposal: "La Propuesta",
@@ -276,15 +295,15 @@ const esTranslations = {
     newAdventure2: "Timo nunca le preguntó oficialmente a Nati si quería ser su novia. Y quizás por eso, no hay una fecha exacta que marque el inicio de su relación. Solo hay días, momentos, instantes vividos con intensidad y alegría. Celebraban el amor en cada detalle, en cada mirada cómplice, cada risa, cada reto y cada instante que pasan juntos.",
   },
   details: {
-    joinUs: "Únete a Nosotros",
+    joinUs: "Un Día para Amar y Compartir",
     weddingDetails: "Detalles de la Boda",
-    detailsIntro: "Todo lo que necesitas saber sobre nuestro día especial.",
+    detailsIntro: "Todo lo que debes saber para disfrutar al máximo nuestra boda.",
     schedule: "Horario",
     theBigDay: "El Gran Día",
     ceremony: "Ceremonia",
     reception: "Recepción",
     itinerary: "Itinerario",
-    weddingDaySchedule: "Programa del Día de la Boda",
+    weddingDaySchedule: "La Magia en Cada Momento",
     information: "Información",
     whatToKnow: "Lo Que Debes Saber",
     dressCode: "Código de Vestimenta",
@@ -306,14 +325,19 @@ const esTranslations = {
   travel: {
     gettingHere: "Cómo Llegar",
     travelAccommodations: "Viaje y Alojamiento",
-    travelIntro: "Información para ayudarte a planificar tu viaje a Medellín para nuestra boda.",
+    travelIntro: "Guía para que llegues sin preocupaciones y disfrutes cada instante con nosotros.",
+    travelIntro2: "Importante: nosotros nos quedamos en Medellín hasta el 12 de febrero de 2026.",
     transportation: "Transporte",
     gettingToMedellin: "Cómo Llegar a Medellín",
     byAir: "Por Aire",
     byAirInfo1:
-      "El Aeropuerto Internacional José María Córdova (MDE) es el principal aeropuerto internacional que sirve a Medellin. Está ubicado a unos 45 minutos del centro de la ciudad.",
+      "El Aeropuerto José María Córdova (MDE) conecta Medellín con el mundo.",
     byAirInfo2:
-      "Hay vuelos directos disponibles desde muchas ciudades importantes del mundo. Recomendamos reservar tus vuelos con bastante antelación.",
+      "Está a 25 minutos de la ciudad y recibe vuelos directos desde muchas ciudades. ¡Reserva los tiquetes con tiempo y prepárate para la aventura!",
+    europeRoutes:
+      `Rutas principales desde Europa a Medellín (MDE):\n\nMadrid (MAD) – Directo con Avianca o Iberia, ~10 h.\n\nBarcelona (BCN) – 1 escala (BOG o MAD) con Avianca, ~14–16 h.\n\nParís (CDG) – 1 escala (BOG o MAD) con Air France o Avianca, ~14–16 h.\n\nFráncfort (FRA) – 1 escala (MAD, BOG o PTY) con Lufthansa/Iberia, ~14–16 h.\n\nÁmsterdam (AMS) – 1 escala (PTY o BOG) con KLM, Copa o Avianca, ~15–17 h.\n\nLondres (LHR) – 1 escala (MAD, BOG o MIA) con British Airways/Avianca, ~14–17 h.`,
+    europePriceInfo:
+      "El precio de un viaje de ida y vuelta por persona puede variar entre 700 € y 1200 € dependiendo de las fechas y la demanda actual. Por nuestra experiencia, los vuelos más baratos suelen ser a mitad de semana.",
     airportTransfer: "Traslado desde el Aeropuerto",
     airportTransferInfo: "Desde el aeropuerto, puedes llegar al centro de la ciudad por:",
     taxi: "Taxi (aproximadamente 80.000 COP)",
@@ -347,10 +371,24 @@ const esTranslations = {
       "Medellín en enero es típicamente cálido y agradable, con temperaturas promedio entre 17°C y 28°C (63°F a 82°F). Las noches pueden ser un poco más frescas pero aún cómodas.",
     weatherInfo2:
       "Recomendamos traer ropa ligera y transpirable para actividades diurnas, y quizás una chaqueta ligera o un chal para las noches. ¡No olvides protector solar, gafas de sol y zapatos cómodos para caminar para explorar la ciudad!",
+    taxi120: "Taxi (aproximadamente 120.000 COP)",
+    busSanDiego: "Autobús del aeropuerto a San Diego (aproximadamente 15.000 COP)",
+    gettingAroundFull: `Medellín cuenta con un sistema de transporte público eficiente que incluye metro, autobuses y teleféricos. Para usar el metro, necesitarás una tarjeta Cívica, que puedes recargar con el monto que prefieras (recomendamos iniciar con 15,000 COP por persona).
+Para moverte de forma rápida y cómoda, Uber es una excelente opción. Si prefieres taxi, te recomendamos usar la app Flota Bernal, que es segura y fácil de usar. Evita tomar taxis directamente en la calle para mayor tranquilidad.`,
+    albergueDescription: "Es la casa de los abuelos de Natalia, gratuita para los invitados excepto la comida y la limpieza. Se puede organizar desayuno y comidas. Está cerca del aeropuerto (15 min) y fuera de la ciudad (30 min). Reservada para los invitados de la boda del 26.01.2026 al 08.02.2026.",
+    viewOnAirbnb: "Ver en Airbnb",
+    albergueDescriptionList: [
+      "Era la casa de los abuelos de Natalia.",
+      "7 habitaciones, aprox. 25–30 personas.",
+      "Reservada para los invitados de la boda del 26.01.2026 al 08.02.2026.",
+      "Gratuita para los invitados excepto la comida y la limpieza.",
+      "Se puede organizar desayuno y comidas.",
+      "Cerca del aeropuerto (15 min), Fuera de la ciudad (30 min)."
+    ],
   },
   registry: {
     giftRegistry: "Lista de Regalos",
-    registryIntro: "Tu presencia en nuestra boda es el mejor regalo. Sin embargo, si deseas honrarnos con un regalo, hemos creado listas, que te facilitarán la elección.",
+    registryIntro: "El mejor regalo que pueden darnos s su presencia. Sin embargo, si desean darnos un regalo estaremos siempre agradecidos!",
     amazonWishlist: "Lista de Deseos de Amazon",
     amazonWishlistInfo: "Explora y selecciona de nuestra lista curada de artículos en Amazon.",
     viewWishlist: "Ver Lista de Deseos",
@@ -371,7 +409,7 @@ const esTranslations = {
   rsvp: {
     joinUs: "Únete a Nosotros",
     rsvpByDate:
-      "Por favor responde antes del 31 de diciembre de 2024 para hacernos saber si te unirás a nosotros en nuestro día especial.",
+      "Por favor responde antes del 30 de noviembre de 2025 para hacernos saber si te unirás a nosotros en nuestro día especial.",
     fullName: "Nombre Completo",
     emailAddress: "Correo Electrónico",
     willAttend: "¿Asistirás?",
@@ -405,13 +443,13 @@ const esTranslations = {
     weather: "¿Cómo será el clima en Medellín en enero?",
     weatherAnswer: "Medellín en enero es típicamente cálido y agradable, con temperaturas promedio entre 17°C y 28°C. Las noches pueden ser un poco más frescas pero aún cómodas. Recomendamos traer ropa ligera y transpirable para actividades diurnas, y quizás una chaqueta ligera o un chal para las noches.",
     transportation: "¿Cuáles son las opciones de transporte en Medellín?",
-    transportationAnswer: "Medellín tiene un excelente sistema de transporte público que incluye metro, autobuses y teleféricos. El metro es limpio, seguro y eficiente. Los taxis están fácilmente disponibles en toda la ciudad, y los servicios de transporte compartido como Uber y Didi también operan en Medellín. Desde el aeropuerto, puedes llegar al centro de la ciudad en taxi (aproximadamente 80.000 COP), autobús del aeropuerto (aproximadamente 10.000 COP) o traslado privado.",
+    transportationAnswer: "Consulte la sección Viaje para más información.",
     indoorsOutdoors: "¿La boda será en interiores o exteriores?",
-    indoorsOutdoorsAnswer: "La ceremonia se llevará a cabo al aire libre en el hermoso jardín de Fábula Bodas & Eventos, mientras que la recepción, cena y fiesta se realizarán en interiores en el elegante salón de baile. Ambos espacios tienen control de temperatura para tu comodidad.",
-    parking: "Есть ли парковка на месте проведения?",
+    indoorsOutdoorsAnswer: "La ceremonia y la recepción tendrán lugar al aire libre en el precioso jardín de Fábula Bodas & Eventos, mientras que la cena y la fiesta se celebrarán en el interior, en el elegante salón con unas vistas impresionantes de las montañas.",
+    parking: "¿Hay aparcamiento en el lugar de evento?",
     parkingAnswer: "Sí, hay amplio estacionamiento disponible en Fábula Bodas & Eventos. El lugar tiene un área de estacionamiento segura para los invitados.",
-    vaccination: "Есть ли требования по вакцинации для поездки в Колумбию?",
-    vaccinationAnswer: "Хотя нет конкретных требований по вакцинации для въезда в Колумбию, мы рекомендуем проконсультироваться с вашим врачом о рекомендуемых прививках. Также рекомендуется быть в курсе плановых прививок, таких как корь-паротит-краснуха (КПК), дифтерия-столбняк-коклюш, ветряная оспа, полиомиелит и ваша ежегодная прививка от гриппа.",
+    vaccination: "¿Hay requisitos de vacunación para viajar a Colombia?",
+    vaccinationAnswer: "Aunque no existen requisitos específicos de vacunación para entrar en Colombia, le recomendamos que consulte con su proveedor de atención sanitaria las vacunas recomendadas. También es aconsejable estar al día con las vacunas rutinarias como la del sarampión-paperas-rubéola (MMR), difteria-tétanos-tos ferina, polio. Además, se recomienda vacunarse contra la fiebre amarilla y la hepatitis A. Según el Centro de Medicina Tropical, la vacuna de la fiebre amarilla se recomienda a todos los viajeros de ≥ 9 meses, excepto si viajan a zonas del país por encima de los 2.300 m, como Bogotá, o si viajan a los departamentos de San Andrés y Providencia, Barranquilla, Cali, Cartagena o Medellín.",
   },
 }
 
@@ -514,12 +552,17 @@ const ruTranslations = {
     gettingHere: "Как Добраться",
     travelAccommodations: "Путешествие и Проживание",
     travelIntro: "Информация, которая поможет вам спланировать поездку в Медельин на нашу свадьбу.",
+    travelIntro2: "Важно: мы будем в Медельине до 12 февраля 2026 года.",
     transportation: "Транспорт",
     gettingToMedellin: "Как Добраться до Медельина",
     byAir: "Самолетом",
     byAirInfo1:
       "Международный аэропорт Хосе Мария Кордова (MDE) - главный международный аэропорт, обслуживающий Медельин. Он расположен примерно в 45 минутах от центра города.",
     byAirInfo2: "Прямые рейсы доступны из многих крупных городов мира. Мы рекомендуем бронировать билеты заранее.",
+    europeRoutes:
+      `Основные маршруты из Европы в Медельин (MDE):\n\nМадрид (MAD) – прямой рейс с Avianca или Iberia, ~10 ч.\n\nБарселона (BCN) – 1 пересадка (BOG или MAD) с Avianca, ~14–16 ч.\n\nПариж (CDG) – 1 пересадка (BOG или MAD) с Air France или Avianca, ~14–16 ч.\n\nФранкфурт (FRA) – 1 пересадка (MAD, BOG или PTY) с Lufthansa/Iberia, ~14–16 ч.\n\nАмстердам (AMS) – 1 пересадка (PTY или BOG) с KLM, Copa или Avianca, ~15–17 ч.\n\nЛондон (LHR) – 1 пересадка (MAD, BOG или MIA) с British Airways/Avianca, ~14–17 ч.`,
+    europePriceInfo:
+      "Стоимость авиабилета туда-обратно на одного человека может варьироваться от 700 € до 1200 € в зависимости от дат и текущего спроса. По нашему опыту, самые дешевые рейсы — в середине недели.",
     airportTransfer: "Трансфер из Аэропорта",
     airportTransferInfo: "Из аэропорта вы можете добраться до центра города на:",
     taxi: "Такси (примерно 80 000 COP)",
@@ -553,10 +596,24 @@ const ruTranslations = {
       "Медельин в январе обычно теплый и приятный, со средними температурами от 17°C до 28°C (63°F to 82°F). Вечера могут быть немного прохладнее, но все равно комфортными.",
     weatherInfo2:
       "Мы рекомендуем взять легкую, дышащую одежду для дневных мероприятий и, возможно, легкую куртку или накидку для вечеров. Не забудьте солнцезащитный крем, солнцезащитные очки и удобную обувь для прогулок по городу!",
+    taxi120: "Такси (примерно 120 000 COP)",
+    busSanDiego: "Автобус из аэропорта до Сан-Диего (примерно 15 000 COP)",
+    gettingAroundFull: `В Медельине действует эффективная система общественного транспорта, включающая метро, автобусы и канатные дороги. Для пользования метро потребуется карта Cívica, которую можно пополнить на любую сумму (рекомендуем начать с 15 000 COP на человека).
+Для быстрого и комфортного передвижения отличным вариантом является Uber. Если предпочитаете такси, рекомендуем приложение Flota Bernal — это безопасно и удобно. Для спокойствия избегайте ловить такси на улице.`,
+    albergueDescription: "Это дом бабушки и дедушки Наталии, бесплатно для гостей, кроме питания и уборки. Можно организовать завтрак и питание. Находится рядом с аэропортом (15 мин) и за пределами города (30 мин). Забронирован для гостей свадьбы с 26.01.2026 по 08.02.2026.",
+    viewOnAirbnb: "Посмотреть на Airbnb",
+    albergueDescriptionList: [
+      "Это был дом бабушки и дедушки Наталии.",
+      "7 спален, примерно 25–30 человек.",
+      "Забронирован для гостей свадьбы с 26.01.2026 по 08.02.2026.",
+      "Бесплатно для гостей, кроме питания и уборки.",
+      "Можно организовать завтрак и питание.",
+      "Рядом с аэропортом (15 мин), за пределами города (30 мин)."
+    ],
   },
   registry: {
     giftRegistry: "Список Подарков",
-    registryIntro: "Ваше присутствие на нашей свадьбе - лучший подарок. Однако, если вы хотите почтить нас подарком, мы создали списки, чтобы облегчить вам выбор.",
+    registryIntro: "Ваше присутствие на нашей свадьбе - лучший подарок. Однако, если вы хотите почтить нас подарком, мы создали список желаний, чтобы облегчить вам выбор.",
     amazonWishlist: "Список Желаний Amazon",
     amazonWishlistInfo: "Просмотрите и выберите из нашей подборки товаров на Amazon.",
     viewWishlist: "Посмотреть Список",
@@ -577,7 +634,7 @@ const ruTranslations = {
   rsvp: {
     joinUs: "Присоединяйтесь к Нам",
     rsvpByDate:
-      "Пожалуйста, ответьте до 31 декабря 2024 года, чтобы сообщить нам, присоединитесь ли вы к нам в наш особенный день.",
+      "Пожалуйста, ответьте до 30 ноября 2025 года, чтобы сообщить нам, присоединитесь ли вы к нам в наш особенный день.",
     fullName: "Полное Имя",
     emailAddress: "Электронная Почта",
     willAttend: "Вы будете присутствовать?",
@@ -612,13 +669,13 @@ const ruTranslations = {
     weather: "Какая будет погода в Медельине в январе?",
     weatherAnswer: "Медельин в январе обычно теплый и приятный, со средними температурами от 17°C до 28°C. Вечера могут быть немного прохладнее, но все равно комфортными. Мы рекомендуем взять легкую, дышащую одежду для дневных мероприятий и, возможно, легкую куртку или накидку для вечеров.",
     transportation: "Какие есть варианты транспорта в Медельине?",
-    transportationAnswer: "Медельин имеет отличную систему общественного транспорта, включая метро, автобусы и канатные дороги. Метро чистое, безопасное и эффективное. Такси легко доступны по всему городу, а сервисы совместных поездок, такие как Uber и Didi, также работают в Медельине. Из аэропорта вы можете добраться до центра города на такси (примерно 80 000 COP), автобусе из аэропорта (примерно 10 000 COP) или частном трансфере.",
+    transportationAnswer: "Смотри раздел Путешествие",
     indoorsOutdoors: "Свадьба будет в помещении или на улице?",
-    indoorsOutdoorsAnswer: "Церемония пройдет на открытом воздухе в прекрасном саду Fábula Bodas & Eventos, а прием, ужин и вечеринка будут проходить в помещении в элегантном бальном зале. Оба пространства имеют климат-контроль для вашего комфорта.",
+    indoorsOutdoorsAnswer: "Церемония и прием пройдут на открытом воздухе в прекрасном саду Fábula Bodas & Eventos, а ужин и вечеринка - в элегантном зале с удивительным видом на горы.",
     parking: "Есть ли парковка на месте проведения?",
     parkingAnswer: "Да, на территории Fábula Bodas & Eventos есть достаточное количество парковочных мест. У места проведения есть безопасная парковочная зона для гостей.",
     vaccination: "Есть ли требования по вакцинации для поездки в Колумбию?",
-    vaccinationAnswer: "Хотя нет конкретных требований по вакцинации для въезда в Колумбию, мы рекомендуем проконсультироваться с вашим врачом о рекомендуемых прививках. Также рекомендуется быть в курсе плановых прививок, таких как корь-паротит-краснуха (КПК), дифтерия-столбняк-коклюш, ветряная оспа, полиомиелит и ваша ежегодная прививка от гриппа.",
+    vaccinationAnswer: "Хотя особых требований к прививкам для въезда в Колумбию нет, мы рекомендуем проконсультироваться с вашим лечащим врачом о рекомендуемых прививках. Также желательно иметь актуальные прививки от таких заболеваний, как корь-свинка-краснуха (MMR), дифтерия-столбняк-коклюш, полиомиелит. Кроме того, рекомендуется привиться от желтой лихорадки и гепатита А. По данным Центра тропической медицины, прививка от желтой лихорадки рекомендуется всем путешественникам в возрасте ≥ 9 месяцев, за исключением тех, кто едет в части страны, расположенные выше 2300 м, например, в Боготу, или в департаменты Сан-Андрес и Провиденсия, в Барранкилью, Кали, Картахену или Медельин.",
   },
 }
 
@@ -720,6 +777,7 @@ const deTranslations = {
     gettingHere: "Anreise",
     travelAccommodations: "Anreise & Unterkünfte",
     travelIntro: "Informationen, die Ihnen bei der Planung Ihrer Reise nach Medellín für unsere Hochzeit helfen.",
+    travelIntro2: "Wichtig: Wir bleiben bis zum 12. Februar 2026 in Medellín.",
     transportation: "Transport",
     gettingToMedellin: "Nach Medellín kommen",
     byAir: "Mit dem Flugzeug",
@@ -727,6 +785,10 @@ const deTranslations = {
       "Der internationale Flughafen José María Córdova (MDE) ist der Hauptflughafen von Medellín. Er liegt etwa 45 Minuten vom Stadtzentrum entfernt.",
     byAirInfo2:
       "Direktflüge sind von vielen großen Städten weltweit verfügbar. Wir empfehlen, Ihre Flüge frühzeitig zu buchen.",
+    europeRoutes:
+      `Hauptverbindungen von Europa nach Medellín (MDE):\n\nMadrid (MAD) – Direkt mit Avianca oder Iberia, ~10 Std.\n\nBarcelona (BCN) – 1 Stopp (BOG oder MAD) mit Avianca, ~14–16 Std.\n\nParis (CDG) – 1 Stopp (BOG oder MAD) mit Air France oder Avianca, ~14–16 Std.\n\nFrankfurt (FRA) – 1 Stopp (MAD, BOG oder PTY) mit Lufthansa/Iberia, ~14–16 Std.\n\nAmsterdam (AMS) – 1 Stopp (PTY oder BOG) mit KLM, Copa oder Avianca, ~15–17 Std.\n\nLondon (LHR) – 1 Stopp (MAD, BOG oder MIA) mit British Airways/Avianca, ~14–17 Std.`,
+    europePriceInfo:
+      "Der Preis für einen Hin- und Rückflug pro Person kann je nach Datum und aktueller Nachfrage zwischen 700 € und 1200 € liegen. Nach unserer Erfahrung sind die günstigsten Flüge meist unter der Woche.",
     airportTransfer: "Flughafentransfer",
     airportTransferInfo: "Vom Flughafen erreichen Sie das Stadtzentrum mit:",
     taxi: "Taxi (ca. 80.000 COP)",
@@ -760,10 +822,24 @@ const deTranslations = {
       "Medellín ist im Januar typischerweise warm und angenehm, mit Durchschnittstemperaturen zwischen 17°C und 28°C. Die Abende können etwas kühler, aber immer noch angenehm sein.",
     weatherInfo2:
       "Wir empfehlen leichte, atmungsaktive Kleidung für Tagesaktivitäten und eventuell eine leichte Jacke oder einen Schal für die Abende. Vergessen Sie nicht Sonnencreme, Sonnenbrille und bequeme Wanderschuhe zum Erkunden der Stadt!",
+    taxi120: "Taxi (ca. 120.000 COP)",
+    busSanDiego: "Flughafenbus nach San Diego (ca. 15.000 COP)",
+    gettingAroundFull: `Medellín verfügt über ein effizientes öffentliches Verkehrssystem mit Metro, Bussen und Seilbahnen. Für die Nutzung der Metro benötigen Sie eine Cívica-Karte, die Sie mit einem beliebigen Betrag aufladen können (wir empfehlen, mit 15.000 COP pro Person zu beginnen).
+Für schnelle und bequeme Fahrten ist Uber eine ausgezeichnete Option. Wenn Sie lieber ein Taxi nehmen, empfehlen wir die App Flota Bernal, die sicher und einfach zu bedienen ist. Um auf der sicheren Seite zu sein, vermeiden Sie es, Taxis direkt auf der Straße anzuhalten.`,
+    albergueDescription: "Das ist das Haus von Natalias Großeltern, kostenlos für Gäste außer für Essen und Reinigung. Frühstück und Mahlzeiten können organisiert werden. Es liegt in der Nähe des Flughafens (15 Min.) und außerhalb der Stadt (30 Min.). Für Hochzeitsgäste reserviert vom 26.01.2026 bis 08.02.2026.",
+    viewOnAirbnb: "Auf Airbnb ansehen",
+    albergueDescriptionList: [
+      "Das war das Haus von Natalias Großeltern.",
+      "7 Schlafzimmer, max. 25–30 Personen.",
+      "Für Hochzeitsgäste reserviert vom 26.01.2026 bis 08.02.2026.",
+      "Kostenlos für Gäste außer für Essen und Reinigung.",
+      "Frühstück und Mahlzeiten können organisiert werden.",
+      "In der Nähe des Flughafens (15 Min), außerhalb der Stadt (30 Min).",
+    ],
   },
   registry: {
     giftRegistry: "Geschenkeliste",
-    registryIntro: "Eure Anwesenheit bei unserer Hochzeit ist das größte Geschenk. Falls ihr uns dennoch mit einem Geschenk ehren möchtet, haben wir Listen erstellt, um es euch leichter zu machen.",
+    registryIntro: "Eure Anwesenheit bei unserer Hochzeit ist das größte Geschenk. Falls ihr uns dennoch mit einem Geschenk ehren möchtet, haben wir eine Wunschliste erstellt, um es euch leichter zu machen.",
     amazonWishlist: "Amazon Wunschliste",
     amazonWishlistInfo: "Durchstöbere und wähle aus unserer kuratierten Liste von Artikeln bei Amazon.",
     viewWishlist: "Wunschliste ansehen",
@@ -783,7 +859,7 @@ const deTranslations = {
   },
   rsvp: {
     joinUs: "Seien Sie dabei",
-    rsvpByDate: "Bitte antworten Sie bis zum 31. Dezember 2024, ob Sie an unserem besonderen Tag dabei sein werden.",
+    rsvpByDate: "Bitte antworten Sie bis zum 30. November 2025, ob Sie an unserem besonderen Tag dabei sein werden.",
     fullName: "Vollständiger Name",
     emailAddress: "E-Mail-Adresse",
     willAttend: "Werden Sie teilnehmen?",
@@ -824,7 +900,7 @@ const deTranslations = {
     parking: "Gibt es Parkplätze am Veranstaltungsort?",
     parkingAnswer: "Ja, es gibt ausreichend Parkplätze auf dem Gelände von Fábula Bodas & Eventos. Der Veranstaltungsort verfügt über einen sicheren Parkbereich für Gäste.",
     vaccination: "Gibt es Impfanforderungen für die Einreise nach Kolumbien?",
-    vaccinationAnswer: "Während es keine spezifischen Impfanforderungen für die Einreise nach Kolumbien gibt, empfehlen wir, sich bei Ihrem Gesundheitsdienstleister über empfohlene Impfungen zu informieren. Es ist auch ratsam, die Routineimpfungen wie Masern-Mumps-Röteln (MMR), Diphtherie-Tetanus-Pertussis, Windpocken, Polio und Ihre jährliche Grippeimpfung auf dem neuesten Stand zu halten.",
+    vaccinationAnswer: "Für die Einreise nach Kolumbien gibt es zwar keine spezifischen Impfvorschriften, aber wir empfehlen Ihnen, sich bei Ihrem Arzt über die empfohlenen Impfungen zu informieren. Es ist auch ratsam, die Routineimpfungen wie Masern-Mumps-Röteln (MMR), Diphtherie-Tetanus-Pertussis und Polio aufzufrischen. Daneben werden auch Gelbfieber und Hepatitis A empfohlen. Nach Angaben des Zentrums für Tropenmedizin wird die Gelbfieberimpfung für alle Reisenden im Alter von ≥ 9 Monaten empfohlen, außer bei Reisen in Landesteile oberhalb von 2.300 m, wie Bogotá, oder bei Reisen in die Departements San Andrès und Providencia, nach Barranquilla, Cali, Cartagena oder Medellín.",
   },
 }
 
