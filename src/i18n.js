@@ -29,7 +29,7 @@ const enTranslations = {
     memories: "Memories",
     ourJourney: "Our Journey Together",
     willYouJoin: "Will You Be Joining Us?",
-    hopeJoin: "We hope you can join us on our special day. Please RSVP by November 31, 2025.",
+    hopeJoin: "We hope you can join us on our special day. Please RSVP by November 30, 2025.",
     countdown: {
       days: "Days",
       hours: "Hours",
@@ -111,6 +111,7 @@ const enTranslations = {
     travelAccommodations: "Travel & Accommodations",
     travelIntro: "Information to help you plan your trip to Medellin for our wedding.",
     travelIntro2: "Important: We will be staying in Medellín until February 12, 2026.",
+    travelIntro3: "We recommend arriving at least two days before the wedding, so you will have time to acclimatize, rest from the trip and live the big day with all the energy (and without jet lag!).",
     transportation: "Transportation",
     gettingToMedellin: "Getting to Medellin",
     byAir: "By Air",
@@ -289,7 +290,7 @@ const esTranslations = {
     ourJourney: "Nuestro Viaje Juntos",
     willYouJoin: "¿Listo para celebrar ese dia con nosotros?",
     hopeJoin:
-      "Por favor, confirma tu asistencia antes del 31 de noviembre de 2025. Tu presencia será el mejor regalo.",
+      "Por favor, confirma tu asistencia antes del 30 de noviembre de 2025. Tu presencia será el mejor regalo.",
     countdown: {
       days: "Días",
       hours: "Horas",
@@ -631,6 +632,7 @@ const ruTranslations = {
     travelAccommodations: "Путешествие и Проживание",
     travelIntro: "Информация, которая поможет вам спланировать поездку в Медельин на нашу свадьбу.",
     travelIntro2: "Важно: мы будем в Медельине до 12 февраля 2026 года.",
+    travelIntro3: "Мы рекомендуем приехать как минимум за два дня до свадьбы, чтобы у вас было время акклиматизироваться, отдохнуть от путешествия и встретить важный день с полной энергией (и без смены часовых поясов!).",
     transportation: "Транспорт",
     gettingToMedellin: "Как Добраться до Медельина",
     byAir: "Самолетом",
@@ -887,6 +889,7 @@ const deTranslations = {
     travelAccommodations: "Anreise & Unterkünfte",
     travelIntro: "Informationen, die Ihnen bei der Planung Ihrer Reise nach Medellín für unsere Hochzeit helfen.",
     travelIntro2: "Wichtig: Wir bleiben bis zum 12. Februar 2026 in Medellín.",
+    travelIntro3: "Wir empfehlen, mindestens zwei Tage vor der Hochzeit anzureisen, damit Sie Zeit haben, sich zu akklimatisieren, sich von Ihrer Reise zu erholen und den großen Tag mit voller Energie (und ohne Jetlag!) zu erleben.",
     transportation: "Transport",
     gettingToMedellin: "Nach Medellín kommen",
     byAir: "Mit dem Flugzeug",
