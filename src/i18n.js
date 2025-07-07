@@ -20,7 +20,7 @@ const enTranslations = {
     welcome: "Welcome",
     gettingMarried: "We're Getting Married",
     welcomeText:
-      "We are so excited to celebrate our special day with our family and friends. We've created this website to help you navigate all the details of our wedding weekend. We can't wait to share this moment with you!",
+      "And we couldn't imagine this day without you. After so many laughs, adventures, goodbyes and reunions, we're ready to take the next step and say I do. We created this website to help you find all the information you need to join us for this very special weekend.",
     joinUs: "Join Us",
     weddingDetails: "Wedding Details",
     ceremony: "Ceremony",
@@ -94,6 +94,17 @@ const enTranslations = {
     hopeJoin: "We hope you can celebrate with us on our special day. Please RSVP by November 30, 2025.",
     scheduleTimelinePlaceholder: "To be continued...",
     comingSoon: "We are working on this section. Please check back soon for the full schedule of our special day!",
+    // Additional Events Section
+    additionalEventsItinerary: "Itinerary",
+    additionalEventsMagic: "The magic in every moment",
+    additionalEventsIntro: "We are finalizing all the details of the final itinerary, so... stay tuned so you don't miss any surprises or plans.",
+    getTogetherTitle: "Get Together – The day before",
+    getTogetherDesc: "We are planning a simple gathering with drinks, good music, and a great opportunity for everyone to meet and connect before the big day.",
+    bbqTitle: "After Party BBQ",
+    bbqDesc: "Because nothing cures a hangover better than good food, good music, and good company. The day after the wedding, we'll have a relaxed BBQ at El Albergue, just to enjoy, relive the best moments of the party, and keep celebrating together.",
+    guatapeTitle: "Guatapé & El Peñol Getaway",
+    guatapeDesc: "We want you to discover with us one of the most colorful and traditional towns in the region. We'll climb the impressive Piedra del Peñol for a 360° panoramic view. We'll spend the night at 'La Casa de las Aguas', a magical place by the water, and the next day you'll enjoy a water activity we're still planning.",
+    casaAguasBtn: "Casa de las Aguas on Airbnb",
   },
   travel: {
     gettingHere: "Getting Here",
@@ -174,6 +185,12 @@ For quick and comfortable travel, Uber is an excellent option. If you prefer tax
     shoppingTesoro: "El Tesoro Shopping Park",
     shoppingSantaFe: "Santa Fe Mall",
     shoppingMercado: "Mercado del Rio - Food market",
+    recommendedAreasTitle: "Recommended Areas for Staying",
+    barrioManilaTitle: "Barrio Manila",
+    barrioManilaDesc: "Cozy, full of cafes with charm, restaurants and quiet streets. Perfect for those seeking a relaxed atmosphere but with everything nearby.",
+    barrioPobladoTitle: "Barrio El Poblado",
+    barrioPobladoDesc: "Safe, vibrant, modern and with a wide variety of hotels, bars and shops. It's the most popular area for visitors and very well connected.",
+    alternativeAccommodationsTitle: "Alternative Accommodations:",
   },
   registry: {
     giftRegistry: "Gift Registry",
@@ -262,7 +279,7 @@ const esTranslations = {
     welcome: "Bienvenidos",
     gettingMarried: "¡Nos Casamos!",
     welcomeText:
-      "Estamos muy emocionados de celebrar nuestro día especial con nuestra familia y amigos. Hemos creado este sitio web para ayudarte a navegar por todos los detalles de nuestro fin de semana de boda. ¡Estamos ansiosos por compartir este momento contigo!",
+      "Y no podríamos imaginar este día sin ustedes.Después de tantas risas, aventuras, despedidas y reencuentros, estamos listos para dar un paso más y decir sí, quiero. Hemos creado esta pagina web donde encontrarás toda la información que necesitas para acompañarnos durante este fin de semana tan especial. Es una invitación a ser parte de este capítulo que tanto soñamos escribir rodeados de quienes más queremos.",
     joinUs: "Únete a Nosotros",
     weddingDetails: "Detalles de la Boda",
     ceremony: "Ceremonia",
@@ -270,9 +287,9 @@ const esTranslations = {
     accommodations: "Alojamiento",
     memories: "Recuerdos",
     ourJourney: "Nuestro Viaje Juntos",
-    willYouJoin: "¿Nos Acompañarás?",
+    willYouJoin: "¿Listo para celebrar ese dia con nosotros?",
     hopeJoin:
-      "Esperamos que puedas acompañarnos en nuestro día especial. Por favor confirma tu asistencia antes del 31 de noviembre de 2025.",
+      "Por favor, confirma tu asistencia antes del 31 de noviembre de 2025. Tu presencia será el mejor regalo.",
     countdown: {
       days: "Días",
       hours: "Horas",
@@ -332,17 +349,29 @@ const esTranslations = {
     location: "Ubicación",
     venueMap: "Mapa del Lugar",
     openInMaps: "Abrir en Google Maps",
-    readyToJoin: "¿Listo para Unirte a Nosotros?",
+    readyToJoin: "¿Listo para celebrar ese dia con nosotros?",
     hopeJoin:
       "Esperamos que puedas celebrar con nosotros en nuestro día especial. Por favor confirma tu asistencia antes del 30 de noviembre de 2025.",
     scheduleTimelinePlaceholder: "Próximamente...",
     comingSoon: "Estamos trabajando en esta sección. ¡Vuelve pronto para ver el programa completo de nuestro gran día!",
+    // Additional Events Section
+    additionalEventsItinerary: "Eventos",
+    additionalEventsMagic: "La magia en cada momento",
+    additionalEventsIntro: "Estamos ultimando todos los detalles del itinerario final, así que… stay tuned para no perderte ninguna sorpresa ni plan.",
+    getTogetherTitle: "Get Together – La previa al gran día",
+    getTogetherDesc: "Estamos planeando un encuentro sencillo, con unas copas, buena música y una buena oportunidad para que todos puedan conocerse y compartir antes del gran día.",
+    bbqTitle: "After Party BBQ",
+    bbqDesc: "Porque nada cura mejor el guayabo (o resaca) que buena comida, buena música y buena compañía. El día después de la boda haremos un BBQ relajado en la finca El Albergue, solo para disfrutar sin pretensiones, revivir los mejores momentos de la fiesta y seguir celebrando juntos.",
+    guatapeTitle: "Escapada a Guatapé & El Peñol",
+    guatapeDesc: "Queremos que descubras con nosotros uno de los pueblos más coloridos y tradicionales de la región. Subiremos la imponente Piedra del Peñol, desde donde podrás ver la represa desde una vista panorámica de 360°. Pasaremos la noche en la finca 'La Casa de las Aguas', un lugar mágico frente al agua, y al día siguiente te espera un plan acuático que aún estamos definiendo.",
+    casaAguasBtn: "Casa de las Aguas en Airbnb",
   },
   travel: {
     gettingHere: "Cómo Llegar",
     travelAccommodations: "Viaje y Alojamiento",
     travelIntro: "Guía para que llegues sin preocupaciones y disfrutes cada instante con nosotros.",
     travelIntro2: "Importante: nosotros nos quedamos en Medellín hasta el 12 de febrero de 2026.",
+    travelIntro3: "Te recomendamos llegar al menos dos días antes de la boda, así tendrás tiempo para aclimatarte, descansar del viaje y vivir el gran día con toda la energía (¡y sin jet lag!).",
     transportation: "Transporte",
     gettingToMedellin: "Cómo Llegar a Medellín",
     byAir: "Por Aire",
@@ -417,6 +446,12 @@ Para moverte de forma rápida y cómoda, Uber es una excelente opción. Si prefi
     shoppingTesoro: "Centro Comercial El Tesoro",
     shoppingSantaFe: "Centro Comercial Santa Fe",
     shoppingMercado: "Mercado del Río - Mercado gastronómico",
+    recommendedAreasTitle: "Alternativas para hospedarte en Medellin",
+    barrioManilaTitle: "Barrio Manila",
+    barrioManilaDesc: "Acogedor, lleno de cafés con encanto, restaurantes y calles tranquilas. Perfecto para quienes buscan un ambiente relajado pero con todo cerca.",
+    barrioPobladoTitle: "Barrio El Poblado",
+    barrioPobladoDesc: "Seguro, vibrante, moderno y con una amplia variedad de hoteles, bares y tiendas. Es la zona más popular para visitantes y muy bien conectada.",
+    alternativeAccommodationsTitle: "Alojamientos Alternativos:",
   },
   registry: {
     giftRegistry: "Lista de Regalos",
@@ -481,7 +516,7 @@ Para moverte de forma rápida y cómoda, Uber es una excelente opción. Si prefi
     parking: "¿Hay aparcamiento en el lugar de evento?",
     parkingAnswer: "Sí, hay amplio estacionamiento disponible en Fábula Bodas & Eventos. El lugar tiene un área de estacionamiento segura para los invitados.",
     vaccination: "¿Hay requisitos de vacunación para viajar a Colombia?",
-    vaccinationAnswer: "Aunque no existen requisitos específicos de vacunación para entrar en Colombia, le recomendamos que consulte con su proveedor de atención sanitaria las vacunas recomendadas. También es aconsejable estar al día con las vacunas rutinarias como la del sarampión-paperas-rubéola (MMR), difteria-tétanos-tos ferina, polio. Además, se recomienda vacunarse contra la fiebre amarilla y la hepatitis A. Según el Centro de Medicina Tropical, la vacuna de la fiebre amarilla se recomienda a todos los viajeros de ≥ 9 meses, excepto si viajan a zonas del país por encima de los 2.300 m, como Bogotá, o si viajan a los departamentos de San Andrés y Providencia, Barranquilla, Cali, Cartagena o Medellín.",
+    vaccinationAnswer: "Aunque no existen requisitos específicos de vacunación para entrar en Colombia, le recomendamos que consulte con su proveedor de atención sanitaria las vacunas recomendadas. También es aconsejable estar al día con las vacunas rutinarias como la del sarampión-paperas-rubéola (MMR), difteria-tétanos-tos ferina, polio. Además, se recomienda vacunarse contra la fiebre amarilla y la hepatitis A. Según el Centro de Medicina Tropical, la vacuna de la fiebre amarilla se recomienda a todos los viajeros de ≥ 9 meses, excepto si viajan a zonas del país por encima de los 2.300 m, como Bogotá, o si viajan a los departamentos de San Andrés y Providencia, en Barranquilla, Cali, Cartagena o Medellín.",
   },
 }
 
@@ -504,7 +539,7 @@ const ruTranslations = {
     welcome: "Добро пожаловать",
     gettingMarried: "Мы Женимся!",
     welcomeText:
-      "Мы очень рады отпраздновать наш особенный день с нашей семьей и друзьями. Мы создали этот сайт, чтобы помочь вам разобраться во всех деталях нашего свадебного уикенда. Мы с нетерпением ждем возможности разделить этот момент с вами!",
+      "И мы не можем представить этот день без вас. После стольких улыбок, приключений, расставаний и встреч мы готовы сделать следующий шаг и сказать да, согласен/согласна. Мы создали этот сайт, чтобы вы могли найти всю необходимую информацию и быть рядом с нами в эти особенные выходные. Это приглашение стать частью главы, которую мы всегда мечтали написать — в окружении тех, кого любим больше всего.",
     joinUs: "Присоединяйтесь к нам",
     weddingDetails: "Детали Свадьбы",
     ceremony: "Церемония",
@@ -559,7 +594,7 @@ const ruTranslations = {
     theBigDay: "Большой День",
     ceremony: "Церемония",
     reception: "Прием",
-    itinerary: "Маршрут",
+    itinerary: "Детали",
     weddingDaySchedule: "Расписание Свадебного Дня",
     information: "Информация",
     whatToKnow: "Что Нужно Знать",
@@ -579,6 +614,17 @@ const ruTranslations = {
       "Мы надеемся, что вы сможете отпраздновать с нами наш особенный день. Пожалуйста, подтвердите свое присутствие до 30 ноября 2025 года.",
     scheduleTimelinePlaceholder: "Продолжение следует...",
     comingSoon: "Мы работаем над этим разделом. Пожалуйста, загляните позже, чтобы увидеть полное расписание нашего особенного дня!",
+    // Additional Events Section
+    additionalEventsItinerary: "Мероприятия",
+    additionalEventsMagic: "Магия в каждом моменте",
+    additionalEventsIntro: "Мы дорабатываем все детали финального маршрута, так что... следите за обновлениями, чтобы не пропустить ни одного сюрприза или плана.",
+    getTogetherTitle: "Get Together – Вечер перед большим днем",
+    getTogetherDesc: "Мы планируем простую встречу с напитками, хорошей музыкой и отличной возможностью всем познакомиться и пообщаться перед большим днем.",
+    bbqTitle: "After Party BBQ",
+    bbqDesc: "Ничто не лечит похмелье лучше, чем вкусная еда, хорошая музыка и отличная компания. На следующий день после свадьбы мы устроим расслабленный BBQ на ферме El Albergue, чтобы просто насладиться, вспомнить лучшие моменты праздника и продолжить отмечать вместе.",
+    guatapeTitle: "Поездка в Гуатапе и Эль-Пеньоль",
+    guatapeDesc: "Мы хотим, чтобы вы открыли для себя один из самых красочных и традиционных городков региона. Мы поднимемся на впечатляющую скалу Эль-Пеньоль с панорамным видом на 360°. Ночь проведем на ферме 'La Casa de las Aguas', волшебном месте у воды, а на следующий день вас ждет водная активность, которую мы еще планируем.",
+    casaAguasBtn: "Casa de las Aguas на Airbnb",
   },
   travel: {
     gettingHere: "Как Добраться",
@@ -658,6 +704,12 @@ const ruTranslations = {
     shoppingTesoro: "Торговый центр El Tesoro",
     shoppingSantaFe: "Торговый центр Santa Fe",
     shoppingMercado: "Mercado del Rio - Гастрономический рынок",
+    recommendedAreasTitle: "Альтернативные опции для проживания в Медельине",
+    barrioManilaTitle: "Barrio Manila",
+    barrioManilaDesc: "Комфортный, полон кафе с очарованием, ресторанами и тихими улицами. Идеально для тех, кто ищет умиротворенное, но с доступом ко всему.",
+    barrioPobladoTitle: "Barrio El Poblado",
+    barrioPobladoDesc: "Безопасный, жизнерадостный, современный и с большим разнообразием отелей, баров и магазинов. Это самый популярный район для туристов и с хорошей транспортной доступностью.",
+    alternativeAccommodationsTitle: "Альтернативные варианты проживания:",
   },
   registry: {
     giftRegistry: "Список Подарков",
@@ -705,8 +757,7 @@ const ruTranslations = {
     sorryMessage: "Нам жаль, что вы не сможете присоединиться к нам, но мы ценим ваш ответ.",
     lookForward: "Мы с нетерпением ждем встречи с вами 31 января 2026 года!",
     questions: "Вопросы?",
-    questionsInfo:
-      "Если у вас есть какие-либо вопросы о свадьбе или вам нужна помощь с вашим RSVP, пожалуйста, не стесняйтесь обращаться к нам.",
+    questionsInfo: "Если у вас есть какие-либо вопросы о свадьбе или вам нужна помощь с вашим RSVP, пожалуйста, не стесняйтесь обращаться к нам.",
     email: "Электронная почта:",
   },
   faq: {
@@ -744,9 +795,9 @@ const deTranslations = {
   },
   home: {
     welcome: "Willkommen",
-    gettingMarried: "Wir heiraten",
+    gettingMarried: "Wir sagen Ja !",
     welcomeText:
-      "Wir freuen uns sehr darauf, unseren besonderen Tag mit unserer Familie und Freunden zu feiern. Wir haben diese Website erstellt, um Ihnen bei der Navigation durch alle Details unseres Hochzeitswochenendes zu helfen. Wir können es kaum erwarten, diesen Moment mit Ihnen zu teilen!",
+      "Und wir könnten uns diesen Tag ohne euch nicht vorstellen. Nach so vielen gemeinsamen Lachern, Abenteuern, Abschieden und Wiedersehen sind wir bereit, den nächsten Schritt zu gehen und Ja zu sagen. Auf dieser Webseite findet ihr alle wichtigen Infos für unser Hochzeitswochenende, damit ihr diesen besonderen Moment mit uns teilen könnt.",
     joinUs: "Seien Sie dabei",
     weddingDetails: "Hochzeitsdetails",
     ceremony: "Trauung",
@@ -754,7 +805,7 @@ const deTranslations = {
     accommodations: "Unterkünfte",
     memories: "Erinnerungen",
     ourJourney: "Unsere gemeinsame Reise",
-    willYouJoin: "Werden Sie dabei sein?",
+    willYouJoin: "Feierst du unsere Liebe mit uns?",
     hopeJoin: "Wir hoffen, Sie können an unserem besonderen Tag dabei sein. Bitte geben Sie bis zum 30. November 2025 Bescheid.",
     countdown: {
       days: "Tage",
@@ -820,6 +871,16 @@ const deTranslations = {
     hopeJoin: "Wir hoffen, Sie können mit uns an unserem besonderen Tag feiern. Bitte geben Sie bis zum 30. November 2025 Bescheid.",
     scheduleTimelinePlaceholder: "Fortsetzung folgt...",
     comingSoon: "Wir arbeiten an diesem Abschnitt. Schauen Sie bald wieder vorbei, um den vollständigen Zeitplan für unseren besonderen Tag zu sehen!",
+    additionalEventsItinerary: "Events",
+    additionalEventsMagic: "Magie in jedem Moment",
+    additionalEventsIntro: "Wir finalisieren gerade alle Details des endgültigen Ablaufs, also... bleib dran, damit du keine Überraschung oder keinen Plan verpasst.",
+    getTogetherTitle: "Get Together – Der Abend vor dem großen Tag",
+    getTogetherDesc: "Wir planen ein lockeres Treffen mit ein paar Drinks, guter Musik und einer tollen Gelegenheit, dass sich alle vor dem großen Tag kennenlernen und austauschen können.",
+    bbqTitle: "After Party BBQ",
+    bbqDesc: "Nichts heilt einen Kater besser als gutes Essen, gute Musik und gute Gesellschaft. Am Tag nach der Hochzeit machen wir ein entspanntes BBQ in der Finca El Albergue, um einfach zu genießen, die besten Momente der Feier Revue passieren zu lassen und weiter gemeinsam zu feiern.",
+    guatapeTitle: "Guatapé & El Peñol Ausflug",
+    guatapeDesc: "Wir möchten, dass du mit uns eines der buntesten und traditionellsten Dörfer der Region entdeckst. Wir besteigen den imposanten Felsen El Peñol mit 360°-Panoramablick. Übernachten werden wir in der Finca 'La Casa de las Aguas', einem magischen Ort am Wasser, und am nächsten Tag erwartet dich eine Wasseraktivität, die wir noch planen.",
+    casaAguasBtn: "Casa de las Aguas bei Airbnb",
   },
   travel: {
     gettingHere: "Anreise",
@@ -831,10 +892,9 @@ const deTranslations = {
     byAir: "Mit dem Flugzeug",
     byAirInfo1:
       "Der internationale Flughafen José María Córdova (MDE) ist der Hauptflughafen von Medellín. Er liegt etwa 45 Minuten vom Stadtzentrum entfernt.",
-    byAirInfo2:
-      "Direktflüge sind von vielen großen Städten weltweit verfügbar. Wir empfehlen, Ihre Flüge frühzeitig zu buchen.",
+    byAirInfo2: "Direktflüge sind von vielen großen Städten weltweit verfügbar. Wir empfehlen, Ihre Flüge frühzeitig zu buchen.",
     europeRoutes:
-      `Hauptverbindungen von Europa nach Medellín (MDE):\n\nMadrid (MAD) – Direkt mit Avianca oder Iberia, ~10 Std.\n\nBarcelona (BCN) – 1 Stopp (BOG oder MAD) mit Avianca, ~14–16 Std.\n\nParis (CDG) – 1 Stopp (BOG oder MAD) mit Air France oder Avianca, ~14–16 Std.\n\nFrankfurt (FRA) – 1 Stopp (MAD, BOG oder PTY) mit Lufthansa/Iberia, ~14–16 Std.\n\nAmsterdam (AMS) – 1 Stopp (PTY oder BOG) mit KLM, Copa oder Avianca, ~15–17 Std.\n\nLondon (LHR) – 1 Stopp (MAD, BOG oder MIA) mit British Airways/Avianca, ~14–17 Std.`,
+      `Hauptverbindungen von Europa nach Medellín (MDE):\n\nMadrid (MAD) – Direkt mit Avianca oder Iberia, ~10 Std.\n\nBarcelona (BCN) – 1 Stopp (BOG oder MAD) mit Avianca, ~14–16 Std.\n\nParís (CDG) – 1 Stopp (BOG oder MAD) mit Air France oder Avianca, ~14–16 Std.\n\nFráncfort (FRA) – 1 Stopp (MAD, BOG oder PTY) mit Lufthansa/Iberia, ~14–16 Std.\n\nÁmsterdam (AMS) – 1 Stopp (PTY oder BOG) mit KLM, Copa oder Avianca, ~15–17 Std.\n\nLondres (LHR) – 1 Stopp (MAD, BOG oder MIA) mit British Airways/Avianca, ~14–17 Std.`,
     europePriceInfo:
       "Der Preis für einen Hin- und Rückflug pro Person kann je nach Datum und aktueller Nachfrage zwischen 700 € und 1200 € liegen. Nach unserer Erfahrung sind die günstigsten Flüge meist unter der Woche.",
     airportTransfer: "Flughafentransfer",
@@ -900,6 +960,12 @@ Für schnelle und bequeme Fahrten ist Uber eine ausgezeichnete Option. Wenn Sie 
     shoppingTesoro: "El Tesoro Shopping Park",
     shoppingSantaFe: "Santa Fe Mall",
     shoppingMercado: "Mercado del Rio - Food Market",
+    recommendedAreasTitle: "Empfohlene Wohngebiete",
+    barrioManilaTitle: "Barrio Manila",
+    barrioManilaDesc: "Komfortabel, voll mit Cafés mit Charme, Restaurants und ruhigen Straßen. Perfekt für diejenigen, die ein entspannendes, aber zugängliches Atmosphäre suchen.",
+    barrioPobladoTitle: "Barrio El Poblado",
+    barrioPobladoDesc: "Sicher, lebendig, modern und mit einer großen Auswahl von Hotels, Bars und Geschäften. Es ist der bevorzugte Stadtteil für Touristen und sehr gut angeschlossen.",
+    alternativeAccommodationsTitle: "Alternative Unterkünfte:",
   },
   registry: {
     giftRegistry: "Geschenkeliste",
@@ -964,7 +1030,7 @@ Für schnelle und bequeme Fahrten ist Uber eine ausgezeichnete Option. Wenn Sie 
     parking: "Gibt es Parkplätze am Veranstaltungsort?",
     parkingAnswer: "Ja, es gibt ausreichend Parkplätze auf dem Gelände von Fábula Bodas & Eventos. Der Veranstaltungsort verfügt über einen sicheren Parkbereich für Gäste.",
     vaccination: "Gibt es Impfanforderungen für die Einreise nach Kolumbien?",
-    vaccinationAnswer: "Für die Einreise nach Kolumbien gibt es zwar keine spezifischen Impfvorschriften, aber wir empfehlen Ihnen, sich bei Ihrem Arzt über die empfohlenen Impfungen zu informieren. Es ist auch ratsam, die Routineimpfungen wie Masern-Mumps-Röteln (MMR), Diphtherie-Tetanus-Pertussis und Polio aufzufrischen. Daneben werden auch Gelbfieber und Hepatitis A empfohlen. Nach Angaben des Zentrums für Tropenmedizin wird die Gelbfieberimpfung für alle Reisenden im Alter von ≥ 9 Monaten empfohlen, außer bei Reisen in Landesteile oberhalb von 2.300 m, wie Bogotá, oder bei Reisen in die Departements San Andrès und Providencia, nach Barranquilla, Cali, Cartagena oder Medellín.",
+    vaccinationAnswer: "Für die Einreise nach Kolumbien gibt es zwar keine spezifischen Impfvorschriften, aber wir empfehlen Ihnen, sich bei Ihrem Arzt über die empfohlenen Impfungen zu informieren. Es ist auch ratsam, die Routineimpfungen wie Masern-Mumps-Röteln (MMR), Diphtherie-Tetanus-Pertussis und Polio aufzufrischen. Daneben werden auch Gelbfieber und Hepatitis A empfohlen. Nach Angaben des Zentrums für Tropenmedizin wird die Gelbfieberimpfung für alle Reisenden im Alter von ≥ 9 Monaten empfohlen, außer bei Reisen in Landesteile oberhalb von 2.300 m, wie Bogotá, oder bei Reisen in die Departements San Andrés und Providencia, nach Barranquilla, Cali, Cartagena oder Medellín.",
   },
 }
 
