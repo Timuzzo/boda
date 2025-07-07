@@ -23,11 +23,11 @@ const Details = () => {
         <div className="container">
           <div className="text-center mb-8">
             <span className="section-subtitle">{t("details.itinerary")}</span>
-            <h2 className="section-title">{t("details.weddingDaySchedule")}</h2>
+            <h2 className="section-title mb-2">{t("details.additionalEventsMagic")}</h2>
           </div>
           <div className="flex flex-col items-center justify-center min-h-[200px]">
             <h3 className="font-cormorant text-4xl md:text-5xl mb-4 text-gray-700">To be continued...</h3>
-            <p className="font-montserrat text-gray-500 text-lg text-center max-w-xl">{t("details.comingSoon", "We are working on this section. Please check back soon for the full schedule of our special day!")}</p>
+            <p className="font-montserrat text-gray-600 mb-6">{t("details.additionalEventsIntro")}</p>
           </div>
         </div>
       </section>
@@ -196,11 +196,9 @@ const Details = () => {
       <section className="py-12 md:py-16 bg-hortensia-50">
         <div className="container max-w-4xl mx-auto">
           <div className="text-center mb-10">
-            <span className="section-subtitle flex items-center justify-center gap-2 text-lg mb-2">
-              <span role="img" aria-label="calendar">📅</span> {t("details.additionalEventsItinerary")}
-            </span>
-            <h2 className="section-title mb-2">{t("details.additionalEventsMagic")}</h2>
-            <p className="font-montserrat text-gray-600 mb-6">{t("details.additionalEventsIntro")}</p>
+            <h2 className="section-title flex items-center justify-center gap-2 mb-2">
+              {t("details.additionalEventsItinerary")}
+            </h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
