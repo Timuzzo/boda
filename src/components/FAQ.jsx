@@ -81,8 +81,8 @@ const FAQ = () => {
                   </button>
                   <div
                     className={`px-6 py-4 bg-gray-50 transition-all duration-300 ${
-                      openIndex === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-                    } overflow-hidden`}
+                      openIndex === index ? "max-h-screen opacity-100 overflow-y-auto" : "max-h-0 opacity-0 overflow-hidden"
+                    }`}
                   >
                     <p className="font-montserrat text-gray-600">{t(faq.answer)}</p>
                   </div>

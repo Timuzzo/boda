@@ -192,6 +192,43 @@ const Details = () => {
         </div>
       </section>
 
+      {/* Additional Events Section - Redesigned as Tiles */}
+      <section className="py-12 md:py-16 bg-hortensia-50">
+        <div className="container max-w-4xl mx-auto">
+          <div className="text-center mb-10">
+            <span className="section-subtitle flex items-center justify-center gap-2 text-lg mb-2">
+              <span role="img" aria-label="calendar">📅</span> {t("details.additionalEventsItinerary")}
+            </span>
+            <h2 className="section-title mb-2">{t("details.additionalEventsMagic")}</h2>
+            <p className="font-montserrat text-gray-600 mb-6">{t("details.additionalEventsIntro")}</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Get Together Tile */}
+            <div className="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center text-center">
+              <div className="text-4xl mb-3">🥂</div>
+              <h3 className="font-cormorant text-xl mb-2">{t("details.getTogetherTitle")}</h3>
+              <p className="font-montserrat text-gray-600">{t("details.getTogetherDesc")}</p>
+            </div>
+
+            {/* After Party BBQ Tile */}
+            <div className="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center text-center">
+              <div className="text-4xl mb-3">🍖</div>
+              <h3 className="font-cormorant text-xl mb-2">{t("details.bbqTitle")}</h3>
+              <p className="font-montserrat text-gray-600">{t("details.bbqDesc")}</p>
+            </div>
+
+            {/* Escapada a Guatapé & El Peñol Tile */}
+            <div className="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center text-center md:col-span-2">
+              <div className="text-4xl mb-3">🏞️</div>
+              <h3 className="font-cormorant text-xl mb-2">{t("details.guatapeTitle")}</h3>
+              <p className="font-montserrat text-gray-600 mb-4">{t("details.guatapeDesc")}</p>
+              <a href="https://es-l.airbnb.com/rooms/27826434?source_impression_id=p3_1751909080_P3oTbiKgnfcmEx5j" target="_blank" rel="noopener noreferrer" className="btn-outline">{t("details.casaAguasBtn")}</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Call to Action */}
       <section className="py-12 md:py-16">
         <div className="container">
