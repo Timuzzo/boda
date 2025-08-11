@@ -30,6 +30,10 @@ const FAQ = () => {
       question: "faq.vaccination",
       answer: "faq.vaccinationAnswer",
     },
+    {
+      question: "faq.insurance",
+      answer: "faq.insuranceAnswer",
+    },
   ]
 
   return (

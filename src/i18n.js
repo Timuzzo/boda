@@ -95,7 +95,7 @@ const enTranslations = {
     scheduleTimelinePlaceholder: "To be continued...",
     comingSoon: "We are working on this section. Please check back soon for the full schedule of our special day!",
     // Additional Events Section
-    additionalEventsItinerary: "Itinerary",
+    additionalEventsItinerary: "Itinerary for international guests",
     additionalEventsMagic: "The magic in every moment",
     additionalEventsIntro: "We are finalizing all the details of the final itinerary, so... stay tuned so you don't miss any surprises or plans.",
     getTogetherTitle: "Get Together – The day before",
@@ -257,6 +257,8 @@ For quick and comfortable travel, Uber is an excellent option. If you prefer tax
     parkingAnswer: "Yes, there is ample parking available on site at Fábula Bodas & Eventos. The venue has a secure parking area for guests.",
     vaccination: "Are there any vaccination requirements for traveling to Colombia?",
     vaccinationAnswer: "While there are no specific vaccination requirements for entering Colombia, we recommend checking with your healthcare provider for recommended vaccinations. It's also advisable to be up to date with routine vaccines such as measles-mumps-rubella (MMR), diphtheria-tetanus-pertussis, polio. Besides this ellow fewer and Hepatitis A are also recommended. According to Centre of Tropical Medicine Yellow fever shot is recommended for all travellers aged ≥ 9 months, except when travelling to parts of the country above 2,300 m, such as Bogotá; or when travelling to the departments of San Andrès and Providencia, to Barranquilla, Cali, Cartagena or Medellín.",
+    insurance: "Is a medical insurance required for traveling to Colombia?",
+    insuranceAnswer: "Yes, we recommend you to buy a medical insurance for traveling to Colombia. This will help you in case of unexpected medical expenses",
   },
 }
 
@@ -356,7 +358,7 @@ const esTranslations = {
     scheduleTimelinePlaceholder: "Próximamente...",
     comingSoon: "Estamos trabajando en esta sección. ¡Vuelve pronto para ver el programa completo de nuestro gran día!",
     // Additional Events Section
-    additionalEventsItinerary: "Eventos",
+    additionalEventsItinerary: "Eventos para los invitados internacionales",
     additionalEventsMagic: "La magia en cada momento",
     additionalEventsIntro: "Estamos ultimando todos los detalles del itinerario final, así que… stay tuned para no perderte ninguna sorpresa ni plan.",
     getTogetherTitle: "Get Together – La previa al gran día",
@@ -518,6 +520,8 @@ Para moverte de forma rápida y cómoda, Uber es una excelente opción. Si prefi
     parkingAnswer: "Sí, hay amplio estacionamiento disponible en Fábula Bodas & Eventos. El lugar tiene un área de estacionamiento segura para los invitados.",
     vaccination: "¿Hay requisitos de vacunación para viajar a Colombia?",
     vaccinationAnswer: "Aunque no existen requisitos específicos de vacunación para entrar en Colombia, le recomendamos que consulte con su proveedor de atención sanitaria las vacunas recomendadas. También es aconsejable estar al día con las vacunas rutinarias como la del sarampión-paperas-rubéola (MMR), difteria-tétanos-tos ferina, polio. Además, se recomienda vacunarse contra la fiebre amarilla y la hepatitis A. Según el Centro de Medicina Tropical, la vacuna de la fiebre amarilla se recomienda a todos los viajeros de ≥ 9 meses, excepto si viajan a zonas del país por encima de los 2.300 m, como Bogotá, o si viajan a los departamentos de San Andrés y Providencia, en Barranquilla, Cali, Cartagena o Medellín.",
+    insurance: "¿Es necesario tener un seguro médico para viajar a Colombia?",
+    insuranceAnswer: "Sí, recomendamos adquirir un seguro médico para viajar a Colombia. Esto le ayudará en caso de gastos médicos inesperados.",
   },
 }
 
@@ -616,7 +620,7 @@ const ruTranslations = {
     scheduleTimelinePlaceholder: "Продолжение следует...",
     comingSoon: "Мы работаем над этим разделом. Пожалуйста, загляните позже, чтобы увидеть полное расписание нашего особенного дня!",
     // Additional Events Section
-    additionalEventsItinerary: "Мероприятия",
+    additionalEventsItinerary: "Мероприятия для международных гостей",
     additionalEventsMagic: "Магия в каждом моменте",
     additionalEventsIntro: "Мы дорабатываем все детали финального маршрута, так что... следите за обновлениями, чтобы не пропустить ни одного сюрприза или плана.",
     getTogetherTitle: "Get Together – Вечер перед большим днем",
@@ -777,6 +781,8 @@ const ruTranslations = {
     parkingAnswer: "Да, на территории Fábula Bodas & Eventos есть достаточное количество парковочных мест. У места проведения есть безопасная парковочная зона для гостей.",
     vaccination: "Есть ли требования по вакцинации для поездки в Колумбию?",
     vaccinationAnswer: "Хотя особых требований к прививкам для въезда в Колумбию нет, мы рекомендуем проконсультироваться с вашим лечащим врачом о рекомендуемых прививках. Также желательно иметь актуальные прививки от таких заболеваний, как корь-свинка-краснуха (MMR), дифтерия-столбняк-коклюш, полиомиелит. Кроме того, рекомендуется привиться от желтой лихорадки и гепатита А. По данным Центра тропической медицины, прививка от желтой лихорадки рекомендуется всем путешественникам в возрасте ≥ 9 месяцев, за исключением тех, кто едет в части страны, расположенные выше 2300 м, например, в Боготу, или в департаменты Сан-Андрес и Провиденсия, в Барранкилью, Кали, Картахену или Медельин.",
+    insurance: "Нужна ли медицинская страховка для поездки в Колумбию?",
+    insuranceAnswer: "Да, мы рекомендуем вам приобрести медицинскую страховку для поездки в Колумбию. Это поможет вам в случае непредвиденных медицинскиx расходов",
   },
 }
 
@@ -873,7 +879,7 @@ const deTranslations = {
     hopeJoin: "Wir hoffen, Sie können mit uns an unserem besonderen Tag feiern. Bitte geben Sie bis zum 30. November 2025 Bescheid.",
     scheduleTimelinePlaceholder: "Fortsetzung folgt...",
     comingSoon: "Wir arbeiten an diesem Abschnitt. Schauen Sie bald wieder vorbei, um den vollständigen Zeitplan für unseren besonderen Tag zu sehen!",
-    additionalEventsItinerary: "Events",
+    additionalEventsItinerary: "Events für internationale Gäste",
     additionalEventsMagic: "Magie in jedem Moment",
     additionalEventsIntro: "Wir finalisieren gerade alle Details des endgültigen Ablaufs, also... bleib dran, damit du keine Überraschung oder keinen Plan verpasst.",
     getTogetherTitle: "Get Together – Der Abend vor dem großen Tag",
@@ -1034,6 +1040,8 @@ Für schnelle und bequeme Fahrten ist Uber eine ausgezeichnete Option. Wenn Sie 
     parkingAnswer: "Ja, es gibt ausreichend Parkplätze auf dem Gelände von Fábula Bodas & Eventos. Der Veranstaltungsort verfügt über einen sicheren Parkbereich für Gäste.",
     vaccination: "Gibt es Impfanforderungen für die Einreise nach Kolumbien?",
     vaccinationAnswer: "Für die Einreise nach Kolumbien gibt es zwar keine spezifischen Impfvorschriften, aber wir empfehlen Ihnen, sich bei Ihrem Arzt über die empfohlenen Impfungen zu informieren. Es ist auch ratsam, die Routineimpfungen wie Masern-Mumps-Röteln (MMR), Diphtherie-Tetanus-Pertussis und Polio aufzufrischen. Daneben werden auch Gelbfieber und Hepatitis A empfohlen. Nach Angaben des Zentrums für Tropenmedizin wird die Gelbfieberimpfung für alle Reisenden im Alter von ≥ 9 Monaten empfohlen, außer bei Reisen in Landesteile oberhalb von 2.300 m, wie Bogotá, oder bei Reisen in die Departements San Andrés und Providencia, nach Barranquilla, Cali, Cartagena oder Medellín.",
+    insurance: "Wird eine medizinische Versicherung für die Reise nach Kolumbien benötigt?",
+    insuranceAnswer: "Ja, wir empfehlen Ihnen, eine medizinische Versicherung für die Reise nach Kolumbien zu kaufen. Dies hilft Ihnen in Fällen von unerwarteten medizinischen Ausgaben.",
   },
 }
 
