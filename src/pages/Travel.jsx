@@ -173,7 +173,7 @@ const Travel = () => {
               <div className="flex justify-center mb-12">
                 <div className="bg-white rounded-xl shadow-lg p-8 max-w-2xl w-full text-center">
                   <h3 className="font-cormorant text-2xl mb-4">{t("travel.recommendedAreasTitle")}</h3>
-                  <ul className="font-montserrat text-gray-600 space-y-4 mb-6 text-left inline-block text-left">
+                  <ul className="font-montserrat text-gray-600 space-y-4 mb-6 text-left inline-block">
                     <li>
                       <strong>{t("travel.barrioManilaTitle")}</strong>: {t("travel.barrioManilaDesc")}
                     </li>
@@ -182,7 +182,7 @@ const Travel = () => {
                     </li>
                   </ul>
                   <h4 className="font-cormorant text-xl mb-3">{t("travel.alternativeAccommodationsTitle")}</h4>
-                  <ul className="font-montserrat text-gray-600 space-y-2 mb-2 text-left inline-block text-left">
+                  <ul className="font-montserrat text-gray-600 space-y-2 mb-2 text-left inline-block">
                     <li>
                       <a href="https://www.thesomos.com" className="text-eucalyptus-600 underline font-bold" target="_blank" rel="noopener noreferrer">The Somos Bold Hotel</a>
                     </li>
