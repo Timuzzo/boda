@@ -212,6 +212,7 @@ For quick and comfortable travel, Uber is an excellent option. If you prefer tax
     thankYouMessage: "We are truly grateful for your love, support, and generosity. Thank you for being part of our special day and for helping us begin our married life together.",
     revealIban: "Click to Reveal IBAN",
     revealAccountNumber: "Click to Reveal Account Number",
+    amazonButton: "Go to wishlist"
   },
   rsvp: {
     joinUs: "Join Us",
@@ -324,11 +325,11 @@ const esTranslations = {
     proposal1:
       "Ocho años después, Timo decidió que había llegado el momento. Era el último día de verano en Hamburgo y le propuso a Nati hacer su plan favorito: un picnic al lado del río, rodeados de naturaleza, sin prisa, solo ellos dos y una buena comida.",
     proposal2:
-      "En medio de un juego de cartas, Timo le dijo que tenía un regalo. Sacó una pequeña caja con un corazon de origami en su tapa que decáa: \"100 razones por las que te amo\".Hacer una corazón de papel requiere manos pacientes, dobleces delicados. Como en el amor, cada pliegue, aunque parezca incierto, necesita de un corazón persistente, capaz de esperar hasta que se revela la figura final: \"Te quieres casar conmigo\".",
+      "En medio de un juego de cartas, Timo le dijo que tenía un regalo. Sacó una pequeña caja con un corazón de origami en su tapa que decía: \"100 razones por las que te amo\".Hacer una corazón de papel requiere manos pacientes, dobleces delicados. Como en el amor, cada pliegue, aunque parezca incierto, necesita de un corazón persistente, capaz de esperar hasta que se revela la figura final: \"Te quieres casar conmigo\".",
     newAdventure: "De Amistad a Amor",
     newChapter: "Un Amor Que No Necesita Preguntas",
     newAdventure1: "Hasta que, un día, después de meses de un juego de miradas, bromas y acercamientos que parecían eternos, algo cambió.\nDesde entonces, empezaron a escribir su historia. Un amor que sabe esperar, que se acompaña, que crece en los pequeños gestos y resiste los días difíciles. Un amor que, incluso en medio del caos, solo quiere una cosa: estar juntos. Porque juntos, son más fuertes.",
-    newAdventure2: "Timo nunca le preguntó oficialmente a Nati si quería ser su novia. Y quizás por eso, no hay una fecha exacta que marque el inicio de su relación. Solo hay días, momentos, instantes vividos con intensidad y alegría. Celebraban el amor en cada detalle, en cada mirada cómplice, cada risa, cada reto y cada instante que pasan juntos.",
+    newAdventure2: "Timo nunca le preguntó oficialmente a Nati si quería ser su novia. Y quizás por eso, no hay una fecha exacta que marque el inicio de su relación. Solo hay días, momentos, instantes vividos con intensidad y alegría. Celebran el amor en cada detalle, en cada mirada cómplice, cada risa, cada reto y cada instante que pasan juntos.",
   },
   details: {
     joinUs: "Un Día para Amar y Compartir",
@@ -475,6 +476,7 @@ Para moverte de forma rápida y cómoda, Uber es una excelente opción. Si prefi
     thankYouMessage: "Estamos verdaderamente agradecidos por tu amor, apoyo y generosidad. Gracias por ser parte de nuestro día especial y por ayudarnos a comenzar nuestra vida juntos.",
     revealIban: "Haz clic para ver el IBAN",
     revealAccountNumber: "Haz clic para ver el número de cuenta",
+    amazonButton: "Ir a la lista"
   },
   rsvp: {
     joinUs: "Únete a Nosotros",
@@ -736,6 +738,7 @@ const ruTranslations = {
     thankYouMessage: "Мы искренне благодарны за вашу любовь, поддержку и щедрость. Спасибо, что вы часть нашего особенного дня и помогаете нам начать нашу совместную жизнь.",
     revealIban: "Показать IBAN",
     revealAccountNumber: "Показать номер счета",
+    amazonButton: "Перейти к списку"
   },
   rsvp: {
     joinUs: "Присоединяйтесь к Нам",
@@ -995,6 +998,7 @@ Für schnelle und bequeme Fahrten ist Uber eine ausgezeichnete Option. Wenn Sie 
     thankYouMessage: "Wir sind wirklich dankbar für eure Liebe, Unterstützung und Großzügigkeit. Danke, dass ihr Teil unseres besonderen Tages seid und uns helft, unser gemeinsames Leben zu beginnen.",
     revealIban: "IBAN anzeigen",
     revealAccountNumber: "Kontonummer anzeigen",
+    amazonButton: "Zur Liste"
   },
   rsvp: {
     joinUs: "Seien Sie dabei",

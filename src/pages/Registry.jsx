@@ -48,8 +48,8 @@ const Registry = () => {
                   <img src="/images/amazon-logo.svg" alt="Amazon Logo" className="w-32 h-32 object-contain" />
                 </div>
               </div>
-              <a href="#" target="_blank" rel="noopener noreferrer" className="btn-outline pointer-events-none opacity-50 cursor-not-allowed">
-                To be continued
+              <a href="https://www.amazon.de/wedding/share/bodatn" className="btn-outline">
+              {t("registry.amazonButton")}
               </a>
             </div>
 
