@@ -107,7 +107,7 @@ const enTranslations = {
     casaAguasBtn: "Casa de las Aguas on Airbnb",
     timeline: {
       title: "Wedding Day Timeline",
-      date: "January 31, 2026 • Medellín, Colombia",
+      date: "January 31, 2026 • Please arrive at 3:30 PM • Fábula Bodas & Eventos",
       ceremony: {
         time: "4:00 PM",
         title: "Ceremony",
@@ -400,29 +400,29 @@ const esTranslations = {
     casaAguasBtn: "Casa de las Aguas en Airbnb",
     timeline: {
       title: "Cronograma del Día de la Boda",
-      date: "31 de enero de 2026 • Medellín, Colombia",
+      date: "31 de enero de 2026 • Llegar a las 3:30 PM • Fábula Bodas & Eventos",
       ceremony: {
-        time: "4:00 PM",
+        time: "4 PM",
         title: "Ceremonia",
         description: "Acompáñanos mientras intercambiamos votos en una ceremonia íntima rodeados de nuestros seres queridos.",
       },
       cocktailHour: {
-        time: "4:30 PM",
+        time: "5 PM",
         title: "Hora del Cóctel",
         description: "Disfruta de refrescos y conversa con los invitados mientras capturamos fotografías.",
       },
       dinner: {
-        time: "5:30 PM",
+        time: "7 PM",
         title: "Cena",
         description: "Saborea una deliciosa comida con familia y amigos mientras compartimos historias y risas.",
       },
       party: {
-        time: "6:00 PM",
+        time: "9 PM",
         title: "Fiesta",
         description: "Celebra con cena, brindis y baile mientras comenzamos nuestro nuevo viaje juntos.",
       },
       sendOff: {
-        time: "1:30 AM",
+        time: "1:50 AM",
         title: "Despedida",
         description: "Ayúdanos a terminar la noche con una mágica despedida bajo las estrellas.",
       },
@@ -692,7 +692,7 @@ const ruTranslations = {
     casaAguasBtn: "Casa de las Aguas на Airbnb",
     timeline: {
       title: "Расписание Свадебного Дня",
-      date: "31 января 2026 • Медельин, Колумбия",
+      date: "31 января 2026 • 15:30 • Fábula Bodas & Eventos",
       ceremony: {
         time: "16:00",
         title: "Церемония",
@@ -981,7 +981,7 @@ const deTranslations = {
     casaAguasBtn: "Casa de las Aguas bei Airbnb",
     timeline: {
       title: "Tagesablauf der Hochzeit",
-      date: "31. Januar 2026 • Medellín, Kolumbien",
+      date: "31. Januar 2026  • Ankunft um 15:30 • Fábula Bodas & Eventos",
       ceremony: {
         time: "16:00 Uhr",
         title: "Trauung",

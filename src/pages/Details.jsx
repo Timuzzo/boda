@@ -2,14 +2,13 @@ import { Link } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 import Map from "../components/Map"
 import { WeddingTimeline } from "../components/WeddingTimeline"
-import { Heart, Music, Sparkles } from "lucide-react"
 
 
 const Details = () => {
   const { t } = useTranslation()
   const weddingEvents = [
     {
-      time: t("details.timeline.ceremony.time"),
+      time: "4 PM",
       title: t("details.timeline.ceremony.title"),
       description: t("details.timeline.ceremony.description"),
       icon: (
@@ -85,8 +84,7 @@ const Details = () => {
       )
     },
     {
-      /*time: t("details.timeline.cocktailHour.time"),*/
-      time: "TBD",
+      time: "5 PM",
       title: t("details.timeline.cocktailHour.title"),
       description: t("details.timeline.cocktailHour.description"),
       icon: (
@@ -323,8 +321,7 @@ const Details = () => {
       )
     },
     {
-      /*time: t("details.timeline.dinner.time"),*/
-      time: "TBD",
+      time: "7 PM",
       title: t("details.timeline.dinner.title"),
       description: t("details.timeline.dinner.description"),
       icon: (
@@ -405,8 +402,7 @@ const Details = () => {
       )
     },
     {
-      /*time: t("details.timeline.party.time"),*/
-      time: "TBD",
+      time: "9 PM",
       title: t("details.timeline.party.title"),
       description: t("details.timeline.party.description"),
       icon: (
@@ -480,7 +476,7 @@ const Details = () => {
       )
     },
     {
-      time: t("details.timeline.sendOff.time"),
+      time: "1:50 AM",
       title: t("details.timeline.sendOff.title"),
       description: t("details.timeline.sendOff.description"),
       icon:(
@@ -619,8 +615,8 @@ const Details = () => {
           <div className="max-w-3xl mx-auto text-center">
             <span className="section-subtitle">{t("details.joinUs")}</span>
             <h1 className="section-title">{t("details.weddingDetails")}</h1>
-            <p className="font-montserrat text-gray-600 leading-relaxed">{t("details.detailsIntro")}</p>
-            <p className="font-montserrat text-gray-600 leading-relaxed">{t("details.timeline.date")}</p>
+            {/*<p className="font-montserrat text-gray-600 leading-relaxed">{t("details.detailsIntro")}</p>*/}
+            <p className="font-montserrat text-gray-600 leading-relaxed font-bold">{t("details.timeline.date")}</p>
           </div>
         </div>
       <div className="container mx-auto px-4">
