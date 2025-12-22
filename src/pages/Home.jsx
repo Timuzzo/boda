@@ -42,7 +42,7 @@ const Home = () => {
             <div className="hero-content flex flex-col items-center justify-center relative z-20">
               <img src="/images/Logo NT.png" alt="Logo NT" className="w-48 sm:w-64 md:w-80 lg:w-[32rem] drop-shadow-xl" />
               <p className="font-montserrat text-base uppercase tracking-wider mb-4 md:mb-8 text-hortensia-300">
-                {t("common.date")} • {t("common.location")}
+                {t("common.date")} • 3:30 PM • Fábula Bodas & Eventos
               </p>
               <Link to="/rsvp" className="btn-primary inline-block font-montserrat text-sm uppercase tracking-wider">
                 {t("common.rsvp")}
